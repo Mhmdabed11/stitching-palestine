@@ -1,5 +1,18 @@
 .header {
-  height: 189px;
-  background-color: red;
+  height: 80px;
+  background-color: transparent;
   align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+.header__logo {
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 0;
 }

@@ -1,21 +1,38 @@
 import React from "react"
-import { Link } from "gatsby"
-
+import "./index.css"
 import Layout from "../components/layout"
-import Image from "../components/image"
+// import Image from "../components/image"
 import SEO from "../components/seo"
+import { graphql, useStaticQuery } from "gatsby"
+import BackgroundImage from "gatsby-background-image"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+const IndexPage = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      mainPageStitchDisplay: file(relativePath: { eq: "stitch.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 4200) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+    }
+  `)
+
+  const imageData = data.mainPageStitchDisplay.childImageSharp.fluid
+  return (
+    <Layout>
+      <SEO title="Home" />
+      <BackgroundImage
+        Tag="section"
+        fluid={imageData}
+        className="home__display"
+        backgroundColor={`#fff`}
+      >
+        <div className="home__display__overlay"></div>
+      </BackgroundImage>
+    </Layout>
+  )
+}
 
 export default IndexPage

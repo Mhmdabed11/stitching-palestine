@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql, useStaticQuery } from "gatsby"
 import BackgroundImage from "gatsby-background-image"
+import Button from "../components/button"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -29,7 +30,12 @@ const IndexPage = () => {
         className="home__display"
         backgroundColor={`#fff`}
       >
-        <div className="home__display__overlay"></div>
+        <div className="home__display__overlay">
+          <div className="home__display__overlay__title">
+            <div>"</div> A homeland <br /> the size of the planet <div>"</div>
+          </div>
+          <Button>Watch Film</Button>
+        </div>
       </BackgroundImage>
     </Layout>
   )

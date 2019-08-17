@@ -1,0 +1,10 @@
+.button {
+  border: none;
+  box-shadow: none;
+  background-color: var(--main-theme-color);
+  color: #fff;
+  border-radius: 4px;
+  letter-spacing: -0.34px;
+  padding: 4px 16px;
+  font-family: "Open Sans";
+}

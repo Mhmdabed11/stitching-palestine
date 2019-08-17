@@ -1,0 +1,13 @@
+:root {
+  --main-theme-color: #da8476;
+}
+
+@font-face {
+  font-family: "Afta serif";
+  src: url(../../assets/fonts/AftaSerifThin-Regular.otf);
+}
+
+@font-face {
+  font-family: "Engravers MT";
+  src: url(../../assets/fonts/ENGR.otf);
+}

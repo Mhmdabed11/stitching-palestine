@@ -14,5 +14,37 @@
   width: 100%;
   height: 100%;
   z-index: 1000;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home__display__overlay__title {
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+  font-family: "Afta serif";
+  display: flex;
+  align-items: center;
+}
+
+.home__display__overlay__title div {
+  font-family: "Engravers MT";
+  transform: rotate(180deg);
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
+  margin-left: 0px;
+  color: var(--main-theme-color);
+}
+
+.home__display__overlay__title div:last-of-type {
+  font-family: "Engravers MT";
+  transform: rotate(0deg);
+  font-size: 60px;
+  margin-right: 0px;
+  margin-left: 4px;
 }

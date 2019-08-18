@@ -1,6 +1,6 @@
 .header {
   height: 80px;
-  background-color: transparent;
+  background-color: red;
   align-self: stretch;
   display: flex;
   align-items: center;

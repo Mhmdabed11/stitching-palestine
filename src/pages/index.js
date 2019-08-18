@@ -36,11 +36,6 @@ const IndexPage = () => {
         </div>
         <Button>Watch Film</Button>
       </BackgroundImage>
-
-      <div style={{ height: "300px" }}>
-        heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo
-        heloo heloo heloo
-      </div>
     </Layout>
   )
 }

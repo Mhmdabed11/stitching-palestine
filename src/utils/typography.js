@@ -2,15 +2,7 @@ import Typography from "typography"
 const typography = new Typography({
   baseFontSize: "16px",
   baseLineHeight: 1.5,
-  headerFontFamily: [
-    "Afta serif",
-    "Avenir Next",
-    "Helvetica Neue",
-    "Segoe UI",
-    "Helvetica",
-    "Arial",
-    "sans-serif",
-  ],
+  headerFontFamily: ["Open Sans"],
   bodyFontFamily: ["Georgia", "serif"],
   googleFonts: [
     {

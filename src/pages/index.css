@@ -1,3 +1,6 @@
+body {
+  position: relative;
+}
 .home__display {
   height: 100vh;
   display: flex;

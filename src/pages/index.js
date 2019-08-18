@@ -30,12 +30,17 @@ const IndexPage = () => {
         className="home__display"
         backgroundColor={`#fff`}
       >
-        <div className="home__display__overlay"></div>
+        {/* <div className="home__display__overlay"></div> */}
         <div className="home__display__overlay__title">
           <div>"</div> A homeland <br /> the size of the planet <div>"</div>
         </div>
         <Button>Watch Film</Button>
       </BackgroundImage>
+
+      <div style={{ height: "300px" }}>
+        heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo
+        heloo heloo heloo
+      </div>
     </Layout>
   )
 }

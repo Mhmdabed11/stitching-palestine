@@ -1,8 +1,12 @@
 :root {
   --main-theme-color: #da8476;
 }
+body {
+  position: relative;
+}
 .bold {
   font-weight: bold;
+  overflow: hidden;
 }
 
 @font-face {

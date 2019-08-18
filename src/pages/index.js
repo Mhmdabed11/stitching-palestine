@@ -5,8 +5,9 @@ import SEO from "../components/seo"
 import { graphql, useStaticQuery } from "gatsby"
 import BackgroundImage from "gatsby-background-image"
 import Button from "../components/button"
-import CountUp from "react-countup"
-
+import HomeTextSection from "../components/HomeTextSection"
+import HomeStats from "../components/HomeStats"
+import MovieTrailer from "../components/MovieTrailer"
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -39,56 +40,43 @@ const IndexPage = () => {
       </BackgroundImage>
 
       {/* Synopsis Section starts */}
-      <section className="synopsis">
-        <div className="synopsis__container">
-          <img
-            src={require("../images/needle.svg")}
-            className="synopsis__container__image"
-          />
-          <article className="synopsis__container__article">
-            <h3 className="synopsis__container__title bold">
-              Twelve Palestinian Women
-            </h3>
-            <p className="synopsis__container__synopsis__body">
-              Twelve Palestinian women sit before us and talk of their life
-              before the Diaspora, of their <strong> memories</strong>, of their
-              <strong> lives</strong> and of their
-              <strong> identity</strong>. Their narratives are connected by the
-              enduring thread of the ancient art of embroidery.
-            </p>
-          </article>
+      <HomeTextSection
+        imgName="needle.svg"
+        title="Twelve Palestinian Women"
+        text={
           <div>
-            <Button>About the film</Button>
+            Twelve Palestinian women sit before us and talk of their life before
+            the Diaspora, of their <strong> memories</strong>, of their
+            <strong> lives</strong> and of their
+            <strong> identity</strong>. Their narratives are connected by the
+            enduring thread of the ancient art of embroidery.
           </div>
-        </div>
-
-        <div></div>
-      </section>
+        }
+        buttonText="About the Film"
+      />
       {/* Synopsis Section ends */}
 
       {/* Count Numbers section start */}
-      <section className="stats">
-        <div className="stats__stat">
-          <div className="stats__stat__count">
-            <CountUp end={50} />
-          </div>
-          <div className="stats__stat__label">Cities</div>
-        </div>
-        <div className="stats__stat__seperator"></div>
-        <div className="stats__stat">
-          <div className="stats__stat__count">
-            <CountUp end={130} />
-          </div>
-          <div className="stats__stat__label">Screenings</div>
-        </div>
-        <div className="stats__stat__seperator"></div>
-        <div className="stats__stat">
-          <div className="stats__stat__count">
-            <CountUp end={34200} separator="," />
-          </div>
-          <div className="stats__stat__label">Global Attendees</div>
-        </div>
-      </section>
+      <HomeStats cities={50} screenings={130} globalAttendees={34200} />
+      {/* Count Numbers section ends */}
+
+      {/* Video Trailer stitching palesting starts */}
+      <MovieTrailer
+        title="Watch the Trailer"
+        buttonText="Watch the Entire Film"
+        movieURL="https://www.youtube.com/embed/OAcS7mGHXiw"
+        iframeTitle="Stitching Palestine Movie Trailer"
+      />
+      {/* Video Trailer stitching palestine ends */}
+
+      {/* support section starts */}
+      <HomeTextSection
+        imgName="needle2.svg"
+        title="Keep the thread rolling, support the case"
+        text="Thousands of women around the world have similar stories, It's in
+        our hand to help them change these stories."
+        buttonText="Change their Story"
+      />
     </Layout>
   )
 }

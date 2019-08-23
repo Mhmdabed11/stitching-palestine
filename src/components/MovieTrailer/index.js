@@ -14,12 +14,7 @@ export default function MovieTrailer({
         <h3 className className="trailer__container__title bold">
           {title}
         </h3>
-        <iframe
-          title={iframeTitle}
-          className="trailer__video"
-          src={movieURL}
-          s
-        />
+        <iframe title={iframeTitle} className="trailer__video" src={movieURL} />
         <Button
           onClick={onButtonClick}
           style={{ display: "block", margin: "0 auto" }}

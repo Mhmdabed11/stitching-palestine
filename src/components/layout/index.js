@@ -4,13 +4,12 @@ import PropTypes from "prop-types"
 import Header from "../header"
 import "./layout.css"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, hasMarginTop = true }) => {
+  console.log(window.location)
   return (
     <>
       <Header />
-      <div>
-        <main>{children}</main>
-      </div>
+      <main className={hasMarginTop ? "main--margintop" : ""}>{children}</main>
     </>
   )
 }

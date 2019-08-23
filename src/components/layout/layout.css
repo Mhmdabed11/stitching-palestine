@@ -8,6 +8,15 @@ body {
   font-weight: bold;
   overflow: hidden;
 }
+.main--margintop {
+  margin-top: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .main--margintop {
+    margin-top: 100px;
+  }
+}
 
 @font-face {
   font-family: "Afta serif";

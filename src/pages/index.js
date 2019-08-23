@@ -8,6 +8,7 @@ import Button from "../components/button"
 import HomeTextSection from "../components/HomeTextSection"
 import HomeStats from "../components/HomeStats"
 import MovieTrailer from "../components/MovieTrailer"
+
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query {
@@ -23,8 +24,9 @@ const IndexPage = () => {
 
   const imageData = data.mainPageStitchDisplay.childImageSharp.fluid
   return (
-    <Layout>
+    <Layout hasMarginTop={false}>
       <SEO title="Home" />
+
       <BackgroundImage
         Tag="section"
         fluid={imageData}
@@ -39,7 +41,6 @@ const IndexPage = () => {
         </div>
       </BackgroundImage>
 
-      {/* Synopsis Section starts */}
       <HomeTextSection
         imgName="needle.svg"
         title="Twelve Palestinian Women"
@@ -54,22 +55,16 @@ const IndexPage = () => {
         }
         buttonText="About the Film"
       />
-      {/* Synopsis Section ends */}
 
-      {/* Count Numbers section start */}
       <HomeStats cities={50} screenings={130} globalAttendees={34200} />
-      {/* Count Numbers section ends */}
 
-      {/* Video Trailer stitching palesting starts */}
       <MovieTrailer
         title="Watch the Trailer"
         buttonText="Watch the Entire Film"
         movieURL="https://www.youtube.com/embed/OAcS7mGHXiw"
         iframeTitle="Stitching Palestine Movie Trailer"
       />
-      {/* Video Trailer stitching palestine ends */}
 
-      {/* support section starts */}
       <HomeTextSection
         imgName="needle2.svg"
         title="Keep the thread rolling, support the case"

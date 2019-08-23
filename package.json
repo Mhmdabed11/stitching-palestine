@@ -25,6 +25,7 @@
     "react-typography": "^0.16.19",
     "react-visibility-sensor": "^5.1.1",
     "reactstrap": "^8.0.1",
+    "typeface-open-sans": "0.0.75",
     "typography": "^0.16.19"
   },
   "devDependencies": {

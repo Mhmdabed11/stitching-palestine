@@ -29,9 +29,6 @@
 }
 
 @media screen and (min-width: 992px) {
-  .header {
-    height: 100px;
-  }
   .header__logo {
     height: 80px;
     object-fit: contain;

@@ -9,21 +9,25 @@ import Gallery from "../components/Gallery"
 const SpotLight = () => {
   const data = useStaticQuery(graphql`
     query {
-      mainPageStitchDisplay: file(relativePath: { eq: "stitch.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 4200) {
-            ...GatsbyImageSharpFluid_withWebp
+      allFile(
+        filter: { name: { regex: "/^thumbnail/" } }
+        sort: { order: ASC, fields: name }
+      ) {
+        edges {
+          node {
+            id
+            name
+            ...thumbnailImage
           }
         }
       }
     }
   `)
 
-  const imageData = data.mainPageStitchDisplay.childImageSharp.fluid
   return (
     <Layout>
       <SEO title="Spotlight" />
-      <Gallery />
+      <Gallery thumbnails={data} />
     </Layout>
   )
 }

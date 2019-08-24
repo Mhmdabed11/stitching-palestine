@@ -1,0 +1,21 @@
+.thumbnails__container {
+  white-space: nowrap;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+.thumbnails__container::-webkit-scrollbar {
+  width: 0px;
+  background-color: transparent;
+}
+
+.thumbnails__container::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+.thumbnails__container__thumbnail {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  margin: 0 4px;
+}

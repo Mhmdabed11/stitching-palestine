@@ -4,6 +4,9 @@
 body {
   position: relative;
 }
+img {
+  margin-bottom: 0;
+}
 .bold {
   font-weight: bold;
   overflow: hidden;

@@ -5,7 +5,6 @@ import Header from "../header"
 import "./layout.css"
 
 const Layout = ({ children, hasMarginTop = true }) => {
-  console.log(window.location)
   return (
     <>
       <Header />

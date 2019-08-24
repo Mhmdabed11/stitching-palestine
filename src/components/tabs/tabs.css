@@ -1,0 +1,18 @@
+.tabs {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+}
+.tabs__tab {
+  color: #dedede;
+  font-size: 14px;
+  font-family: "Open Sans";
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+.tabs__tab--active {
+  color: var(--main-theme-color);
+  font-size: 16px;
+}

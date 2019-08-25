@@ -133,4 +133,49 @@
     grid-row-start: 3;
     grid-row-end: 5;
   }
+
+  .gallery__container--large__name__caption {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 25;
+  }
+  .gallery__container--large__caption {
+    grid-column-start: 5;
+    grid-column-end: 11;
+    grid-row-start: 5;
+    grid-row-end: 12;
+  }
+
+  .gallery__container__info {
+    display: none;
+  }
+  .gallery__container--large__name--en {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--main-theme-color);
+  }
+  .gallery__container--large__name--ar {
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--main-theme-color);
+  }
+
+  .gallery__container--large__description li {
+    font-family: "Open Sans";
+    margin-bottom: 4px;
+    color: #9b9b9b;
+    font-size: 14px;
+  }
+  .gallery__container--large__caption--en {
+    font-family: "Afta Serif";
+    color: #3b2222;
+    margin-bottom: 10px;
+  }
+
+  .gallery__container--large__caption--ar {
+    color: #3b2222;
+    margin-top: 24px;
+  }
 }

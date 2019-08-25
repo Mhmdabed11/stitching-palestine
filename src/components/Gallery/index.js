@@ -45,7 +45,7 @@ export default function Gallery({ thumbnails, photos }) {
             )
           })}
         </div>
-        <div>
+        <div className="gallery__container__info">
           <div className="gallery__container--small__name--en">
             {info.nameEn}
           </div>
@@ -56,11 +56,13 @@ export default function Gallery({ thumbnails, photos }) {
           <div className="gallery__container--small__caption--en">
             {info.captionEn}
           </div>
-          <div>{info.captionAr}</div>
+          <div className="gallery__container--small__caption--ar">
+            {info.captionAr}
+          </div>
           <hr />
           <ul className="gallery__container--small__description">
-            {info.description.map(item => (
-              <li>{item}</li>
+            {info.description.map((item, index) => (
+              <li key={index}>{item}</li>
             ))}
           </ul>
         </div>
@@ -85,24 +87,28 @@ export default function Gallery({ thumbnails, photos }) {
               </div>
             )
           })}
-
-          <div className="gallery__container--large__name--en">
-            {info.nameEn}
+          <div className="gallery__container--large__name__caption">
+            <div className="gallery__container--large__name--en">
+              {info.nameEn}
+            </div>
+            <div className="gallery__container--large__name--ar">
+              {info.nameAr}
+            </div>
+            <hr />
+            <ul className="gallery__container--large__description">
+              {info.description.map(item => (
+                <li>{item}</li>
+              ))}
+            </ul>
           </div>
-          <div className="gallery__container--large__name--ar">
-            {info.nameAr}
+          <div className="gallery__container--large__caption">
+            <div className="gallery__container--large__caption--en">
+              {info.captionEn}
+            </div>
+            <div className="gallery__container--large__caption--ar">
+              {info.captionAr}
+            </div>
           </div>
-          <hr />
-          <div className="gallery__container--large__caption--en">
-            {info.captionEn}
-          </div>
-          <div>{info.captionAr}</div>
-          <hr />
-          <ul className="gallery__container--large__description">
-            {info.description.map(item => (
-              <li>{item}</li>
-            ))}
-          </ul>
         </div>
       </div>
     </div>

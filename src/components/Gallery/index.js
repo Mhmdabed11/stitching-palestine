@@ -96,8 +96,8 @@ export default function Gallery({ thumbnails, photos }) {
             </div>
             <hr />
             <ul className="gallery__container--large__description">
-              {info.description.map(item => (
-                <li>{item}</li>
+              {info.description.map((item, index) => (
+                <li key={index}>{item}</li>
               ))}
             </ul>
           </div>

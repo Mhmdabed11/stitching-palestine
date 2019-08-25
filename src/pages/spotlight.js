@@ -5,15 +5,15 @@ import { graphql } from "gatsby"
 import Gallery from "../components/Gallery"
 import { Container } from "reactstrap"
 import Tabs from "../components/tabs"
-
+import "./spotlight.css"
 const SpotLight = ({ data }) => {
   return (
     <Layout>
       <SEO title="Spotlight" />
-      <Container>
+      <div className="spotlight__container">
         <Tabs tabs={["The Women", "The Press", "The Feedback"]} />
         <Gallery thumbnails={data.thumbnails} photos={[data.photos]} />
-      </Container>
+      </div>
     </Layout>
   )
 }
@@ -36,7 +36,7 @@ export const query = graphql`
     photos: allFile(filter: { name: { regex: "/^malakalhusseini/" } }) {
       nodes {
         childImageSharp {
-          fluid(maxWidth: 400, maxHeight: 400) {
+          fluid(maxWidth: 500, maxHeight: 500) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }

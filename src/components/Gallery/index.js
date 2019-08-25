@@ -2,44 +2,108 @@ import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 import "./Gallery.css"
-import { Row, Col } from "reactstrap"
+import { womenInfo } from "../../assets/womenInfo"
 export default function Gallery({ thumbnails, photos }) {
   const [activeIndex, setActiveIndex] = React.useState(0)
-  React.useEffect(() => {
-    console.log(photos)
-  }, [photos])
+  const info = womenInfo[activeIndex]
+  //handle thumbnail click
+  const handleThumbnailClick = index => {
+    setActiveIndex(index)
+  }
+
   return (
     <div>
+      {/* Thumbnails */}
       <div className="thumbnails__container">
-        {thumbnails.edges.map(thumbnail => {
+        {thumbnails.edges.map((thumbnail, index) => {
           return (
             <div
               key={thumbnail.node.id}
-              className="thumbnails__container__thumbnail"
+              className={`thumbnails__container__thumbnail ${
+                index === activeIndex
+                  ? "thumbnails__container__thumbnail--active"
+                  : ""
+              }`}
+              onClick={() => handleThumbnailClick(index)}
             >
               <Img fluid={thumbnail.node.childImageSharp.fluid} />
             </div>
           )
         })}
       </div>
-      <div className="gallery__container__scrollable">
-        {photos[0].nodes.map(node => {
-          return (
-            <div className="gallery__container__scrollable__image">
-              <Img fluid={node.childImageSharp.fluid} />
-            </div>
-          )
-        })}
+      {/* Slider small */}
+      <div className="gallery__container--small">
+        <div className="gallery__container__scrollable">
+          {photos[0].nodes.map((node, index) => {
+            return (
+              <div
+                key={index}
+                className="gallery__container__scrollable__image"
+              >
+                <Img fluid={node.childImageSharp.fluid} />
+              </div>
+            )
+          })}
+        </div>
+        <div>
+          <div className="gallery__container--small__name--en">
+            {info.nameEn}
+          </div>
+          <div className="gallery__container--small__name--ar">
+            {info.nameAr}
+          </div>
+          <hr />
+          <div className="gallery__container--small__caption--en">
+            {info.captionEn}
+          </div>
+          <div>{info.captionAr}</div>
+          <hr />
+          <ul className="gallery__container--small__description">
+            {info.description.map(item => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        </div>
       </div>
 
-      <div className="gallery__container">
-        {photos[0].nodes.map((node, index) => {
-          return (
-            <div className={`gallery__container__image--${index}`}>
-              <Img fluid={node.childImageSharp.fluid} />
-            </div>
-          )
-        })}
+      {/* slider large */}
+      <div className="gallery__container--large">
+        <div className="gallery__container">
+          {photos[0].nodes.map((node, index) => {
+            return (
+              <div
+                key={index}
+                className={`gallery__container__image--${index}`}
+              >
+                {index === 0 ? (
+                  <Img fluid={node.childImageSharp.fluid} />
+                ) : (
+                  <Img
+                    fluid={{ ...node.childImageSharp.fluid, aspectRatio: 1.54 }}
+                  />
+                )}
+              </div>
+            )
+          })}
+
+          <div className="gallery__container--large__name--en">
+            {info.nameEn}
+          </div>
+          <div className="gallery__container--large__name--ar">
+            {info.nameAr}
+          </div>
+          <hr />
+          <div className="gallery__container--large__caption--en">
+            {info.captionEn}
+          </div>
+          <div>{info.captionAr}</div>
+          <hr />
+          <ul className="gallery__container--large__description">
+            {info.description.map(item => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   )

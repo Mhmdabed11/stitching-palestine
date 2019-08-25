@@ -3,7 +3,8 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  justify-content: space-between;
+  justify-content: space-around;
+  min-height: 36px;
 }
 .tabs__tab {
   color: #dedede;
@@ -11,8 +12,18 @@
   font-family: "Open Sans";
   font-weight: bold;
   transition: all 0.2s ease;
+  cursor: pointer;
 }
 .tabs__tab--active {
   color: var(--main-theme-color);
   font-size: 16px;
+}
+
+@media screen and (min-width: 1000px) {
+  .tabs {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 32px;
+    min-width: 120px;
+  }
 }

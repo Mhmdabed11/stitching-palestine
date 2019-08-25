@@ -14,6 +14,7 @@ export default function Tabs({ tabs, onTabPress }) {
     <ul className="tabs">
       {tabs.map((tab, index) => (
         <li
+          key={index}
           className={`tabs__tab ${
             index === activeIndex ? "tabs__tab--active" : ""
           }`}

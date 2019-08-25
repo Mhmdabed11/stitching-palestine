@@ -24,7 +24,7 @@ const IndexPage = () => {
 
   const imageData = data.mainPageStitchDisplay.childImageSharp.fluid
   return (
-    <Layout hasMarginTop={false}>
+    <Layout hasMarginTop={false} transparent>
       <SEO title="Home" />
 
       <BackgroundImage

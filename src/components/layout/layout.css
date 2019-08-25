@@ -3,6 +3,7 @@
 }
 body {
   position: relative;
+  overflow: hidden;
 }
 img {
   margin-bottom: 0;
@@ -22,7 +23,7 @@ img {
 }
 
 @font-face {
-  font-family: "afta_serifregular";
+  font-family: "Afta Serif";
   src: url("../../assets/fonts/aftaserifthin-regular-webfont.woff2")
       format("woff2"),
     url("../../assets/fonts/aftaserifthin-regular-webfont.woff") format("woff");

@@ -60,33 +60,54 @@
   display: none;
 }
 
-.gallery__container--small__name--en {
+.gallery__container__info__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.gallery__container__name {
+  flex: 4;
+  margin-right: 5px;
+}
+.gallery__container__caption {
+  flex: 6;
+  margin-left: 5px;
+}
+
+.gallery__container__name--en {
   font-family: "Open Sans";
   font-weight: 600;
   font-size: 25px;
   color: var(--main-theme-color);
 }
-.gallery__container--small__name--ar {
-  /* font-family: "GE Arabic"; */
+.gallery__container__name--ar {
   font-weight: 600;
   font-size: 25px;
   color: var(--main-theme-color);
 }
 
-.gallery__container--small__description li {
+.gallery__container__description ul li {
   font-family: "Open Sans";
   margin-bottom: 4px;
   color: #9b9b9b;
   font-size: 14px;
 }
-.gallery__container--small__caption--en {
+
+.gallery__container__caption--en {
   font-family: "Afta Serif";
   color: #3b2222;
   margin-bottom: 10px;
 }
 
-.gallery__container--small__caption--ar {
+.gallery__container__caption--ar {
   color: #3b2222;
+}
+
+.gallery__container__seperator1,
+.gallery__container__seperator2 {
+  background-color: #9b9b9b;
+  border: 0.75px solid #9b9b9b;
 }
 @media screen and (min-width: 768px) {
   .gallery__container__scrollable__image {
@@ -100,7 +121,7 @@
   .gallery__container {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-gap: 10px;
   }
   .gallery__container__image--0 {
@@ -134,48 +155,17 @@
     grid-row-end: 5;
   }
 
-  .gallery__container--large__name__caption {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 5;
-    grid-row-end: 25;
-  }
-  .gallery__container--large__caption {
-    grid-column-start: 5;
-    grid-column-end: 11;
-    grid-row-start: 5;
-    grid-row-end: 12;
+  .gallery__container__info__wrapper {
+    flex-direction: row;
   }
 
-  .gallery__container__info {
-    display: none;
-  }
-  .gallery__container--large__name--en {
-    font-family: "Open Sans";
-    font-weight: 600;
-    font-size: 25px;
-    color: var(--main-theme-color);
-  }
-  .gallery__container--large__name--ar {
-    font-weight: 600;
-    font-size: 25px;
-    color: var(--main-theme-color);
-  }
-
-  .gallery__container--large__description li {
-    font-family: "Open Sans";
-    margin-bottom: 4px;
-    color: #9b9b9b;
-    font-size: 14px;
-  }
-  .gallery__container--large__caption--en {
-    font-family: "Afta Serif";
-    color: #3b2222;
-    margin-bottom: 10px;
-  }
-
-  .gallery__container--large__caption--ar {
-    color: #3b2222;
+  .gallery__container__caption--ar {
     margin-top: 24px;
+  }
+  .gallery__container__description {
+    width: 40%;
+  }
+  .gallery__container__seperator2 {
+    display: none;
   }
 }

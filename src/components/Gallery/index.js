@@ -5,7 +5,10 @@ import "./Gallery.css"
 import { womenInfo } from "../../assets/womenInfo"
 export default function Gallery({ thumbnails, photos }) {
   const [activeIndex, setActiveIndex] = React.useState(0)
+
+  //get info of selected woman
   const info = womenInfo[activeIndex]
+
   //handle thumbnail click
   const handleThumbnailClick = index => {
     setActiveIndex(index)
@@ -45,27 +48,6 @@ export default function Gallery({ thumbnails, photos }) {
             )
           })}
         </div>
-        <div className="gallery__container__info">
-          <div className="gallery__container--small__name--en">
-            {info.nameEn}
-          </div>
-          <div className="gallery__container--small__name--ar">
-            {info.nameAr}
-          </div>
-          <hr />
-          <div className="gallery__container--small__caption--en">
-            {info.captionEn}
-          </div>
-          <div className="gallery__container--small__caption--ar">
-            {info.captionAr}
-          </div>
-          <hr />
-          <ul className="gallery__container--small__description">
-            {info.description.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
-        </div>
       </div>
 
       {/* slider large */}
@@ -87,28 +69,34 @@ export default function Gallery({ thumbnails, photos }) {
               </div>
             )
           })}
-          <div className="gallery__container--large__name__caption">
-            <div className="gallery__container--large__name--en">
-              {info.nameEn}
-            </div>
-            <div className="gallery__container--large__name--ar">
-              {info.nameAr}
-            </div>
-            <hr />
-            <ul className="gallery__container--large__description">
-              {info.description.map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
+        </div>
+      </div>
+
+      {/* Gallery Info */}
+      <div>
+        <div className="gallery__container__info__wrapper">
+          <div className="gallery__container__name">
+            <div className="gallery__container__name--en">{info.nameEn}</div>
+            <div className="gallery__container__name--ar">{info.nameAr}</div>
+            <hr className="gallery__container__seperator1" />
           </div>
-          <div className="gallery__container--large__caption">
-            <div className="gallery__container--large__caption--en">
+          <div className="gallery__container__caption">
+            <div className="gallery__container__caption--en">
               {info.captionEn}
             </div>
-            <div className="gallery__container--large__caption--ar">
+            <div className="gallery__container__caption--ar">
               {info.captionAr}
             </div>
           </div>
+          <hr className="gallery__container__seperator2" />
+        </div>
+
+        <div className="gallery__container__description">
+          <ul>
+            {info.description.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
         </div>
       </div>
     </div>

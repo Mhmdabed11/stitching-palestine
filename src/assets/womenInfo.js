@@ -8,12 +8,12 @@ export const womenInfo = [
       "Popular Front for the Liberation of Palestine",
     ],
     captionEn:
-      "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
+      '"I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa"',
     captionAr:
-      "بتذكر هذه اللحظة ... إنو هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا،",
+      '"بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا" ',
   },
   {
-    nameEn: "Lolooo",
+    nameEn: "Lama",
     nameAr: "ليلى خالد",
     description: [
       "Member of the Palestine National Council",
@@ -23,6 +23,6 @@ export const womenInfo = [
     captionEn:
       "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
     captionAr:
-      "بتذكر هذه اللحظة ... إنو هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
+      "بتذكر هذه اللحظة ... إنو هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا،",
   },
 ]

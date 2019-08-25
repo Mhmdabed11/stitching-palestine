@@ -3,16 +3,29 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql } from "gatsby"
 import Gallery from "../components/Gallery"
-import { Container } from "reactstrap"
+import Press from "../components/Press"
 import Tabs from "../components/tabs"
 import "./spotlight.css"
 const SpotLight = ({ data }) => {
+  const [activeTabIndex, setActiveTabIndex] = React.useState(0)
+  const handleOnTabPress = index => {
+    setActiveTabIndex(parseInt(index))
+  }
   return (
     <Layout>
       <SEO title="Spotlight" />
       <div className="spotlight__container">
-        <Tabs tabs={["The Women", "The Press", "The Feedback"]} />
-        <Gallery thumbnails={data.thumbnails} photos={[data.photos]} />
+        <Tabs
+          onTabPress={handleOnTabPress}
+          tabs={["The Women", "The Press", "The Feedback"]}
+        />
+        <div className="spotlight__section">
+          {activeTabIndex === 0 ? (
+            <Gallery thumbnails={data.thumbnails} photos={[data.photos]} />
+          ) : (
+            <Press />
+          )}
+        </div>
       </div>
     </Layout>
   )

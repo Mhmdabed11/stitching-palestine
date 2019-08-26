@@ -1,0 +1,37 @@
+.pressCard__container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.4);
+  margin: 20px 0;
+  border-radius: 8px;
+}
+.pressCard__container__date {
+  font-family: "Open Sans";
+  color: #3b2222;
+  font-weight: 700;
+  font-size: 14px;
+}
+.pressCard__container__title {
+  font-family: "Open Sans";
+  color: var(--main-theme-color);
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.pressCard__container__body {
+  font-family: "Open Sans";
+  color: #9b9b9b;
+  font-weight: normal;
+}
+.pressCard__container__info__wrapper {
+  padding: 16px;
+}
+.pressCard__container__image img {
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 600px) {
+  .pressCard__container {
+    flex-direction: row;
+  }
+}

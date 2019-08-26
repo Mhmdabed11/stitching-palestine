@@ -9,7 +9,7 @@ export default function Press() {
     query {
       file(relativePath: { eq: "malakalhusseini-img1.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid {
             ...GatsbyImageSharpFluid_withWebp
           }
         }

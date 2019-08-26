@@ -1,12 +1,7 @@
-.pressItem__container {
-  display: flex;
-  flex-direction: column;
-}
-
-@media screen and (min-width: 500px) {
-  .pressItems__container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+@media screen and (min-width: 600px) {
+  .pressItem__container {
+    display: inline-block;
+    width: 45%;
+    margin: 8px;
   }
 }

@@ -1,9 +1,9 @@
 import React from "react"
 import "./header.css"
-export default function Header({ transparent }) {
+export default function Header({ transparent, hasBoxShadow = true }) {
   return (
     <header
-      className="header"
+      className={`header ${hasBoxShadow ? "header--box-shadow" : ""}`}
       style={
         transparent
           ? { backgroundColor: "transparent" }

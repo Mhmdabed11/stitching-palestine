@@ -15,7 +15,9 @@ img {
 .main--margintop {
   margin-top: 100px;
 }
-
+.main {
+  margin-bottom: 32px;
+}
 @media screen and (min-width: 768px) {
   .main--margintop {
     margin-top: 150px;

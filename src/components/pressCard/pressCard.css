@@ -35,7 +35,7 @@
     flex-direction: row;
   }
   .pressCard__container__image {
-    flex-basis: 50%;
+    flex-basis: 60%;
   }
   .pressCard__container__image img {
     border-radius: 0px;
@@ -44,6 +44,19 @@
     box-shadow: 0px 0px 0px 0px;
   }
   .pressCard__container__info__wrapper {
-    flex-basis: 50%;
+    flex-basis: 40%;
+  }
+  .pressCard__container__body {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .pressCard__container {
+    flex-direction: column;
   }
 }

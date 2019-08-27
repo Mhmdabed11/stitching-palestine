@@ -2,7 +2,7 @@ import React from "react"
 import "./index.css"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { graphql, useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery, Link } from "gatsby"
 import BackgroundImage from "gatsby-background-image"
 import Button from "../components/button"
 import HomeTextSection from "../components/HomeTextSection"
@@ -24,7 +24,7 @@ const IndexPage = () => {
 
   const imageData = data.mainPageStitchDisplay.childImageSharp.fluid
   return (
-    <Layout hasMarginTop={false} transparent>
+    <Layout hasMarginTop={false} hasBoxShadow={false} transparent>
       <SEO title="Home" />
 
       <BackgroundImage
@@ -37,7 +37,9 @@ const IndexPage = () => {
           <div className="home__hero__overlay__title">
             <div>"</div> A homeland <br /> the size of the planet <div>"</div>
           </div>
-          <Button>Watch Film</Button>
+          <Link to="/spotlight">
+            <Button>Watch Film</Button>
+          </Link>
         </div>
       </BackgroundImage>
 

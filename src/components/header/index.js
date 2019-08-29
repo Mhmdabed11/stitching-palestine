@@ -2,6 +2,7 @@ import React from "react"
 import "./header.css"
 import { Link } from "gatsby"
 export default function Header({ transparent, hasBoxShadow }) {
+  const [isOpen, setIsOpen] = React.useState(false)
   return (
     <header
       className={`header ${hasBoxShadow ? "header--box-shadow" : ""}`}
@@ -12,37 +13,45 @@ export default function Header({ transparent, hasBoxShadow }) {
       }
     >
       <nav className="nav">
-        <div className="nav--left">
-          <div>
+        <div>
+          <Link to="">
+            <img
+              src={require("../../images/Logo.svg")}
+              className="header__logo"
+              alt="stitching_palesting_logo"
+            />
+          </Link>
+        </div>
+        <div className="burger" onClick={() => setIsOpen(true)}>
+          <div className="line"></div>
+          <div className="line"></div>
+          <div className="line"></div>
+        </div>
+        <ul className={`nav-links ${isOpen ? "nav--open" : ""}`}>
+          <div onClick={() => setIsOpen(false)} className="nav__close__btn">
+            x
+          </div>
+          <li>
             <Link activeClassName="nav__link--active" to="/about">
               ABOUT
             </Link>
-          </div>
-          <div>
+          </li>
+          <li>
             <Link activeClassName="nav__link--active" to="/spotlight">
               SPOTLIGHT
             </Link>
-          </div>
-        </div>
-        <Link to="">
-          <img
-            src={require("../../images/Logo.svg")}
-            className="header__logo"
-            alt="stitching_palesting_logo"
-          />
-        </Link>
-        <div className="nav--right">
-          <div>
+          </li>
+          <li>
             <Link activeClassName="nav__link--active" to="/screenings">
               SCREENINGS
             </Link>
-          </div>
-          <div>
+          </li>
+          <li>
             <Link activeClassName="nav__link--active" to="/contact">
               CONTACT
             </Link>
-          </div>
-        </div>
+          </li>
+        </ul>
       </nav>
     </header>
   )

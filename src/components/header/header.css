@@ -31,7 +31,8 @@
 
 .nav-links {
   position: fixed;
-  display: flex;
+  display: none;
+  visibility: hidden;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -44,9 +45,7 @@
   top: 0;
   left: 0;
   right: 0;
-  clip-path: circle(100px at 90% -15%);
-  -webkit-clip-path: circle(100px at 90% -15%);
-  transition: all 1s ease;
+  transition: all 1s ease-in-out;
 }
 .nav-links li {
   text-decoration: none;
@@ -65,8 +64,8 @@
   cursor: pointer;
 }
 .nav--open {
-  clip-path: circle(1100px at 90% -10%);
-  -webkit-clip-path: circle(1100px at 90% -10%);
+  display: flex;
+  visibility: visible;
 }
 .nav__close__btn {
   color: #fff;

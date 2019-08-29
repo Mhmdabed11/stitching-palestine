@@ -6,6 +6,7 @@ import Gallery from "../components/Gallery"
 import Press from "../components/Press"
 import Tabs from "../components/tabs"
 import "./spotlight.css"
+import Feedback from "../components/feedback"
 const SpotLight = ({ data }) => {
   const [activeTabIndex, setActiveTabIndex] = React.useState(0)
   const handleOnTabPress = index => {
@@ -22,8 +23,10 @@ const SpotLight = ({ data }) => {
         <div className="spotlight__section">
           {activeTabIndex === 0 ? (
             <Gallery thumbnails={data.thumbnails} photos={[data.photos]} />
-          ) : (
+          ) : activeTabIndex === 1 ? (
             <Press />
+          ) : (
+            <Feedback />
           )}
         </div>
       </div>

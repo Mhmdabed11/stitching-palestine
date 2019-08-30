@@ -52,6 +52,9 @@
 .nav-links li a {
   color: #fff;
 }
+.nav-links li a:hover {
+  text-decoration: none !important;
+}
 .line {
   width: 30px;
   height: 3px;
@@ -88,6 +91,9 @@
 .nav-bg a:hover {
   color: #da8476;
 }
+.nav__link--active {
+  color: #da8476 !important;
+}
 @media screen and (min-width: 768px) {
   .header {
     height: 85px;
@@ -113,9 +119,7 @@
   .nav-bg--right a:last-of-type {
     margin-right: 0px;
   }
-  .nav__link--active {
-    color: #da8476 !important;
-  }
+
   .header__logo {
     height: 70px;
     object-fit: contain;

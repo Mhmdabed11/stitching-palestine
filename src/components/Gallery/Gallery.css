@@ -8,6 +8,10 @@
   display: flex;
 }
 
+.thumbnails__container div {
+  cursor: pointer;
+}
+
 .thumbnails__container::-webkit-scrollbar {
   width: 0px;
   background-color: transparent;

@@ -24,10 +24,11 @@
   font-weight: normal;
 }
 .pressCard__container__info__wrapper {
-  padding: 16px;
+  padding: 16px 8px;
 }
 .pressCard__container__image img {
-  border-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 @media screen and (min-width: 600px) {
@@ -45,6 +46,7 @@
   }
   .pressCard__container__info__wrapper {
     flex-basis: 40%;
+    padding: 16px 0;
   }
   .pressCard__container__body {
     display: -webkit-box;
@@ -58,5 +60,11 @@
 @media screen and (max-width: 1200px) {
   .pressCard__container {
     flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .pressCard__container__info__wrapper {
+    padding: 0 16px;
   }
 }

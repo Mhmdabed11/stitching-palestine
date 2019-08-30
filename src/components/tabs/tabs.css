@@ -1,5 +1,6 @@
 .tabs {
   display: flex;
+  align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -13,10 +14,12 @@
   font-weight: bold;
   transition: all 0.2s ease;
   cursor: pointer;
+  margin-bottom: 32px;
+  height: 30px;
 }
 .tabs__tab--active {
   color: var(--main-theme-color);
-  font-size: 16px;
+  font-size: 20px;
 }
 
 @media screen and (min-width: 1000px) {
@@ -24,6 +27,7 @@
     flex-direction: column;
     justify-content: flex-start;
     margin-right: 32px;
-    min-width: 120px;
+    min-width: 200px;
+    margin-top: 50px;
   }
 }

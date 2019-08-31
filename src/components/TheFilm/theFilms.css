@@ -1,0 +1,43 @@
+.thefilm__container {
+  display: flex;
+  flex-direction: column;
+}
+.thefilm__container__title {
+  margin: 16px 0;
+}
+.thefilm__container__title > div {
+  font-family: "Afta Serif";
+  color: #3b2222;
+  font-size: 32px;
+}
+.thefilm__container__title > div:last-of-type {
+  color: var(--main-theme-color);
+}
+.thefilm__container__image {
+  width: 100%;
+}
+.thefilm__container__body {
+  font-family: "Open Sans";
+  color: #3b2222;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .thefilm__container {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .thefilm__container hr {
+    display: none;
+  }
+  .thefilm__container__image {
+    flex-basis: 60%;
+    min-width: 60%;
+    padding: 40px;
+  }
+  .thefilm__container__text {
+    flex-basis: 40%;
+    min-width: 40%;
+    padding: 20px;
+  }
+}

@@ -48,4 +48,5 @@
   scroll-snap-type: x mandatory;
   white-space: nowrap;
   scroll-behavior: smooth;
+  touch-action: pan-x;
 }

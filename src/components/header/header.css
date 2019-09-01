@@ -46,14 +46,16 @@
   transition: all 1s ease-in-out;
 }
 .nav-links li {
-  text-decoration: none;
   cursor: pointer;
 }
 .nav-links li a {
   color: #fff;
+  text-decoration: none !important;
+  font-family: "Open Sans";
 }
 .nav-links li a:hover {
   text-decoration: none !important;
+  color: var(--main-theme-color);
 }
 .line {
   width: 30px;

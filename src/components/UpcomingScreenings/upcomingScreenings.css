@@ -1,0 +1,51 @@
+.upcoming-screenings__title {
+  color: var(--main-theme-color);
+  font-family: "Afta Serif";
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.upcoming-screenings__screening {
+  display: inline-block;
+  padding: 0 10px;
+  scroll-snap-align: center;
+}
+.upcoming-screenings__screening__info {
+  padding: 15px 0;
+}
+.upcoming-screenings__screening__date {
+  font-family: "Afta Serif";
+  color: var(--main-theme-color);
+  font-weight: 600;
+  font-size: 17px;
+}
+.upcoming-screenings__screening__city {
+  font-family: "Open Sans";
+  color: #3b2222;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.upcoming-screenings__screening__title {
+  font-family: "Open Sans";
+  color: var(--main-theme-color);
+  font-weight: 700;
+  font-size: 21px;
+  margin-top: 20px;
+  white-space: pre-wrap;
+}
+
+.upcoming-screenings__screening__time {
+  font-family: "Open Sans";
+  color: #3b2222;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.upcoming-screenings__cards {
+  overflow-y: hidden;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}

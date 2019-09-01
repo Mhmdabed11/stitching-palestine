@@ -1,3 +1,8 @@
+.upcoming-screenings {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
 .upcoming-screenings__title {
   color: var(--main-theme-color);
   font-family: "Afta Serif";
@@ -50,4 +55,47 @@
   scroll-behavior: smooth;
   touch-action: pan-x;
   -webkit-overflow-scrolling: touch;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .screenings-caoursel {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+  }
+  .screenings-carousel--active {
+    display: flex;
+    flex: 1;
+    flex-shrink: 0;
+    height: 240px;
+  }
+  .screenings-carousel__img {
+    flex-basis: 400px;
+  }
+  .upcoming-screenings__screening__info {
+    padding: 0 15px;
+  }
+  .screenings-carousel-before {
+    cursor: pointer;
+    margin: auto;
+    padding: 10px;
+  }
+  .screenings-carousel-before svg path {
+    stroke: #9b9b9b;
+  }
+  .screenings-carousel-after svg path {
+    stroke: #9b9b9b;
+  }
+  .screenings-carousel-before svg:hover path {
+    stroke: var(--main-theme-color);
+  }
+  .screenings-carousel-after svg:hover path {
+    stroke: var(--main-theme-color);
+  }
+  .screenings-carousel-after {
+    margin: auto;
+    cursor: pointer;
+    padding: 10px;
+  }
 }

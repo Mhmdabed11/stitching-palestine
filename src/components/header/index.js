@@ -91,7 +91,7 @@ export default function Header({ transparent, hasBoxShadow }) {
           </Link>
         </div>
         <div className="nav-bg--right">
-          <Link activeClassName="nav__link--active" to="/screening">
+          <Link activeClassName="nav__link--active" to="/screenings">
             SCREENING
           </Link>
           <Link activeClassName="nav__link--active" to="/contact">

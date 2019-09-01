@@ -1,0 +1,40 @@
+.previous-screenings {
+  background-color: #f6f6f6;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.previous-screenings__wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 32px;
+  overflow-x: auto;
+}
+
+.previous-screenings__title {
+  color: var(--main-theme-color);
+  font-family: "Afta Serif";
+  font-weight: 600;
+  font-size: 30px;
+}
+
+table {
+  border: none;
+  margin-top: 20px;
+}
+tr,
+th,
+td {
+  border-bottom: none;
+}
+
+th {
+  font-family: "Open Sans";
+  color: var(--main-theme-color);
+}
+
+td {
+  color: #9b9b9b;
+  font-family: "Open Sans";
+  font-size: 14px;
+}

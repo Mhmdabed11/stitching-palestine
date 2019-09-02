@@ -8,4 +8,17 @@
   padding: 4px 16px;
   font-family: "Open Sans";
   width: fit-content;
+  transition: background 0.1s ease-out;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #cc6c5c;
+}
+.button:hover {
+  background-color: #cc6c5c;
 }

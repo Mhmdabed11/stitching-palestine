@@ -12,7 +12,7 @@
 }
 .header__logo {
   height: 50px;
-  object-fit: contain;
+  width: 100px;
   margin-bottom: 0;
 }
 .header--box-shadow {
@@ -124,7 +124,7 @@
 
   .header__logo {
     height: 70px;
-    object-fit: contain;
-    margin-bottom: 0;
+    width: 150px;
+    margin-top: 20px;
   }
 }

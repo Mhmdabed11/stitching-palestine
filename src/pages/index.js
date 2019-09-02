@@ -10,6 +10,22 @@ import HomeStats from "../components/HomeStats"
 import MovieTrailer from "../components/MovieTrailer"
 
 const IndexPage = () => {
+  const [scrollPosition, setScrollPosition] = React.useState(0)
+  // listen to scroll
+  React.useEffect(() => {
+    if (window) {
+      window.addEventListener("scroll", handleScroll)
+    }
+    return () => {
+      if (window) {
+        window.removeEventListener("scroll", handleScroll)
+      }
+    }
+  }, [])
+
+  const handleScroll = () => {
+    setScrollPosition(window.scrollY)
+  }
   const data = useStaticQuery(graphql`
     query {
       mainPageStitchDisplay: file(relativePath: { eq: "stitch.png" }) {
@@ -24,7 +40,11 @@ const IndexPage = () => {
 
   const imageData = data.mainPageStitchDisplay.childImageSharp.fluid
   return (
-    <Layout hasMarginTop={false} hasBoxShadow={false} transparent>
+    <Layout
+      hasMarginTop={false}
+      hasBoxShadow={scrollPosition > 50}
+      transparent={scrollPosition < 50}
+    >
       <SEO title="Home" />
 
       <BackgroundImage
@@ -37,9 +57,7 @@ const IndexPage = () => {
           <div className="home__hero__overlay__title">
             <div>"</div> A homeland <br /> the size of the planet <div>"</div>
           </div>
-          <Link to="/spotlight">
-            <Button>Watch Film</Button>
-          </Link>
+          <Button>Watch Film</Button>
         </div>
       </BackgroundImage>
 

@@ -10,7 +10,7 @@ export default function ScreeningRequest() {
           className="form"
           action="mailto:mabed4297@gmail.com"
           method="post"
-          enctype="text/plain"
+          encType="text/plain"
         >
           <div>
             <input

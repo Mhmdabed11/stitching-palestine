@@ -31,27 +31,30 @@ export default function UpcomingScreenings() {
   React.useLayoutEffect(() => {
     if (window) {
       setWindowWidth(window.innerWidth)
-      window.addEventListener("resize", () => setWindowWidth(window.innerWidth))
+      window.addEventListener("resize", handleResize)
     }
     return () => {
       if (window) {
-        window.removeEventListener("resize", () =>
-          setWindowWidth(window.innerWidth)
-        )
+        window.removeEventListener("resize", handleResize)
       }
     }
   }, [])
 
+  const handleResize = () => {
+    setWindowWidth(window.innerWidth)
+  }
   //handle next press
-  const handleNext = () => {
-    // if (parseInt(activeIndex) < data.allScreeningsJson.edges.length - 1) {
-    //   setActiveIndex(activeIndex => activeIndex + 1)
-    // }
+  const handleNext = e => {
+    e.stopPropagation()
+    e.persist()
+    if (parseInt(activeIndex) < data.allScreeningsJson.edges.length - 1) {
+      setActiveIndex(activeIndex => activeIndex + 1)
+    }
   }
   const handlePrevious = () => {
-    // if (parseInt(activeIndex) > 0) {
-    //   setActiveIndex(activeIndex => activeIndex - 1)
-    // }
+    if (parseInt(activeIndex) > 0) {
+      setActiveIndex(activeIndex => activeIndex - 1)
+    }
   }
   return (
     <div className="upcoming-screenings">

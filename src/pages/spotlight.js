@@ -12,6 +12,7 @@ const SpotLight = ({ data }) => {
   const handleOnTabPress = index => {
     setActiveTabIndex(parseInt(index))
   }
+  console.log(data.allGalleryJson)
   return (
     <Layout>
       <SEO title="Spotlight" />
@@ -22,7 +23,7 @@ const SpotLight = ({ data }) => {
         />
         <div className="spotlight__section">
           {activeTabIndex === 0 ? (
-            <Gallery thumbnails={data.thumbnails} photos={[data.photos]} />
+            <Gallery data={data.allGalleryJson} />
           ) : activeTabIndex === 1 ? (
             <Press />
           ) : (
@@ -35,25 +36,21 @@ const SpotLight = ({ data }) => {
 }
 
 export const query = graphql`
-  query myQuery {
-    thumbnails: allFile(
-      filter: { name: { regex: "/^thumbnail/" } }
-      sort: { order: ASC, fields: name }
-    ) {
+  {
+    allGalleryJson {
       edges {
         node {
           id
-          name
-          ...thumbnailImage
-        }
-      }
-    }
-
-    photos: allFile(filter: { name: { regex: "/^malakalhusseini/" } }) {
-      nodes {
-        childImageSharp {
-          fluid(maxWidth: 500, maxHeight: 500) {
-            ...GatsbyImageSharpFluid_withWebp
+          nameEn
+          nameAr
+          captionEn
+          captionAr
+          description
+          thumbnail {
+            ...thumbnailImage
+          }
+          images {
+            ...galleryImage
           }
         }
       }

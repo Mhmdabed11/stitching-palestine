@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Stitching Palestine`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `A homeland, the size of the planet.`,
+    author: `@mhmdabed11`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

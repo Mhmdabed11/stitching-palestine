@@ -3,12 +3,11 @@ import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 import "./Gallery.css"
 import { womenInfo } from "../../assets/womenInfo"
-export default function Gallery({ thumbnails, photos }) {
+export default function Gallery({ data }) {
   const [activeIndex, setActiveIndex] = React.useState(0)
 
   //get info of selected woman
-  const info = womenInfo[activeIndex]
-
+  const info = data.edges[activeIndex]
   //handle thumbnail click
   const handleThumbnailClick = index => {
     setActiveIndex(index)
@@ -18,18 +17,18 @@ export default function Gallery({ thumbnails, photos }) {
     <div>
       {/* Thumbnails */}
       <div className="thumbnails__container">
-        {thumbnails.edges.map((thumbnail, index) => {
+        {data.edges.map((thumbnail, index) => {
           return (
             <div
               key={thumbnail.node.id}
               className={`thumbnails__container__thumbnail ${
                 index === activeIndex
                   ? "thumbnails__container__thumbnail--active"
-                  : ""
+                  : "grayscale"
               }`}
               onClick={() => handleThumbnailClick(index)}
             >
-              <Img fluid={thumbnail.node.childImageSharp.fluid} />
+              <Img fluid={thumbnail.node.thumbnail.childImageSharp.fluid} />
             </div>
           )
         })}
@@ -37,7 +36,7 @@ export default function Gallery({ thumbnails, photos }) {
       {/* Slider small */}
       <div className="gallery__container--small">
         <div className="gallery__container__scrollable">
-          {photos[0].nodes.map((node, index) => {
+          {data.edges[activeIndex].node.images.map((node, index) => {
             return (
               <div
                 key={index}
@@ -53,7 +52,7 @@ export default function Gallery({ thumbnails, photos }) {
       {/* slider large */}
       <div className="gallery__container--large">
         <div className="gallery__container">
-          {photos[0].nodes.map((node, index) => {
+          {data.edges[activeIndex].node.images.map((node, index) => {
             return (
               <div
                 key={index}
@@ -74,30 +73,34 @@ export default function Gallery({ thumbnails, photos }) {
 
       {/* Gallery Info */}
       <div>
-        <div className="gallery__container__info__wrapper">
+        <div className="gallery__container__section1__wrapper">
           <div className="gallery__container__name">
-            <div className="gallery__container__name--en">{info.nameEn}</div>
-            <div className="gallery__container__name--ar">{info.nameAr}</div>
-            <hr className="gallery__container__seperator1" />
-          </div>
-          <div className="gallery__container__caption">
-            <div className="gallery__container__caption--en">
-              {info.captionEn}
+            <div className="gallery__container__name--en">
+              {info.node.nameEn}
             </div>
-            <div className="gallery__container__caption--ar">
-              {info.captionAr}
+            <div className="gallery__container__name--ar">
+              {info.node.nameAr}
             </div>
           </div>
-          <hr className="gallery__container__seperator2" />
+          <div className="gallery__container__caption--en">
+            {info.node.captionEn}
+          </div>
         </div>
-
-        <div className="gallery__container__description">
-          <ul>
-            {info.description.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
+        <div className="gallery__container__section2__wrapper">
+          <div className="gallery__container__seperator1">
+            <hr />
+          </div>
+          <div className="gallery__container__caption--ar">
+            {info.node.captionAr}
+          </div>
         </div>
+      </div>
+      <div className="gallery__container__description">
+        <ul>
+          {info.node.description.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
       </div>
     </div>
   )
@@ -107,6 +110,15 @@ export const thumbnailImage = graphql`
   fragment thumbnailImage on File {
     childImageSharp {
       fluid(maxWidth: 100, maxHeight: 100) {
+        ...GatsbyImageSharpFluid_withWebp
+      }
+    }
+  }
+`
+export const galleryImage = graphql`
+  fragment galleryImage on File {
+    childImageSharp {
+      fluid(maxWidth: 500, maxHeight: 500) {
         ...GatsbyImageSharpFluid_withWebp
       }
     }

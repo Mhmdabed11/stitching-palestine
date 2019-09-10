@@ -2,8 +2,6 @@ import React from "react"
 import "./index.css"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { graphql, useStaticQuery, Link } from "gatsby"
-import BackgroundImage from "gatsby-background-image"
 import Button from "../components/button"
 import HomeTextSection from "../components/HomeTextSection"
 import HomeStats from "../components/HomeStats"
@@ -26,19 +24,7 @@ const IndexPage = () => {
   const handleScroll = () => {
     setScrollPosition(window.scrollY)
   }
-  const data = useStaticQuery(graphql`
-    query {
-      mainPageStitchDisplay: file(relativePath: { eq: "stitch.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 4200) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-    }
-  `)
 
-  const imageData = data.mainPageStitchDisplay.childImageSharp.fluid
   return (
     <Layout
       hasMarginTop={false}
@@ -46,20 +32,14 @@ const IndexPage = () => {
       transparent={scrollPosition < 50}
     >
       <SEO title="Home" />
-
-      <BackgroundImage
-        Tag="section"
-        fluid={imageData}
-        className="home__hero"
-        backgroundColor={`#fff`}
-      >
+      <div className="home__hero">
         <div className="home__hero__overlay">
           <div className="home__hero__overlay__title">
             <div>"</div> A homeland <br /> the size of the planet <div>"</div>
           </div>
           <Button>Watch Film</Button>
         </div>
-      </BackgroundImage>
+      </div>
 
       <HomeTextSection
         imgName="needle.svg"

@@ -7,7 +7,7 @@ import "./Press.css"
 export default function Press() {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "malakalhusseini-img1.png" }) {
+      file(relativePath: { eq: "malakalhusseini-img1.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 300, maxHeight: 300) {
             ...GatsbyImageSharpFluid_withWebp

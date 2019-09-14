@@ -1,26 +1,147 @@
 export const pressInfo = [
   {
-    date: "25, july 2019",
-    title: "Placeat",
+    date: "31, March 2017",
+    title: "L’Orient Le Jour",
     body:
-      "Ipsam aut similique quo enim aut aut in. Et debitis et molestiae ut quas ab enim. Sapiente non saepe.Ipsam aut similique quo enim aut aut in. Et debitis et molestiae ut quas ab enim. Sapiente non saepe.",
+      "Dans le dernier documentaire réalisé par Carole Mansour Stitching Palestine (La Palestine, de fil en aiguille), qui donne la voix à douze Palestiniennes, le thawb devient l'objet le plus apte à assouvir cette obsession, ce rêve qu'un « orphelin » se fait de ses parents",
   },
   {
-    date: "25, july 2019",
-    title: "Placeat",
+    date: "2, April 2017",
+    title: "Al-Jazeera.net",
     body:
-      "Ipsam aut similique quo enim aut aut in. Et debitis et molestiae ut quas ab enim. Sapiente non saepe.Ipsam aut similique quo enim aut aut in. Et debitis et molestiae ut quas ab enim. Sapiente non saepe.",
+      "يكتشف المشاهد خلال ساعة ونصف الساعة أن تعلقهن، كل واحدة على طريقتها، بالتطريز هو في الواقع التعلق بما تبقى لهن من حلم العودة إلى فلسطين وحلم تحرير بلدهن واسترجاعه.",
   },
   {
-    date: "25, july 2019",
-    title: "Placeat",
+    date: "30, April 2019",
+    title: "Beirut Today",
     body:
-      "Ipsam aut similique quo enim aut aut in. Et debitis et molestiae ut quas ab enim. Sapiente non saepe.Ipsam aut similique quo enim aut aut in. Et debitis et molestiae ut quas ab enim. Sapiente non saepe.",
+      "The story was one of resistance, of heritage, and of sisterhood, beyond social class and status, binding Palestinians in the homeland and in the diaspora",
   },
   {
-    date: "25, july 2019",
-    title: "Placeat",
+    date: "2, April 2017",
+    title: "A-Arabiya",
     body:
-      "Ipsam aut similique quo enim aut aut in. Et debitis et molestiae ut quas ab enim. Sapiente non saepe.Ipsam aut similique quo enim aut aut in. Et debitis et molestiae ut quas ab enim. Sapiente non saepe.",
+      "وأخرى تؤكدالتطريز بالنسبة إلي يمثل الحياة الفلسطينية ماضيا وحاضرا. يجسد بطريقة أو بأخرى أهمية دور المرأة في فلسطين ماضياً وحاضراً",
+  },
+  {
+    date: "2, April 2017",
+    title: "Arab48.com",
+    body:
+      "ويكتشف المشاهد خلال ساعة ونصف الساعة أن تعلقهن، كل واحدة على طريقتها، بالتطريز هو في الواقع التعلق بما تبقى لهن من حلم العودة إلى فلسطين وحلم تحرير بلدهن واسترجاعها",
+  },
+  {
+    date: "2, April 2017",
+    title: "StepFeed",
+    body:
+      "Speaking to Stepfeed, Mary Nazzal-Batayneh says, “I am so honored to be in this masterpiece of a film that weaves together stories of so many unique women. We are all from different generations and walks of life but the common thread between all of us is our love of and commitment to Palestine.”",
+  },
+  {
+    date: "2, April 2017",
+    title: "Al Hassna'a الحسناء",
+    body:
+      "فيلم (كارول منصور) الوثائقي الجديد ”خيوط السرد“ أو “Stitching Palestine” الذي نجح في إيصال فكرة الهوية بطريقة ذكية محبكة بأسلوب رائع.",
+  },
+  {
+    date: "2, April 2017",
+    title: "Al-Quds Al-Arabi زهرة مرعي",
+    body:
+      "رسخ في البال من فيلم المخرجة الفلسطينية اللبنانية كارول منصور «خيوط السرد» ذخر كبير روته نساء فلسطين... انجزته مخرجة تهتم بحقوق الإنسان، وتعالج موضوعات اللاجئين، المرأة، العنف، أطفال الشوارع والدعارة.",
+  },
+  {
+    date: "2, April 2017",
+    title: "Al-Akhbar بيار أبي صعب",
+    body:
+      "أفلام كارول هي نسويّة بامتياز. كأنها تبلغ ذروة فنّها حين تندسّ في هذا العالم المكتوم غالباً، الممنوع، المغيّب، المنسي الذي يختزن أسرار العالم، عذاباته وأحلامه. و«خيوط السرد» هو ذروة في هذا السياق، نضجاً فنياً ودراميّاً، تصويراً وتوليفاً، فكرة ونصّاً وشهادات",
+  },
+  {
+    date: "2, April 2017",
+    title: "SBS Australia - Amal Awad",
+    body:
+      "وما بين المُقابلات الأقرب إلى جلسة مرتاحة بين الأصدقاء والصور التاريخيّة والخرائط الزاهية، تتتالى المشاهد التي تَنساب بأسلوب مُشوّق... ويبقى سؤال: لمَ كل هذا الظُلم؟، العُنصر الأكثر بروزاً ما بين مشهد وآخر في الشريط",
+  },
+  {
+    date: "2, April 2017",
+    title: "The Daily Star",
+    body:
+      "Mansour offers a glimpse of these women’s personal stories, while weaving in traditions, history and highlighting small details that hold great importance… As it closes, “Stitching Palestine” reflects upon the fluidity of meaning imbued in embroidery, which allows the form to be what is needed by those who interact with it.",
+  },
+  {
+    date: "2, April 2017",
+    title: "Al-Akhbar أحمد محسن",
+    body:
+      "خيوط السرد» يأتي عكس هذا الاتجاه تماماً، ضدّ التراجع في مواجهة العولمة. لدى نساء فلسطين ونسوياتها ما يقلنه. وهو ليس مائعاً كخطاب «حقوق الإنسان» بنسخته الليبرالية. لديهن تاريخ كامل ورغبة حقيقية بالمقاومة لألف عام أخرى",
+  },
+  {
+    date: "2, April 2017",
+    title: "Thaqafat د. إيهاب بسيسو",
+    body:
+      "يمثل “خيوط السرد” وثيقة بصرية وفنية هامة تضاف إلى سجل السينما التسجيلية والتوثيقية الفلسطينية عبر براعة فطرية في استعادة الحكاية مرة أخرى كما تستعيد سيدة فلسطينية مهارة التطريز مرة أخرى حين تمر بأصابعها على ثوب عتيق وتهتف: فلسطين.  كل التقدير لكارول منصور ومنى الخالدي وجميع العاملين/ات في هذا العمل المميز والمؤثر والذي يساهم بجدارة في صون الحكاية.  حكاية الوطن-الأم فلسط",
+  },
+  {
+    date: "2, April 2017",
+    title: "Al-Monitor",
+    body:
+      "“Stitching Palestine” gives new voice to Palestine through the women it presents",
+  },
+  {
+    date: "2, April 2017",
+    title: "Al-Shrouk تمارا رفاعي ",
+    body:
+      "قضيتنا هي بالأساس قضية إنسانية فهي قضية سلب شعب من أرضه ووطنه من قبل قوى استعمارية واحتلالية لهذا الوطن. نحن نتكلم عن خسارة هائلة معنوياً ومادياً يتعرض لها الشعب الفلسطيني يومياً. بالطبع علينا مسؤولية أن نضع قضيتنا أمام العالم، كلٌّ بالأسلوب والأدوات التي يملكها. نحن نعمل على إنتاج الأفلام الوثائقية، وهذا الفيلم هو إحدى الطرق لعرض القضية عالمياً، والإنتاج السينمائي الهائل الذي نشهده مؤخراً هو طريقة أخرى فاعلة جداً.",
+  },
+  {
+    date: "2, April 2017",
+    title: "رمّان",
+    body:
+      "خيوط السرد» يأتي عكس هذا الاتجاه تماماً، ضدّ التراجع في مواجهة العولمة. لدى نساء فلسطين ونسوياتها ما يقلنه. وهو ليس مائعاً كخطاب «حقوق الإنسان» بنسخته الليبرالية. لديهن تاريخ كامل ورغبة حقيقية بالمقاومة لألف عام أخرى",
+  },
+  {
+    date: "2, April 2017",
+    title: "رمّان",
+    body:
+      "خيوط السرد» يأتي عكس هذا الاتجاه تماماً، ضدّ التراجع في مواجهة العولمة. لدى نساء فلسطين ونسوياتها ما يقلنه. وهو ليس مائعاً كخطاب «حقوق الإنسان» بنسخته الليبرالية. لديهن تاريخ كامل ورغبة حقيقية بالمقاومة لألف عام أخرى",
+  },
+  {
+    date: "2, April 2017",
+    title: "رمّان",
+    body:
+      "خيوط السرد» يأتي عكس هذا الاتجاه تماماً، ضدّ التراجع في مواجهة العولمة. لدى نساء فلسطين ونسوياتها ما يقلنه. وهو ليس مائعاً كخطاب «حقوق الإنسان» بنسخته الليبرالية. لديهن تاريخ كامل ورغبة حقيقية بالمقاومة لألف عام أخرى",
+  },
+  {
+    date: "2, April 2017",
+    title: "القدس العربي سليم البيك",
+    body:
+      "لتأخذ الحكايات الفردية شكلا أوسع من المعنى المباشر لدى الساردة، شكلا أكثر جمعية يجعل الحكاية هذه، الفردية، مكوِّنا لحكاية شعب نُقلت على ألسن النّساء منه، وقد حملنَ معانيه، تماما كما يكون الخيط مكوِّنا للثوب الفلسطيني وتطريزه، إلى جانب غيره، وتماما كما يحمل التطريز هوية الشعب الفلسطيني من جيل لآخر على أصابع النّساء منه.",
+  },
+  {
+    date: "2, April 2017",
+    title: "وكالة القدس للأنباء",
+    body:
+      "بعد أوسلو تحديداً، ساد مديح المتعة الاستهلاكية، ما أدى إلى تشكيل قيم جديدة، يستفيد منها النظام العام في ترسيخ هيمنته. أما الأيديولوجيا الجديدة، بعد أوسلو، فهي تحديد ماهية المتعة عبر سلسلة طويلة من أدوات الهيمنة، أبرزها الإعلام والسينما، وكل ما يمكنه تشكيل خطاب عام يخدم الهيمنة. وقد لعبت السلطات الفلسطينية دوراً هاماً في الوصول إلى هذا الانحطاط.  خيوط السرد يأتي عكس هذا الاتجاه تماماً، ضدّ التراجع في مواجهة العولمة. لدى نساء فلسطين ونسوياتها ما يقلنه. وهو ليس مائعاً كخطاب حقوق الإنسان بنسخته الليبرالية. لديهن تاريخ كامل ورغبة حقيقية بالمقاومة لألف عام أخرى.",
+  },
+  {
+    date: "2, April 2017",
+    title: "Al-Mayadeen",
+    body: "",
+  },
+  {
+    date: "2, April 2017",
+    title: "Al-Ghad TV (Beirut)",
+    body: "",
+  },
+  {
+    date: "2, April 2017",
+    title: "Al-Ghad TV (Cairo)",
+    body: "",
+  },
+  {
+    date: "2, April 2017",
+    title: "Future TV",
+    body: "",
+  },
+  {
+    date: "2, April 2017",
+    title: "Monte Carlo Radio",
+    body: "",
   },
 ]

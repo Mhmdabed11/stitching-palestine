@@ -27,9 +27,6 @@
 }
 
 @media screen and (min-width: 600px) {
-  .pressCard__container {
-    flex-direction: row;
-  }
   .pressCard__container__image {
     flex-basis: 60%;
   }

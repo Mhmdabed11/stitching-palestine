@@ -109,10 +109,12 @@
   font-family: "Afta Serif";
   color: #3b2222;
   margin: 10px 0;
+  font-weight: bold;
 }
 
 .gallery__container__caption--ar {
   color: #3b2222;
+  font-weight: bold;
 }
 
 .gallery__container__seperator1 hr {

@@ -1,34 +1,15 @@
 [
   {
-    "thumbnail": "../images/thumbnail-hudaalimam.png",
-    "images": [
-      "../images/malakalhusseini-img1.png",
-      "../images/malakalhusseini-img2.png",
-      "../images/malakalhusseini-img3.png",
-      "../images/malakalhusseini-img4.png",
-      "../images/malakalhusseini-img5.png"
-    ],
-    "nameEn": "Huda Al Imam",
-    "nameAr": "هدئ الأمام",
-    "captionEn": "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
-    "captionAr": "بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
-    "description": [
-      "Member of the Palestine National Council",
-      "Member of the Political Bureau",
-      "Popular Front for the Liberation of Palestine"
-    ]
-  },
-  {
     "thumbnail": "../images/thumbnail-leilaatshan.png",
     "images": [
-      "../images/malakalhusseini-img1.png",
-      "../images/malakalhusseini-img2.png",
-      "../images/malakalhusseini-img3.png",
-      "../images/malakalhusseini-img4.png",
-      "../images/malakalhusseini-img5.png"
+      "../images/leilaatshan-img1.jpg",
+      "../images/leilaatshan-img1.jpg",
+      "../images/leilaatshan-img2.jpg",
+      "../images/leilaatshan-img3.jpg",
+      "../images/leilaatshan-img4.jpg"
     ],
     "nameEn": "Leila Atshan",
-    "nameAr": "هدئ الأمام",
+    "nameAr": "ليلى عطشان",
     "captionEn": "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
     "captionAr": "بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
     "description": [
@@ -40,11 +21,11 @@
   {
     "thumbnail": "../images/thumbnail-leilakhaled.png",
     "images": [
-      "../images/malakalhusseini-img1.png",
-      "../images/malakalhusseini-img2.png",
-      "../images/malakalhusseini-img3.png",
-      "../images/malakalhusseini-img4.png",
-      "../images/malakalhusseini-img5.png"
+      "../images/leilakhaled-img1.jpg",
+      "../images/leilakhaled-img2.jpg",
+      "../images/leilakhaled-img1.jpg",
+      "../images/leilakhaled-img2.jpg",
+      "../images/leilakhaled-img1.jpg"
     ],
     "nameEn": "Leila Khaled",
     "nameAr": "ليلى خالد",
@@ -59,14 +40,14 @@
   {
     "thumbnail": "../images/thumbnail-malakalhusseini.png",
     "images": [
-      "../images/malakalhusseini-img1.png",
-      "../images/malakalhusseini-img2.png",
-      "../images/malakalhusseini-img3.png",
-      "../images/malakalhusseini-img4.png",
-      "../images/malakalhusseini-img5.png"
+      "../images/malakalhusseini-img1.jpg",
+      "../images/malakalhusseini-img2.jpg",
+      "../images/malakalhusseini-img3.jpg",
+      "../images/malakalhusseini-img4.jpg",
+      "../images/malakalhusseini-img1.jpg"
     ],
     "nameEn": "Malak Al Husseini",
-    "nameAr": "هدئ الأمام",
+    "nameAr": "ماري نزال",
     "captionEn": "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
     "captionAr": "بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
     "description": [
@@ -76,35 +57,31 @@
     ]
   },
   {
-    "thumbnail": "../images/thumbnail-marybattayneh.png",
+    "thumbnail": "../images/thumbnail-marynazzal.png",
     "images": [
-      "../images/malakalhusseini-img1.png",
-      "../images/malakalhusseini-img2.png",
-      "../images/malakalhusseini-img3.png",
-      "../images/malakalhusseini-img4.png",
-      "../images/malakalhusseini-img5.png"
+      "../images/marynazzal-img1.jpg",
+      "../images/marynazzal-img1.jpg",
+      "../images/marynazzal-img2.jpg",
+      "../images/marynazzal-img3.jpg",
+      "../images/marynazzal-img3.jpg"
     ],
-    "nameEn": "Mary Battayneh",
-    "nameAr": "هدئ الأمام",
+    "nameEn": "Mary Nazzal",
+    "nameAr": "ماري نزال",
     "captionEn": "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
     "captionAr": "بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
-    "description": [
-      "Member of the Palestine National Council",
-      "Member of the Political Bureau",
-      "Popular Front for the Liberation of Palestine"
-    ]
+    "description": ["Jordanian barrister, activist and writer"]
   },
   {
     "thumbnail": "../images/thumbnail-nazmiyyehsalem.png",
     "images": [
-      "../images/malakalhusseini-img1.png",
-      "../images/malakalhusseini-img2.png",
-      "../images/malakalhusseini-img3.png",
-      "../images/malakalhusseini-img4.png",
-      "../images/malakalhusseini-img5.png"
+      "../images/nazmieh-img1.jpg",
+      "../images/nazmieh-img2.jpg",
+      "../images/nazmieh-img3.jpg",
+      "../images/nazmieh-img4.jpg",
+      "../images/nazmieh-img1.jpg"
     ],
     "nameEn": "Nazmiyyeh Salem",
-    "nameAr": "هدئ الأمام",
+    "nameAr": "ناظميه سالم",
     "captionEn": "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
     "captionAr": "بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
     "description": [
@@ -116,14 +93,14 @@
   {
     "thumbnail": "../images/thumbnail-raedataha.png",
     "images": [
-      "../images/malakalhusseini-img1.png",
-      "../images/malakalhusseini-img2.png",
-      "../images/malakalhusseini-img3.png",
-      "../images/malakalhusseini-img4.png",
-      "../images/malakalhusseini-img5.png"
+      "../images/raeda-img1.jpg",
+      "../images/raeda-img2.jpg",
+      "../images/raeda-img3.jpg",
+      "../images/raeda-img4.jpg",
+      "../images/raeda-img1.jpg"
     ],
-    "nameEn": "Raed Taha",
-    "nameAr": "هدئ الأمام",
+    "nameEn": "Raeda Taha",
+    "nameAr": "رائدة طه",
     "captionEn": "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
     "captionAr": "بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
     "description": [
@@ -135,14 +112,14 @@
   {
     "thumbnail": "../images/thumbnail-salmaalyassir.png",
     "images": [
-      "../images/malakalhusseini-img1.png",
-      "../images/malakalhusseini-img2.png",
-      "../images/malakalhusseini-img3.png",
-      "../images/malakalhusseini-img4.png",
-      "../images/malakalhusseini-img5.png"
+      "../images/salma-img1.jpg",
+      "../images/salma-img2.jpg",
+      "../images/salma-img3.jpg",
+      "../images/salma-img4.jpg",
+      "../images/salma-img1.jpg"
     ],
     "nameEn": "Salma Al Yassir",
-    "nameAr": "هدئ الأمام",
+    "nameAr": "سلمى الياسير",
     "captionEn": "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
     "captionAr": "بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
     "description": [
@@ -151,17 +128,18 @@
       "Popular Front for the Liberation of Palestine"
     ]
   },
+
   {
-    "thumbnail": "../images/thumbnail-simatuqan.png",
+    "thumbnail": "../images/thumbnail-suadalamiry.png",
     "images": [
-      "../images/malakalhusseini-img1.png",
-      "../images/malakalhusseini-img2.png",
-      "../images/malakalhusseini-img3.png",
-      "../images/malakalhusseini-img4.png",
-      "../images/malakalhusseini-img5.png"
+      "../images/amalqawash-img1.jpg",
+      "../images/amalqawash-img2.jpg",
+      "../images/amalqawash-img3.jpg",
+      "../images/amalqawash-img4.jpg",
+      "../images/amalqawash-img1.jpg"
     ],
-    "nameEn": "Sima Tuqan",
-    "nameAr": "هدئ الأمام",
+    "nameEn": "Amal Qawash",
+    "nameAr": "أمل قواش",
     "captionEn": "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
     "captionAr": "بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
     "description": [
@@ -173,20 +151,58 @@
   {
     "thumbnail": "../images/thumbnail-suadalamiry.png",
     "images": [
-      "../images/malakalhusseini-img1.png",
-      "../images/malakalhusseini-img2.png",
-      "../images/malakalhusseini-img3.png",
-      "../images/malakalhusseini-img4.png",
-      "../images/malakalhusseini-img5.png"
+      "../images/dinanasser-img1.jpg",
+      "../images/dinanasser-img2.jpg",
+      "../images/dinanasser-img3.jpg",
+      "../images/dinanasser-img1.jpg",
+      "../images/dinanasser-img2.jpg"
     ],
-    "nameEn": "Suad Al Amiry",
-    "nameAr": "هدئ الأمام",
+    "nameEn": "Dina Nasser",
+    "nameAr": "دينا ناصر",
     "captionEn": "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
     "captionAr": "بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
     "description": [
       "Member of the Palestine National Council",
       "Member of the Political Bureau",
       "Popular Front for the Liberation of Palestine"
+    ]
+  },
+  {
+    "thumbnail": "../images/thumbnail-suadalamiry.png",
+    "images": [
+      "../images/fouratechahal-img1.jpg",
+      "../images/fouratechahal-img1.jpg",
+      "../images/fouratechahal-img1.jpg",
+      "../images/fouratechahal-img1.jpg",
+      "../images/fouratechahal-img1.jpg"
+    ],
+    "nameEn": "Fourate Chahal",
+    "nameAr": "فورات شحال ",
+    "captionEn": "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
+    "captionAr": "بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
+    "description": [
+      "MA in independent filmmaking",
+      "Segment director for TV",
+      "Editor, Graphic Designer and Animator"
+    ]
+  },
+  {
+    "thumbnail": "../images/thumbnail-suadalamiry.png",
+    "images": [
+      "../images/saharmandour-img1.jpg",
+      "../images/saharmandour-img1.jpg",
+      "../images/saharmandour-img1.jpg",
+      "../images/saharmandour-img1.jpg",
+      "../images/saharmandour-img1.jpg"
+    ],
+    "nameEn": "Sahar Mandour",
+    "nameAr": "سحر مندور",
+    "captionEn": "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
+    "captionAr": "بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
+    "description": [
+      "MA in Media Studies with a focus on gender, from the School of Oriental and African Studies (SOAS) at the University of London (2015)",
+      "Writer, Journalist and Novelist",
+      "Lebanese and Jordanian researcher at Amnesty International"
     ]
   }
 ]

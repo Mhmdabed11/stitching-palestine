@@ -6,6 +6,7 @@ import Button from "../components/button"
 import HomeTextSection from "../components/HomeTextSection"
 import HomeStats from "../components/HomeStats"
 import MovieTrailer from "../components/MovieTrailer"
+import LaurelSection from "../components/LaurelSection"
 
 const IndexPage = () => {
   const [scrollPosition, setScrollPosition] = React.useState(0)
@@ -72,6 +73,7 @@ const IndexPage = () => {
         our hand to help them change these stories."
         buttonText="Change their Story"
       />
+      <LaurelSection />
     </Layout>
   )
 }

@@ -11,7 +11,6 @@
   font-size: 14px;
   font-family: "Open Sans";
   font-weight: bold;
-  transition: all 0.2s ease;
   cursor: pointer;
   margin-bottom: 32px;
   height: 30px;
@@ -19,6 +18,18 @@
 .tabs__tab--active {
   color: var(--main-theme-color);
   font-size: 20px;
+}
+.tabs__tab__item {
+  display: flex;
+  align-items: center;
+}
+
+.tabs__tab__icon {
+  margin-right: 10px;
+  display: none;
+}
+.tabs__tab__title {
+  transition: all 0.2s ease;
 }
 
 @media screen and (min-width: 1000px) {
@@ -28,5 +39,8 @@
     margin-right: 32px;
     min-width: 200px;
     margin-top: 50px;
+  }
+  .tabs__tab_item--shown {
+    display: block;
   }
 }

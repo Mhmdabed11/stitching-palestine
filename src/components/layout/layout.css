@@ -17,7 +17,7 @@ img {
 }
 .main {
   margin-bottom: 32px;
-  min-height: calc(100vh - 362px);
+  min-height: calc(100vh - 347px);
   margin-top: 30px;
 }
 @media screen and (min-width: 768px) {

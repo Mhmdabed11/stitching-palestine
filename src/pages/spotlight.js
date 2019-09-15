@@ -12,6 +12,27 @@ const SpotLight = ({ data }) => {
   const handleOnTabPress = index => {
     setActiveTabIndex(parseInt(index))
   }
+  React.useEffect(() => {
+    if (window) {
+      if (
+        window.location &&
+        window.location.search &&
+        window.location.search.split("=") &&
+        Array.isArray(window.location.search.split("=")) &&
+        window.location.search.split("=").length > 0 &&
+        window.location.search.split("=")[1]
+      ) {
+        let path = window.location.search.split("=")[1]
+        if (path.toString() === "women") {
+          setActiveTabIndex(0)
+        } else if (path.toString() === "press") {
+          setActiveTabIndex(1)
+        } else if (path.toString() === "feedback") {
+          setActiveTabIndex(2)
+        }
+      }
+    }
+  }, [])
   console.log(data.allGalleryJson)
   return (
     <Layout>
@@ -20,6 +41,12 @@ const SpotLight = ({ data }) => {
         <Tabs
           onTabPress={handleOnTabPress}
           tabs={["The Women", "The Press", "The Feedback"]}
+          icons={[
+            require("../images/womenmenulogo.svg"),
+            require("../images/presslogo.svg"),
+            require("../images/feedbacklogo.svg"),
+          ]}
+          activeTabIndex={activeTabIndex}
         />
         <div className="spotlight__section">
           {activeTabIndex === 0 ? (

@@ -7,10 +7,14 @@ export default function HomeTextSection({
   text,
   buttonText,
   onButtonClick,
+  backgroundColor,
 }) {
   return (
     <section className="section">
-      <div className="section__container">
+      <div
+        className="section__container"
+        style={{ backgroundColor: backgroundColor }}
+      >
         <img
           src={require(`../../images/${imgName}`)}
           className="section__container__image"

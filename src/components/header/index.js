@@ -86,7 +86,7 @@ export default function Header({
             </Link>
           </li>
           <li>
-            <Link to="">
+            <Link to="/fwd">
               {coloredLogo ? (
                 <img
                   style={{ height: "40px", width: "80px" }}
@@ -111,10 +111,13 @@ export default function Header({
           <Link activeClassName="nav__link--active" to="/about">
             ABOUT
           </Link>
-          <Link activeClassName="nav__link--active" to="/spotlight">
+          <Link activeClassName="nav__link--active" to="/spotlight/">
             SPOTLIGHT
           </Link>
-          <Link activeClassName="nav__link--active" to="/spotlight">
+          <Link
+            activeClassName="nav__link--active"
+            to="/spotlight/?active=women"
+          >
             THE WOMEN
           </Link>
         </div>
@@ -142,7 +145,7 @@ export default function Header({
           <Link activeClassName="nav__link--active" to="/screenings">
             WATCH FILM
           </Link>
-          <Link to="">
+          <Link to="/fwd">
             {coloredLogo ? (
               <img
                 style={{ height: "40px", width: "80px" }}

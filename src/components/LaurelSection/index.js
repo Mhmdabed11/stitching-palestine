@@ -74,6 +74,7 @@ const laurels = [
     source: require("../../images/seoul-laurel.png"),
     name: "arab laurel",
   },
+
   {
     source: require("../../images/filmlab-laurel.png"),
     name: "arab laurel",
@@ -164,7 +165,7 @@ export default function LaurelSection() {
         })}
       </div>
       <div className="laurels__wrapper__2">
-        {laurels.slice(15, 31).map((laurel, index) => {
+        {laurels.slice(15, 30).map((laurel, index) => {
           return (
             <div key={index}>
               <img

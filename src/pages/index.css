@@ -58,6 +58,13 @@
   margin-left: 4px;
 }
 
+.thread__bg__container {
+  position: relative;
+}
+.thread__bg__container__svg {
+  position: absolute;
+  top: 38%;
+}
 /* Media Queries for desktop versions */
 
 @media screen and (min-width: 768px) {

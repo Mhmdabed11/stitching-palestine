@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 100px 16px;
+  background-color: #fbfbfb;
 }
 
 .section__container__image {
@@ -20,6 +21,7 @@
   max-width: 617px;
   font-family: "Open Sans";
   margin-bottom: 1rem;
+  font-size: 20px;
 }
 
 .section__container__article {

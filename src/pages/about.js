@@ -7,7 +7,7 @@ import "./about.css"
 import TheFilm from "../components/TheFilm"
 import TheCrew from "../components/TheCrew"
 import TheTech from "../components/TheTech"
-
+import { window } from "browser-monads"
 const About = ({ data }) => {
   const [activeTabIndex, setActiveTabIndex] = React.useState(0)
   const handleOnTabPress = index => {
@@ -34,7 +34,7 @@ const About = ({ data }) => {
         }
       }
     }
-  }, [])
+  }, [window && window.location.search])
   return (
     <Layout>
       <SEO title="About" />
@@ -47,6 +47,11 @@ const About = ({ data }) => {
             require("../images/filmlogo.svg"),
             require("../images/crewlogo.svg"),
             require("../images/cameralogo.svg"),
+          ]}
+          links={[
+            "/about/?active=film",
+            "/about/?active=crew",
+            "/about/?active=camera",
           ]}
         />
         <div className="about__section">

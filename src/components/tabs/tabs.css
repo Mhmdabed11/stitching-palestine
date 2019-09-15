@@ -16,7 +16,7 @@
   height: 30px;
 }
 .tabs__tab--active {
-  color: var(--main-theme-color);
+  color: var(--main-theme-color) !important;
   font-size: 20px;
 }
 .tabs__tab__item {
@@ -28,8 +28,12 @@
   margin-right: 10px;
   display: none;
 }
-.tabs__tab__title {
+.tabs__tab__title a {
   transition: all 0.2s ease;
+}
+.tabs__tab__title a {
+  text-decoration: none;
+  color: #dedede;
 }
 
 @media screen and (min-width: 1000px) {

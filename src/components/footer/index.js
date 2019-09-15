@@ -2,7 +2,7 @@ import React from "react"
 import "./footer.css"
 import { Link } from "gatsby"
 
-const FooterItem = ({ title, items = [] }) => {
+const FooterItem = ({ title, items = [], links = [] }) => {
   const [isExpanded, setIsExpanded] = React.useState(false)
   const hadndleFooterItemclick = () => {
     setIsExpanded(isExpanded => !isExpanded)
@@ -16,8 +16,10 @@ const FooterItem = ({ title, items = [] }) => {
 
       <div className={`footer__item ${isExpanded ? "expand" : ""}`}>
         {items.map((item, index) => (
-          <div key={index} className="footer__item__subitem">
-            {item}
+          <div key={index}>
+            <Link to={links[index]} className="footer__item__subitem">
+              {item}
+            </Link>
           </div>
         ))}
       </div>
@@ -28,8 +30,24 @@ const FooterItem = ({ title, items = [] }) => {
 export default function Footer() {
   return (
     <footer className="footer">
-      <FooterItem title="About" items={["Film", "Crew", "Specs"]} />
-      <FooterItem title="Spotlight" items={["Press", "Feedback", "Women"]} />
+      <FooterItem
+        title="About"
+        items={["Film", "Crew", "Specs"]}
+        links={[
+          "/about/?active=film",
+          "/about/?active=crew",
+          "/about/?active=tech",
+        ]}
+      />
+      <FooterItem
+        title="Spotlight"
+        items={["Press", "Feedback", "Women"]}
+        links={[
+          "/spotlight/?active=press",
+          "/spotlight/?active=feedback",
+          "/spotlight/?active=women",
+        ]}
+      />
       <FooterItem
         title="Screenings"
         items={[
@@ -37,18 +55,22 @@ export default function Footer() {
           "Previous Screenings",
           "Request a Screening",
         ]}
+        links={["/screenings", "/screenings", "/screenings"]}
       />
       <FooterItem
         title="Support"
         items={["Watch the Film", "Support the Case"]}
+        links={["/screenings", "/screenings"]}
       />
 
       <div>
-        <img
-          style={{ width: "80px", height: "40px" }}
-          src={require("../../images/fwdlogo.png")}
-          alt="forward film production"
-        />
+        <Link to="/fwd">
+          <img
+            style={{ width: "80px", height: "40px" }}
+            src={require("../../images/fwdlogo.png")}
+            alt="forward film production"
+          />
+        </Link>
       </div>
     </footer>
   )

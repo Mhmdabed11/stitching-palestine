@@ -1,8 +1,14 @@
 import React from "react"
 import PropTypes from "prop-types"
 import "./tabs.css"
-
-export default function Tabs({ tabs, onTabPress, activeTabIndex, icons = [] }) {
+import { Link } from "gatsby"
+export default function Tabs({
+  tabs,
+  onTabPress,
+  activeTabIndex,
+  icons = [],
+  links = [],
+}) {
   const isMounted = React.useRef(false)
   const [activeIndex, setActiveIndex] = React.useState(activeTabIndex)
   const [show, setShow] = React.useState(false)
@@ -43,7 +49,14 @@ export default function Tabs({ tabs, onTabPress, activeTabIndex, icons = [] }) {
                   index === activeIndex ? "tabs__tab--active" : ""
                 }`}
               >
-                {tab}
+                <Link
+                  className={`${
+                    index === activeIndex ? "tabs__tab--active" : ""
+                  }`}
+                  to={links[index]}
+                >
+                  {tab}
+                </Link>
               </div>
             </div>
           </li>

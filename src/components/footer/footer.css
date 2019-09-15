@@ -38,6 +38,8 @@
 }
 .footer__item__subitem {
   padding: 5px 0;
+  text-decoration: none;
+  color: #8d6262;
 }
 .expand {
   display: block;

@@ -87,19 +87,11 @@ export default function Header({
           </li>
           <li>
             <Link to="/fwd">
-              {coloredLogo ? (
-                <img
-                  style={{ height: "40px", width: "80px" }}
-                  src={require("../../images/coloredrfdlogo.png")}
-                  alt="fwd_production_logo"
-                />
-              ) : (
-                <img
-                  style={{ height: "40px", width: "80px" }}
-                  src={require("../../images/fwdlogo.png")}
-                  alt="fwd_production_logo"
-                />
-              )}
+              <img
+                style={{ height: "40px", width: "80px" }}
+                src={require("../../images/fwdlogo.png")}
+                alt="fwd_production_logo"
+              />
             </Link>
           </li>
         </ul>

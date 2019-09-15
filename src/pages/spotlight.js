@@ -7,6 +7,7 @@ import Press from "../components/Press"
 import Tabs from "../components/tabs"
 import "./spotlight.css"
 import Feedback from "../components/feedback"
+import { window } from "browser-monads"
 const SpotLight = ({ data }) => {
   const [activeTabIndex, setActiveTabIndex] = React.useState(0)
   const handleOnTabPress = index => {
@@ -32,7 +33,7 @@ const SpotLight = ({ data }) => {
         }
       }
     }
-  }, [])
+  }, [window && window.location.search])
   console.log(data.allGalleryJson)
   return (
     <Layout>
@@ -45,6 +46,11 @@ const SpotLight = ({ data }) => {
             require("../images/womenmenulogo.svg"),
             require("../images/presslogo.svg"),
             require("../images/feedbacklogo.svg"),
+          ]}
+          links={[
+            "/spotlight/?active=women",
+            "/spotlight/?active=press",
+            "/spotlight/?active=feedback",
           ]}
           activeTabIndex={activeTabIndex}
         />

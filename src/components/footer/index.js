@@ -15,8 +15,10 @@ const FooterItem = ({ title, items = [] }) => {
       </div>
 
       <div className={`footer__item ${isExpanded ? "expand" : ""}`}>
-        {items.map(item => (
-          <div className="footer__item__subitem">{item}</div>
+        {items.map((item, index) => (
+          <div key={index} className="footer__item__subitem">
+            {item}
+          </div>
         ))}
       </div>
     </div>

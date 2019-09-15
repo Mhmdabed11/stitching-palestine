@@ -26,9 +26,9 @@ export default function TheCrew() {
   `)
   return (
     <>
-      {data.allCrewJson.edges.map(edge => {
+      {data.allCrewJson.edges.map((edge, index) => {
         return (
-          <div className="thecrew__container">
+          <div key={index} className="thecrew__container">
             <div className="thecrew__container__image">
               <Img
                 style={{ height: "100%" }}

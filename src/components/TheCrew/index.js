@@ -5,10 +5,20 @@ import "./theCrew.css"
 export default function TheCrew() {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "carolmansour-img1.png" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid_tracedSVG
+      allCrewJson {
+        edges {
+          node {
+            id
+            name
+            jobTitle
+            information
+            image {
+              childImageSharp {
+                fluid(maxWidth: 500, maxHeight: 350) {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
+            }
           }
         }
       }
@@ -16,111 +26,28 @@ export default function TheCrew() {
   `)
   return (
     <>
-      <div className="thecrew__container">
-        <div className="thecrew__container__image">
-          <Img fluid={data.file.childImageSharp.fluid} />
-        </div>
-        <div className="thecrew__container__text">
-          <div className="thecrew__container__title">
-            <div>Carol Mansour</div>
-            <div>Director</div>
-            <hr />
+      {data.allCrewJson.edges.map(edge => {
+        return (
+          <div className="thecrew__container">
+            <div className="thecrew__container__image">
+              <Img
+                style={{ height: "100%" }}
+                fluid={edge.node.image.childImageSharp.fluid}
+              />
+            </div>
+            <div className="thecrew__container__text">
+              <div className="thecrew__container__title">
+                <div>{edge.node.name}</div>
+                <div>{edge.node.jobTitle}</div>
+                <hr />
+              </div>
+              <div className="thecrew__container__body">
+                {edge.node.information}
+              </div>
+            </div>
           </div>
-          <div className="thecrew__container__body">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-            et dolore magna
-          </div>
-        </div>
-      </div>
-      <div className="thecrew__container">
-        <div className="thecrew__container__image">
-          <Img fluid={data.file.childImageSharp.fluid} />
-        </div>
-        <div className="thecrew__container__text">
-          <div className="thecrew__container__title">
-            <div>Carol Mansour</div>
-            <div>Director</div>
-            <hr />
-          </div>
-          <div className="thecrew__container__body">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-            et dolore magna
-          </div>
-        </div>
-      </div>
-      <div className="thecrew__container">
-        <div className="thecrew__container__image">
-          <Img fluid={data.file.childImageSharp.fluid} />
-        </div>
-        <div className="thecrew__container__text">
-          <div className="thecrew__container__title">
-            <div>Carol Mansour</div>
-            <div>Director</div>
-            <hr />
-          </div>
-          <div className="thecrew__container__body">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-            et dolore magna
-          </div>
-        </div>
-      </div>
-      <div className="thecrew__container">
-        <div className="thecrew__container__image">
-          <Img fluid={data.file.childImageSharp.fluid} />
-        </div>
-        <div className="thecrew__container__text">
-          <div className="thecrew__container__title">
-            <div>Carol Mansour</div>
-            <div>Director</div>
-            <hr />
-          </div>
-          <div className="thecrew__container__body">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-            et dolore magna
-          </div>
-        </div>
-      </div>
-      <div className="thecrew__container">
-        <div className="thecrew__container__image">
-          <Img fluid={data.file.childImageSharp.fluid} />
-        </div>
-        <div className="thecrew__container__text">
-          <div className="thecrew__container__title">
-            <div>Carol Mansour</div>
-            <div>Director</div>
-            <hr />
-          </div>
-          <div className="thecrew__container__body">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-            et dolore magna
-          </div>
-        </div>
-      </div>
+        )
+      })}
     </>
   )
 }

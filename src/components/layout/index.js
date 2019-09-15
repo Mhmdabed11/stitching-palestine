@@ -7,13 +7,18 @@ import Footer from "../footer"
 
 const Layout = ({
   children,
-  hasMarginTop = true,
+  hasMarginTop = false,
   transparent = false,
   hasBoxShadow = true,
+  coloredLogo = true,
 }) => {
   return (
     <>
-      <Header transparent={transparent} hasBoxShadow={hasBoxShadow} />
+      <Header
+        transparent={transparent}
+        hasBoxShadow={hasBoxShadow}
+        coloredLogo={coloredLogo}
+      />
       <main className={hasMarginTop ? "main--margintop main" : "main"}>
         {children}
       </main>

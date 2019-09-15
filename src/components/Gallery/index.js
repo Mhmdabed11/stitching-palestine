@@ -3,9 +3,9 @@ import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 import "./Gallery.css"
 import { womenInfo } from "../../assets/womenInfo"
-export default function Gallery({ data }) {
+export default function Gallery(props) {
   const [activeIndex, setActiveIndex] = React.useState(0)
-
+  const { data } = props
   //get info of selected woman
   const info = data.edges[activeIndex]
   //handle thumbnail click

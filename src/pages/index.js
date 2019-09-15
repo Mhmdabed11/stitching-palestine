@@ -9,28 +9,12 @@ import MovieTrailer from "../components/MovieTrailer"
 import LaurelSection from "../components/LaurelSection"
 
 const IndexPage = () => {
-  const [scrollPosition, setScrollPosition] = React.useState(0)
-  // listen to scroll
-  React.useEffect(() => {
-    if (window) {
-      window.addEventListener("scroll", handleScroll)
-    }
-    return () => {
-      if (window) {
-        window.removeEventListener("scroll", handleScroll)
-      }
-    }
-  }, [])
-
-  const handleScroll = () => {
-    setScrollPosition(window.scrollY)
-  }
-
   return (
     <Layout
-      hasMarginTop={false}
-      hasBoxShadow={scrollPosition > 50}
-      transparent={scrollPosition < 50}
+      hasMarginTop={true}
+      transparent={true}
+      hasBoxShadow={false}
+      coloredLogo={false}
     >
       <SEO title="Home" />
       <div className="home__hero">

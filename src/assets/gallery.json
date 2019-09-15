@@ -21,11 +21,11 @@
   {
     "thumbnail": "../images/thumbnail-leilakhaled.png",
     "images": [
-      "../images/leilakhaled-img1.jpg",
+      "../images/leilakhaled-img4.jpg",
       "../images/leilakhaled-img2.jpg",
+      "../images/leilakhaled-img3.jpg",
       "../images/leilakhaled-img1.jpg",
-      "../images/leilakhaled-img2.jpg",
-      "../images/leilakhaled-img1.jpg"
+      "../images/leilakhaled-img2.jpg"
     ],
     "nameEn": "Leila Khaled",
     "nameAr": "ليلى خالد",
@@ -165,44 +165,6 @@
       "Member of the Palestine National Council",
       "Member of the Political Bureau",
       "Popular Front for the Liberation of Palestine"
-    ]
-  },
-  {
-    "thumbnail": "../images/thumbnail-suadalamiry.png",
-    "images": [
-      "../images/fouratechahal-img1.jpg",
-      "../images/fouratechahal-img1.jpg",
-      "../images/fouratechahal-img1.jpg",
-      "../images/fouratechahal-img1.jpg",
-      "../images/fouratechahal-img1.jpg"
-    ],
-    "nameEn": "Fourate Chahal",
-    "nameAr": "فورات شحال ",
-    "captionEn": "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
-    "captionAr": "بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
-    "description": [
-      "MA in independent filmmaking",
-      "Segment director for TV",
-      "Editor, Graphic Designer and Animator"
-    ]
-  },
-  {
-    "thumbnail": "../images/thumbnail-suadalamiry.png",
-    "images": [
-      "../images/saharmandour-img1.jpg",
-      "../images/saharmandour-img1.jpg",
-      "../images/saharmandour-img1.jpg",
-      "../images/saharmandour-img1.jpg",
-      "../images/saharmandour-img1.jpg"
-    ],
-    "nameEn": "Sahar Mandour",
-    "nameAr": "سحر مندور",
-    "captionEn": "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
-    "captionAr": "بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
-    "description": [
-      "MA in Media Studies with a focus on gender, from the School of Oriental and African Studies (SOAS) at the University of London (2015)",
-      "Writer, Journalist and Novelist",
-      "Lebanese and Jordanian researcher at Amnesty International"
     ]
   }
 ]

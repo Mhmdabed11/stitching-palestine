@@ -1,24 +1,5 @@
 [
   {
-    "thumbnail": "../images/thumbnail-leilaatshan.png",
-    "images": [
-      "../images/leilaatshan-img1.jpg",
-      "../images/leilaatshan-img1.jpg",
-      "../images/leilaatshan-img2.jpg",
-      "../images/leilaatshan-img3.jpg",
-      "../images/leilaatshan-img4.jpg"
-    ],
-    "nameEn": "Leila Atshan",
-    "nameAr": "ليلى عطشان",
-    "captionEn": "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
-    "captionAr": "بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
-    "description": [
-      "Member of the Palestine National Council",
-      "Member of the Political Bureau",
-      "Popular Front for the Liberation of Palestine"
-    ]
-  },
-  {
     "thumbnail": "../images/thumbnail-leilakhaled.png",
     "images": [
       "../images/leilakhaled-img4.jpg",
@@ -29,7 +10,7 @@
     ],
     "nameEn": "Leila Khaled",
     "nameAr": "ليلى خالد",
-    "captionEn": "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
+    "captionEn": "\"I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa\"",
     "captionAr": "بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
     "description": [
       "Member of the Palestine National Council",
@@ -46,15 +27,11 @@
       "../images/malakalhusseini-img4.jpg",
       "../images/malakalhusseini-img1.jpg"
     ],
-    "nameEn": "Malak Al Husseini",
-    "nameAr": "ماري نزال",
-    "captionEn": "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
-    "captionAr": "بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
-    "description": [
-      "Member of the Palestine National Council",
-      "Member of the Political Bureau",
-      "Popular Front for the Liberation of Palestine"
-    ]
+    "nameEn": "Malak al-Husseini AbdelRahim",
+    "nameAr": "ملك الحسيني عبد الرحيم",
+    "captionEn": "\"This is my country. Yet I have to scurry along like a mouse?!!\"",
+    "captionAr": "هادي بلدي وأنا ماشية وكأني فارة بهالبلد؟!!",
+    "description": ["Founding Member of Inaash Association"]
   },
   {
     "thumbnail": "../images/thumbnail-marynazzal.png",
@@ -65,11 +42,41 @@
       "../images/marynazzal-img3.jpg",
       "../images/marynazzal-img3.jpg"
     ],
-    "nameEn": "Mary Nazzal",
-    "nameAr": "ماري نزال",
-    "captionEn": "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
-    "captionAr": "بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
-    "description": ["Jordanian barrister, activist and writer"]
+    "nameEn": "Mary Nazzal Batayneh",
+    "nameAr": "ماري نزّال البطاينة",
+    "captionEn": "\"The point is, the Palestinian struggle is so firmly based in law ...we must use the law\"",
+    "captionAr": "الفكرة هي إنو الصراع الفلسطيني مرتكز بشكل أساسي على القانون ... نحنا لازم نستخدم القانون",
+    "description": ["Barrister at Law", "Entrepreneur"]
+  },
+  {
+    "thumbnail": "../images/thumbnail-simatuqan.png",
+    "images": [
+      "../images/marynazzal-img1.jpg",
+      "../images/marynazzal-img1.jpg",
+      "../images/marynazzal-img2.jpg",
+      "../images/marynazzal-img3.jpg",
+      "../images/marynazzal-img3.jpg"
+    ],
+    "nameEn": "Sima Tuqan Ghandour",
+    "nameAr": "سيما طوقان غندور",
+    "captionEn": "\"My mother never stopped crying … Never”\"",
+    "captionAr": "ما وقّفت أمي بكاء ... أبداً",
+    "description": ["Founding Member of Inaash Association"]
+  },
+  {
+    "thumbnail": "../images/thumbnail-salmaalyassir.png",
+    "images": [
+      "../images/salma-img1.jpg",
+      "../images/salma-img2.jpg",
+      "../images/salma-img3.jpg",
+      "../images/salma-img4.jpg",
+      "../images/salma-img1.jpg"
+    ],
+    "nameEn": "Salma al-Yassir",
+    "nameAr": "سلمى اليسير",
+    "captionEn": "\"They left thinking that they would ne returning … the same as everyone else … but they remained here\"",
+    "captionAr": "بس هم طبعاً رايحين عأساس إنو بدهم يرجعوا ... مثل باقي الناس ... و ضلوا هون",
+    "description": ["General Director, Institute for Palestine Studies"]
   },
   {
     "thumbnail": "../images/thumbnail-nazmiyyehsalem.png",
@@ -81,14 +88,25 @@
       "../images/nazmieh-img1.jpg"
     ],
     "nameEn": "Nazmiyyeh Salem",
-    "nameAr": "ناظميه سالم",
-    "captionEn": "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
-    "captionAr": "بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
-    "description": [
-      "Member of the Palestine National Council",
-      "Member of the Political Bureau",
-      "Popular Front for the Liberation of Palestine"
-    ]
+    "nameAr": "نظميّة سالم",
+    "captionEn": "\"A word here, a stitch there, and life goes on\"",
+    "captionAr": "كلمة من هون وقطبة من هون وبيمشي الحال",
+    "description": ["Embroidered at Inaash Association"]
+  },
+  {
+    "thumbnail": "../images/thumbnail-suadalamiry.png",
+    "images": [
+      "../images/amalqawash-img1.jpg",
+      "../images/amalqawash-img2.jpg",
+      "../images/amalqawash-img3.jpg",
+      "../images/amalqawash-img4.jpg",
+      "../images/amalqawash-img1.jpg"
+    ],
+    "nameEn": "Amal Ziad Kaawash",
+    "nameAr": "أمل زياد كعوش",
+    "captionEn": "\"I wore it once and sang of people in Haifa and Birzeit\"",
+    "captionAr": "لبستو مرّة وغنّيت عن ناس بحيفا و بيرزيت",
+    "description": ["Singer/ Songwriter", "Cartoonist/ illustrator"]
   },
   {
     "thumbnail": "../images/thumbnail-raedataha.png",
@@ -101,52 +119,27 @@
     ],
     "nameEn": "Raeda Taha",
     "nameAr": "رائدة طه",
-    "captionEn": "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
-    "captionAr": "بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
+    "captionEn": "\"The most important people in my life have become photographs\"",
+    "captionAr": "أهم النّاس بحياتي صاروا صور",
     "description": [
-      "Member of the Palestine National Council",
-      "Member of the Political Bureau",
-      "Popular Front for the Liberation of Palestine"
+      "Director of Khalil Sakakini Cultural Center, Ramallah",
+      "Writer/ Actor"
     ]
   },
   {
-    "thumbnail": "../images/thumbnail-salmaalyassir.png",
+    "thumbnail": "../images/thumbnail-leilaatshan.png",
     "images": [
-      "../images/salma-img1.jpg",
-      "../images/salma-img2.jpg",
-      "../images/salma-img3.jpg",
-      "../images/salma-img4.jpg",
-      "../images/salma-img1.jpg"
+      "../images/leilaatshan-img1.jpg",
+      "../images/leilaatshan-img1.jpg",
+      "../images/leilaatshan-img2.jpg",
+      "../images/leilaatshan-img3.jpg",
+      "../images/leilaatshan-img4.jpg"
     ],
-    "nameEn": "Salma Al Yassir",
-    "nameAr": "سلمى الياسير",
-    "captionEn": "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
-    "captionAr": "بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
-    "description": [
-      "Member of the Palestine National Council",
-      "Member of the Political Bureau",
-      "Popular Front for the Liberation of Palestine"
-    ]
-  },
-
-  {
-    "thumbnail": "../images/thumbnail-suadalamiry.png",
-    "images": [
-      "../images/amalqawash-img1.jpg",
-      "../images/amalqawash-img2.jpg",
-      "../images/amalqawash-img3.jpg",
-      "../images/amalqawash-img4.jpg",
-      "../images/amalqawash-img1.jpg"
-    ],
-    "nameEn": "Amal Qawash",
-    "nameAr": "أمل قواش",
-    "captionEn": "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
-    "captionAr": "بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
-    "description": [
-      "Member of the Palestine National Council",
-      "Member of the Political Bureau",
-      "Popular Front for the Liberation of Palestine"
-    ]
+    "nameEn": "Leila Atshan",
+    "nameAr": "يلى العطشان",
+    "captionEn": "\"It is the same mother … who was able to stand up proudly in her thobe when the [Israeli] army came to the house to beat up my father\"",
+    "captionAr": "هادي نفس الأم ... إللي قدرت تواجه الجيش (الإسرائيلي) لمّا أجو مرّة , أخذوا يضربوا أبوي بباب البيت, طلعت بفخر بثوبها قالتلهم بتتركوه",
+    "description": ["Psychotherapist"]
   },
   {
     "thumbnail": "../images/thumbnail-suadalamiry.png",
@@ -157,14 +150,48 @@
       "../images/dinanasser-img1.jpg",
       "../images/dinanasser-img2.jpg"
     ],
+    "nameEn": "Suad al-Amiry",
+    "nameAr": "سعاد العامري",
+    "captionEn": "\"I thought I would be there for only six months … I fell in love with Palestine … and with a man in Palestine\"",
+    "captionAr": "فكّرت أروح لست أشهر فقط ... انغرمت بفلسطين ... و رجل بفلسطين",
+    "description": ["Founder of RIWAQ Novelist"]
+  },
+  {
+    "thumbnail": "../images/thumbnail-hudaalimam.png",
+    "images": [
+      "../images/dinanasser-img1.jpg",
+      "../images/dinanasser-img2.jpg",
+      "../images/dinanasser-img3.jpg",
+      "../images/dinanasser-img1.jpg",
+      "../images/dinanasser-img2.jpg"
+    ],
+    "nameEn": "Huda al-Imam",
+    "nameAr": "هدى الإمام",
+    "captionEn": "\"I’m very much a Jerusalemite\"",
+    "captionAr": "أنا كتير قدسيّة",
+    "description": [
+      "Director, Center for Jerusalem Studies, Al-Quds University",
+      "Actor",
+      "Activist"
+    ]
+  },
+  {
+    "thumbnail": "../images/thumbnail-hudaalimam.png",
+    "images": [
+      "../images/dinanasser-img1.jpg",
+      "../images/dinanasser-img2.jpg",
+      "../images/dinanasser-img3.jpg",
+      "../images/dinanasser-img1.jpg",
+      "../images/dinanasser-img2.jpg"
+    ],
     "nameEn": "Dina Nasser",
     "nameAr": "دينا ناصر",
-    "captionEn": "I remember that moment ...  Those are not yours... yours are in Palestine, in Haifa",
-    "captionAr": "بتذكر هذه اللحظة ... إنو ’هادي مش إلكم ... إللي إلكم بفلسطين, بحيفا",
+    "captionEn": "\"That’s why I am here\"",
+    "captionAr": "عشان هيك أنا هون",
     "description": [
-      "Member of the Palestine National Council",
-      "Member of the Political Bureau",
-      "Popular Front for the Liberation of Palestine"
+      "Registered Nurse",
+      "Head of Infection Control Program",
+      "Augusta Victoria Hospital, Jerusalem"
     ]
   }
 ]

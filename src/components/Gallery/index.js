@@ -90,7 +90,7 @@ export default function Gallery(props) {
           <div className="gallery__container__seperator1">
             <hr />
           </div>
-          <div className="gallery__container__caption--ar">
+          <div dir="rtl" className="gallery__container__caption--ar">
             {info.node.captionAr}
           </div>
         </div>

@@ -1,7 +1,15 @@
 import React from "react"
 import Img from "gatsby-image"
 import "./pressCard.css"
-export default function PressCard({ fluid, date, title, body }) {
+export default function PressCard({
+  fluid,
+  date,
+  title,
+  body,
+  isRtl,
+  link,
+  audioVisual,
+}) {
   return (
     <div className="pressCard__container">
       <div className="pressCard__container__image">
@@ -14,9 +22,16 @@ export default function PressCard({ fluid, date, title, body }) {
         <div title={title} className="pressCard__container__title">
           {title}
         </div>
-        <div title={body} className="pressCard__container__body">
+        <div
+          dir={isRtl ? "rtl" : "ltr"}
+          title={body}
+          className="pressCard__container__body"
+        >
           {body}
         </div>
+        <a href={link} target="__blank">
+          {audioVisual ? "Watch " : "Read More "} &rarr;
+        </a>
       </div>
     </div>
   )

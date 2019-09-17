@@ -33,7 +33,7 @@
 .home__hero__overlay__title {
   text-align: center;
   color: #ffffff;
-  font-size: 25px;
+  font-size: 30px;
   font-family: "Afta serif";
   display: flex;
   align-items: center;
@@ -41,7 +41,8 @@
 
 .home__hero__overlay__title div {
   font-family: "Engravers MT";
-  transform: rotate(180deg);
+  /* transform: rotate(180deg); */
+  transform: matrix(-1, 0, 0, -1, 0, 0);
   font-size: 60px;
   display: flex;
   align-items: center;
@@ -57,6 +58,17 @@
   margin-right: 0px;
   margin-left: 4px;
 }
+
+.home__hero__overlay__title div:last-of-type span {
+  display: block;
+  height: 90px;
+}
+
+.home__hero__overlay__title div span {
+  display: block;
+  height: 36px;
+}
+
 .laurel__container {
   display: flex;
   position: absolute;
@@ -80,12 +92,29 @@
 /* Media Queries for desktop versions */
 
 @media screen and (min-width: 768px) {
+  .home__hero__overlay__title div:last-of-type span {
+    display: block;
+    height: 170px;
+  }
+
+  .home__hero__overlay__title div span {
+    display: block;
+    height: 120px;
+  }
+
+  .home__hero__overlay__title div {
+    font-size: 140px;
+  }
+
+  .home__hero__overlay__title div:last-of-type {
+    font-size: 140px;
+  }
   .laurel__container img {
     width: 150px;
     margin: 1rem;
   }
   .home__hero__overlay__title {
-    font-size: 40px;
+    font-size: 45px;
   }
   .trailer {
     padding: 150px 0;
@@ -94,6 +123,6 @@
 
 @media screen and (min-width: 992px) {
   .home__hero__overlay__title {
-    font-size: 50px;
+    font-size: 55px;
   }
 }

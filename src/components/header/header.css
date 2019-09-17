@@ -59,7 +59,7 @@
 .line {
   width: 30px;
   height: 3px;
-  background-color: #3b2222;
+  background-color: #fff;
   margin: 5px;
 }
 .burger {
@@ -97,7 +97,7 @@
 }
 @media screen and (min-width: 900px) {
   .header {
-    height: 85px;
+    height: 112px;
   }
   .nav-sm {
     display: none;
@@ -127,8 +127,8 @@
   }
 
   .header__logo {
-    height: 70px;
-    width: 150px;
+    height: 95px;
+    width: auto;
     margin-top: 10px;
   }
 }

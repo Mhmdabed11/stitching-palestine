@@ -21,9 +21,15 @@ const IndexPage = () => {
       <div className="home__hero">
         <div className="home__hero__overlay">
           <div className="home__hero__overlay__title">
-            <div>"</div> A homeland <br /> the size of the planet <div>"</div>
+            <div>
+              <span>"</span>
+            </div>
+            A homeland <br /> the size of the planet
+            <div>
+              <span>"</span>
+            </div>
           </div>
-          <Button>Watch Film</Button>
+          <Button style={{ fontSize: "20px" }}>Watch Film</Button>
         </div>
         <div className="laurel__container">
           <img src={require("../images/boston-laurel.png")} />
@@ -51,7 +57,7 @@ const IndexPage = () => {
 
       <MovieTrailer
         title="Watch the Trailer"
-        buttonText="Watch the Entire Film"
+        buttonText="Watch the Film"
         movieURL="https://www.youtube.com/embed/OAcS7mGHXiw"
         iframeTitle="Stitching Palestine Movie Trailer"
       />

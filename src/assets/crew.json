@@ -1,5 +1,17 @@
 [
   {
+    "name": "Carol Mansour",
+    "jobTitle": "Director",
+    "information": "Carol Mansour is an independent documentary film maker. She founded Forward Film Production in 2000. With over 30 years in documentary production, Mansour has covered the world from Sri Lanka to Lebanon to Uzbekistan, receiving international recognition and honor for her films, which reflect her concern for human rights and social justice. Her films tackle issues of forced displacement and refugee rights, migrant workers, mental health, war and memory, child labor, and women’s rights. Carol’s films have won numerous prestigious awards with over one hundred film festival screenings and official selections worldwide Carol is Lebanese/ Canadian of Palestinian origin.",
+    "image": "../images/fouratechahal-img1.jpg"
+  },
+  {
+    "name": "Muna Khalidi",
+    "jobTitle": "Director",
+    "information": "With a Ph.D. in health policy and planning, and with more than 30 years’ experience working in the social and health development fields in Lebanon and the region, Muna began collaborating with Carol Mansour on the research and production of documentary films in 2012.  Focusing on films dealing with issues of social justice and human rights, Muna brings her experience in the academic, public, private, and NGO sectors into the documentary-making field. Since 2012, she has worked closely with Carol on seven feature-length documentary films and a number of short films.Muna is Lebanese/ Jordanian of Palestinian origin.",
+    "image": "../images/munakhalidi-img1.jpg"
+  },
+  {
     "name": "Fourate Chahal",
     "jobTitle": "Director",
     "information": "Fourate Chahal has an MA in independent filmmaking.Currently working as a segment director for TV, she also edits, do graphics and animations.",
@@ -10,5 +22,11 @@
     "jobTitle": "Jouranlist, Novelist",
     "information": "Sahar Mandour is a Lebanese-Egyptian writer, journalist, and novelist. She is currently the Lebanon and Jordan researcher at Amnesty International. Sahar worked as an editor at Assafir newspaper (Beirut) from September 1998 till January 2017. Her work specialised in issues of gender, social movements, and cultural production in Lebanon, Egypt, and Palestine.Sahar holds an MA in Media Studies with a focus on gender, from the School of Oriental and African Studies (SOAS) at the University of London (2015).",
     "image": "../images/saharmandour-img1.jpg"
+  },
+  {
+    "name": "Talal Khoury",
+    "jobTitle": "Director of Photography",
+    "information": "Talal Khoury is a highly experienced Director of Photography with more than 20 years’ experience working on feature length fiction and documentary films, predominantly tackling social issues. ",
+    "image": "../images/talalkhoury-img1.jpg"
   }
 ]

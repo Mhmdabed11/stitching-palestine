@@ -33,21 +33,6 @@ export default function Gallery(props) {
           )
         })}
       </div>
-      {/* Slider small */}
-      {/* <div className="gallery__container--small">
-        <div className="gallery__container__scrollable">
-          {data.edges[activeIndex].node.images.map((node, index) => {
-            return (
-              <div
-                key={index}
-                className="gallery__container__scrollable__image"
-              >
-                <Img fluid={node.childImageSharp.fluid} />
-              </div>
-            )
-          })}
-        </div>
-      </div> */}
 
       {/* slider large */}
       <div className="gallery__container--large">

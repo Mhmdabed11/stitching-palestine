@@ -1,26 +1,37 @@
 import React from "react"
 import "./theTech.css"
+import { useStaticQuery, graphql } from "gatsby"
 export default function TheTech() {
+  const data = useStaticQuery(graphql`
+    {
+      allCreditsJson {
+        edges {
+          node {
+            id
+            role
+            name
+          }
+        }
+      }
+    }
+  `)
+  console.log(data)
   return (
     <div className="thetech__container">
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-      voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-      amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-      Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-      sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-      diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-      erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-      rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-      dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-      sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-      erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-      rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-      dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-      sed diam nonumy eirmod tempor invidunt ut labore et
+      {data.allCreditsJson.edges.map(edge => {
+        return (
+          <div className="thetech__container__credit" key={edge.node.id}>
+            <div className="thetech__container__credit__role">
+              {edge.node.role}
+            </div>
+
+            <div className="thetech__container__credit__name">
+              {edge.node.name}
+            </div>
+            <hr />
+          </div>
+        )
+      })}
     </div>
   )
 }

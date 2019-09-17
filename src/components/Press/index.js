@@ -27,6 +27,9 @@ export default function Press() {
               date={item.date}
               title={item.title}
               body={item.body}
+              isRtl={item.lang && item.lang === "ar"}
+              link={item.link}
+              audioVisual={item.audioVisual}
             />
           </div>
         )

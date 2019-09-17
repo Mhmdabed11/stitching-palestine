@@ -22,7 +22,7 @@ img {
 }
 @media screen and (min-width: 768px) {
   .main--margintop {
-    margin-top: -130px;
+    margin-top: -112px !important;
   }
 }
 

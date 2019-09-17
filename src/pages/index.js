@@ -25,6 +25,10 @@ const IndexPage = () => {
           </div>
           <Button>Watch Film</Button>
         </div>
+        <div className="laurel__container">
+          <img src={require("../images/boston-laurel.png")} />
+          <img src={require("../images/delhi-laurel.png")} />
+        </div>
       </div>
 
       <HomeTextSection

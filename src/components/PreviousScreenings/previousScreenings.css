@@ -1,6 +1,7 @@
 .previous-screenings {
   background-color: #f6f6f6;
   width: 100%;
+  position: relative;
 }
 
 .previous-screenings__wrapper {
@@ -36,4 +37,35 @@ td {
   color: #9b9b9b;
   font-family: "Open Sans";
   font-size: 14px;
+}
+.column__date {
+  width: 15%;
+}
+.column__location {
+  width: 25%;
+}
+.column__event {
+  width: 40%;
+}
+.column__date {
+  width: 20%;
+}
+.showmore {
+  position: absolute;
+  max-width: 1200px;
+  margin: auto;
+  background-color: red;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background: transparent
+    linear-gradient(0deg, #da847600 0%, #da8476c2 97%, #da8476 100%) 0% 0%
+    no-repeat padding-box;
+  color: var(--main-theme-color);
+  font-family: "Open Sans";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
 }

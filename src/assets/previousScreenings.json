@@ -1,62 +1,326 @@
 [
   {
-    "date": "Jul 25, 2019",
-    "location": "Docktown, American Samoa",
-    "event": "Braun - Mante",
-    "note": "lorem20"
+    "date": "March 7, 2013",
+    "location": "Caglieri, Sadegna",
+    "event": "XIV Festival Internazionale del Cinema Documentario Pelstinese e Arabo",
+    "note": "On the occasion of International Women’s Day"
   },
   {
-    "date": "Jul 25, 2019",
-    "location": "Docktown, American Samoa",
-    "event": "Braun - Mante",
-    "note": "lorem20"
+    "date": "March 28, 2013",
+    "location": "Metropolis Empire Sofil, Beirut, Lebanon",
+    "event": "Premiere in Lebanon",
+    "note": "2 Theatres in parallel "
   },
   {
-    "date": "Jul 25, 2019",
-    "location": "Docktown, American Samoa",
-    "event": "Braun - Mante",
-    "note": "lorem20"
+    "date": "April 20, 2013",
+    "location": "Al Madina Theatre, Beirut, Lebanon",
+    "event": "Fundraiser",
+    "note": "All proceeds went to SANAD Hospice Lebanon"
   },
   {
-    "date": "Jul 25, 2019",
-    "location": "Docktown, American Samoa",
-    "event": "Braun - Mante",
-    "note": "lorem20"
+    "date": "May 4, 2013",
+    "location": "Rainbow Theatre, Amman, Jordan",
+    "note": "Under the patronage of HRH Lara Faisal"
   },
   {
-    "date": "Jul 25, 2019",
-    "location": "Docktown, American Samoa",
-    "event": "Braun - Mante",
-    "note": "lorem20"
+    "date": "May 21 to 24 2017",
+    "location": "Rainbow Theatre, Amman, Jordan"
   },
   {
-    "date": "Jul 25, 2019",
-    "location": "Docktown, American Samoa",
-    "event": "Braun - Mante",
-    "note": "lorem20"
+    "date": "Jun 18, 2013",
+    "location": "Al Madina Theatre, Beirut, Lebanon",
+    "note": "Part of Al Madina Theater Ramadan Program"
   },
   {
-    "date": "Jul 25, 2019",
-    "location": "Docktown, American Samoa",
-    "event": "Braun - Mante",
-    "note": "lorem20"
+    "date": "September 2, 2013",
+    "location": "Eden Court Cinema, Inverness, Scoltland",
+    "event": "Highland Palestine Film Festival"
   },
   {
-    "date": "Jul 25, 2019",
-    "location": "Docktown, American Samoa",
-    "event": "Braun - Mante",
-    "note": "lorem20"
+    "date": "September 22, 2013",
+    "location": "Toronto, Canada",
+    "event": "Toronto Palestine Film Festival"
   },
   {
-    "date": "Jul 25, 2019",
-    "location": "Docktown, American Samoa",
-    "event": "Braun - Mante",
-    "note": "lorem20"
+    "date": "September 30, 2013",
+    "location": "Minneapolis, MN, USA",
+    "event": "Mizna Film Festival"
   },
   {
-    "date": "Jul 25, 2019",
-    "location": "Docktown, American Samoa",
-    "event": "Braun - Mante",
-    "note": "lorem20"
+    "date": "October 14, 2013",
+    "location": "Rotterdam, Netherlands",
+    "event": "Arab Film Festival of Rotterdam"
+  },
+  {
+    "date": "October 17-23, 2017",
+    "location": "Jerusalem, Palestine",
+    "event": "Palestine Days of Cinema"
+  },
+  {
+    "date": "October 18,22",
+    "location": "Hammamet, Tunis",
+    "event": "Festival International Regards De Femmes"
+  },
+  {
+    "date": "October 20, 2013",
+    "location": "San Diego, CA, USA",
+    "event": "San Diego Arab Film Festival"
+  },
+  {
+    "date": "October 20, 2013",
+    "location": "Artegna, Italy",
+    "event": "Festival In/Visible Cities - Contaminazioni Digitali"
+  },
+  {
+    "date": "October 21, 2013",
+    "location": "San Fransisco, CA, USA",
+    "event": "Arab Film Festival"
+  },
+  {
+    "date": "October 28, 2013",
+    "location": "Boston, MA, USA",
+    "event": "Boston Palestine Film Festival",
+    "note": "Closing film                 Awarded Best Documentary"
+  },
+  {
+    "date": "November 2, 2013",
+    "location": "Metropolis Cinema, Beirut, Lebanon",
+    "event": "Almost There Film Festival Heinrich Böll Stiftung Middle East"
+  },
+  {
+    "date": "November 17-27, 2017",
+    "location": "9 cities in Australia",
+    "event": "Palestine Film Festival Australia",
+    "note": "Opening film in all 9 cities"
+  },
+  {
+    "date": "November 24, 2013",
+    "location": "Berlin, Germany",
+    "event": "ZUHÖREN Festival –  Sasha Waltz & Guests "
+  },
+  {
+    "date": "December 1, 2013",
+    "location": "Washington DC, USA",
+    "event": "The Jerusalem Fund and Palestine Center"
+  },
+  {
+    "date": "December 6, 2013",
+    "location": "Palestine Museum, Bristol, England",
+    "event": "Bristol Palestine Film Festival"
+  },
+  {
+    "date": "January 8, 2014",
+    "location": "Riwaq, Beirut, Lebanon",
+    "event": "Bidayyat"
+  },
+  {
+    "date": "January 14 & 17, 2018",
+    "location": "Sofia, Bulgaria",
+    "event": "10th MENAR Film Festival"
+  },
+  {
+    "date": "January 15",
+    "location": "Beirut, Lebanon",
+    "event": "Dar El-Nimer, Screening and Q&A"
+  },
+  {
+    "date": "January 24, 2014",
+    "location": "Alserkal Avenua, Dubai, UAE",
+    "event": "Reel Palestine Film Festival and Cinema Akil"
+  },
+  {
+    "date": "February 4 & 6, 2018",
+    "location": "Cairo, Egypt",
+    "event": "NVIC - Netherlands-Flemish Institute in Cairo"
+  },
+  {
+    "date": "February 21, 2014",
+    "location": "OIB Orient-Institut Beirut, Lebanon",
+    "event": "Screening and Q&A"
+  },
+  {
+    "date": "March 4, 2014",
+    "location": "Dubai, UAE",
+    "event": "International Women's Day at Universal American School"
+  },
+  {
+    "date": "March 6, 2014",
+    "location": "Washington DC, USA",
+    "event": "ANERA: American Near East Refugee Aid",
+    "note": "Fundraiser for ANERA"
+  },
+  {
+    "date": "March 6, 2014",
+    "location": "Paris, France",
+    "event": "Institut du Monde Arabe"
+  },
+  {
+    "date": "March 7, 2014",
+    "location": "Istanbul, Turkey",
+    "event": "Filmmor FIlm Festival"
+  },
+  {
+    "date": "March 7, 2014",
+    "location": "Auzielle, France",
+    "event": "Cine Palestine -Toulouse"
+  },
+  {
+    "date": "March 8, 2014",
+    "location": "Bressols, France",
+    "event": "Cine Palestine - Toulouse"
+  },
+  {
+    "date": "March 8, 2014",
+    "location": "Doha, Qatar",
+    "event": "El Rozana"
+  },
+  {
+    "date": "March 10, 2014",
+    "location": "Figeac, France",
+    "event": "Cine Palestine - Toulouse"
+  },
+  {
+    "date": "March 12, 2014",
+    "location": "Toulouse, France",
+    "event": "Cine Palestine - Toulouse",
+    "note": "Closing film"
+  },
+  {
+    "date": "March 19, 2014",
+    "location": "New York, NY,  USA",
+    "event": "Rated SR:  Socially Relevant Film Festival NY"
+  },
+  {
+    "date": "March 20, 2014",
+    "location": "Ramallah, Palestine",
+    "event": "Mahmoud Darwich Museum"
+  },
+  {
+    "date": "March 29, 2014",
+    "location": "Columbia University, NY, USA",
+    "event": "Columbia Students for Justice in Palestine"
+  },
+  {
+    "date": "April 21, 2014",
+    "location": "Chicago, IL USA",
+    "event": "Chicago Palestine FIlm Festival"
+  },
+  {
+    "date": "Apr 30, 2014",
+    "location": "Milwaukee, WI, USA",
+    "event": "Milwaukee Muslim Film Festival"
+  },
+  {
+    "date": "May 5, 2014",
+    "location": "Calgary, AB, Canada",
+    "event": "Calgary Arab Film Nights Festival"
+  },
+  {
+    "date": "May 12, 2014",
+    "location": "Houston, TX, USA",
+    "event": "Houston Palestine Film Festival"
+  },
+  {
+    "date": "May 30, 2014",
+    "location": "Paris, France",
+    "event": "Festival Cine-Palestine"
+  },
+  {
+    "date": "June 2 & 3 & 5, 2018",
+    "location": "Honolulu, HI, USA",
+    "event": "Honolulu Museum of Art"
+  },
+  {
+    "date": "June 8, 2014",
+    "location": "Seuol, South Korea",
+    "event": "Seuol Human Rights  Film Festival"
+  },
+  {
+    "date": "June 27, 2014",
+    "location": "Washington DC, WA, USA",
+    "event": "Middle East Institute & Filmlab: Palestine's \"LENS ON PALESTINE: WOMEN AND RESILIENCE\" "
+  },
+  {
+    "date": "October 15, 2014",
+    "location": "New Delhi, India",
+    "event": "7th Delhi International Film Festival 2018",
+    "note": "Awarded Best Documentary Award"
+  },
+  {
+    "date": "November 8, 2014",
+    "location": "New Orleans, LA, USA",
+    "event": "New Orleans Palestine Film Festival",
+    "note": "Opening film"
+  },
+  {
+    "date": "November 14, 2014",
+    "location": "Freiburg, Germany",
+    "event": "Zusammen Leben"
+  },
+  {
+    "date": "November 25-30, 2018",
+    "location": "Cannes, France",
+    "event": "Mediterranean Film Festival Cannes"
+  },
+  {
+    "date": "November 25, 2014",
+    "location": "Leeds, UK",
+    "event": "Leeds Palestinian Film Festival"
+  },
+  {
+    "date": "November 29, 2014",
+    "location": "Manchester, England, UK",
+    "event": "LevFlix "
+  },
+  {
+    "date": "November 30, 2014",
+    "location": "Toulouse, France",
+    "event": "Festival: A propos d'Elle(s) "
+  },
+  {
+    "date": "December 2, 2014",
+    "location": "Gaza, Palestine",
+    "event": "Jerusalem International Film Festival"
+  },
+  {
+    "date": "December 9, 2014",
+    "location": "Beirut, Lebanon    ",
+    "event": "Nadi Lekol Nas Cineclub and AsSabil Public Library"
+  },
+  {
+    "date": "January 22-25, 2019",
+    "location": "Kuwait, Kuwait",
+    "event": "Exhibition at Al Sadu House"
+  },
+  {
+    "date": "January 30, 2014",
+    "location": "Tregor, France",
+    "event": "Association France-Palestine Solidarite "
+  },
+  {
+    "date": "February 4, 2015",
+    "location": "Milton Keynes, UK",
+    "event": "Milton Keyens Palestine Solidarity Campaign "
+  },
+  {
+    "date": "February 9, 2015",
+    "location": "Woodbridge, CT, USA",
+    "event": "Palestine Museum-US"
+  },
+  {
+    "date": "May 14, 2015",
+    "location": "Glasgow, Scotland",
+    "event": "Glasgow Refugee Asylum & Migration Network (GRAMNet)",
+    "note": "In commemoration of the 71st anniversary of al-Nakba"
+  },
+  {
+    "date": "Match 20, 2019",
+    "location": "Sheffield, UK",
+    "event": "Sheffield Hallam University's Hallam Union (HUBS)'s Women's History Month and Palestine Society, the Fesminist Society, SCRAP, Sheffield Palestine Solidarity Campaign, and Northern Women for Palestine"
+  },
+  {
+    "date": "July 1, 2015",
+    "location": "Paris, France",
+    "event": "Centre Audiovisuel Simone de Beauvoir and Le Forum des Images"
   }
 ]

@@ -2,6 +2,7 @@ import React from "react"
 import "./previousScreenings.css"
 import { useStaticQuery, graphql } from "gatsby"
 export default function PreviousScreenings() {
+  const [showMore, setShowMore] = React.useState(false)
   const data = useStaticQuery(graphql`
     {
       allPreviousScreeningsJson {
@@ -17,6 +18,12 @@ export default function PreviousScreenings() {
       }
     }
   `)
+  const screenings = [...data.allPreviousScreeningsJson.edges]
+  const previousScreenings = showMore ? screenings : screenings.splice(0, 9)
+
+  const toggleShowmore = () => {
+    setShowMore(showMore => !showMore)
+  }
   return (
     <div className="previous-screenings">
       <div className="previous-screenings__wrapper">
@@ -24,14 +31,14 @@ export default function PreviousScreenings() {
         <table>
           <thead>
             <tr>
-              <th>Date</th>
-              <th>Location</th>
-              <th>Event / Organization</th>
-              <th>Note</th>
+              <th className="column__date">Date</th>
+              <th className="column__location">Location</th>
+              <th className="column__event">Event / Organization</th>
+              <th className="column__note">Note</th>
             </tr>
           </thead>
           <tbody>
-            {data.allPreviousScreeningsJson.edges.map((edge, index) => (
+            {previousScreenings.map((edge, index) => (
               <tr key={index}>
                 <td>{edge.node.date}</td>
                 <td>{edge.node.location}</td>
@@ -41,6 +48,9 @@ export default function PreviousScreenings() {
             ))}
           </tbody>
         </table>
+      </div>
+      <div onClick={toggleShowmore} className="showmore">
+        {showMore ? "Show less" : "Show more"}
       </div>
     </div>
   )

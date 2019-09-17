@@ -71,10 +71,6 @@
   display: inline-block;
 }
 
-.gallery__container {
-  /* display: none; */
-}
-
 .gallery__container__info__wrapper {
   display: flex;
   flex-direction: column;
@@ -139,9 +135,13 @@
   grid-gap: 10px;
   width: 725px;
   overflow: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch !important;
 }
 .gallery__container--large {
   overflow: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch !important;
 }
 .gallery__container__image--0 {
   grid-column-start: 1;

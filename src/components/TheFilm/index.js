@@ -5,9 +5,9 @@ import "./theFilms.css"
 export default function TheFilm() {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "malakalhusseini-img2.jpg" }) {
+      file(relativePath: { eq: "about.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 400, maxHeight: 400) {
+          fluid {
             ...GatsbyImageSharpFluid_tracedSVG
           }
         }

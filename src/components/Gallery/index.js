@@ -34,7 +34,7 @@ export default function Gallery(props) {
         })}
       </div>
       {/* Slider small */}
-      <div className="gallery__container--small">
+      {/* <div className="gallery__container--small">
         <div className="gallery__container__scrollable">
           {data.edges[activeIndex].node.images.map((node, index) => {
             return (
@@ -47,7 +47,7 @@ export default function Gallery(props) {
             )
           })}
         </div>
-      </div>
+      </div> */}
 
       {/* slider large */}
       <div className="gallery__container--large">
@@ -59,9 +59,15 @@ export default function Gallery(props) {
                 className={`gallery__container__image--${index}`}
               >
                 {index === 0 ? (
-                  <Img fluid={node.childImageSharp.fluid} />
+                  <Img
+                    fluid={{
+                      ...node.childImageSharp.fluid,
+                      aspectRatio: 1.775,
+                    }}
+                  />
                 ) : (
                   <Img
+                    imgStyle={{ objectFit: "unset" }}
                     fluid={{ ...node.childImageSharp.fluid, aspectRatio: 1.54 }}
                   />
                 )}
@@ -118,7 +124,7 @@ export const thumbnailImage = graphql`
 export const galleryImage = graphql`
   fragment galleryImage on File {
     childImageSharp {
-      fluid(maxWidth: 500, maxHeight: 500) {
+      fluid {
         ...GatsbyImageSharpFluid_withWebp
       }
     }

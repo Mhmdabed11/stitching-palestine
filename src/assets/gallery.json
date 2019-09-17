@@ -2,8 +2,8 @@
   {
     "thumbnail": "../images/thumbnail-leilakhaled.png",
     "images": [
+      "../images/sp-leilakhaled.jpg",
       "../images/leilakhaled-img4.jpg",
-      "../images/leilakhaled-img2.jpg",
       "../images/leilakhaled-img3.jpg",
       "../images/leilakhaled-img1.jpg",
       "../images/leilakhaled-img2.jpg"
@@ -21,11 +21,11 @@
   {
     "thumbnail": "../images/thumbnail-malakalhusseini.png",
     "images": [
+      "../images/sp-malakalhusseini.jpg",
       "../images/malakalhusseini-img1.jpg",
       "../images/malakalhusseini-img2.jpg",
       "../images/malakalhusseini-img3.jpg",
-      "../images/malakalhusseini-img4.jpg",
-      "../images/malakalhusseini-img1.jpg"
+      "../images/malakalhusseini-img4.jpg"
     ],
     "nameEn": "Malak al-Husseini AbdelRahim",
     "nameAr": "ملك الحسيني عبد الرحيم",
@@ -36,7 +36,7 @@
   {
     "thumbnail": "../images/thumbnail-marynazzal.png",
     "images": [
-      "../images/marynazzal-img1.jpg",
+      "../images/sp-marynazzal.jpg",
       "../images/marynazzal-img1.jpg",
       "../images/marynazzal-img2.jpg",
       "../images/marynazzal-img3.jpg",
@@ -51,7 +51,7 @@
   {
     "thumbnail": "../images/thumbnail-simatuqan.png",
     "images": [
-      "../images/marynazzal-img1.jpg",
+      "../images/sp-simatuqan.jpg",
       "../images/marynazzal-img1.jpg",
       "../images/marynazzal-img2.jpg",
       "../images/marynazzal-img3.jpg",
@@ -66,11 +66,11 @@
   {
     "thumbnail": "../images/thumbnail-salmaalyassir.png",
     "images": [
+      "../images/sp-salmalyassir.jpg",
       "../images/salma-img1.jpg",
       "../images/salma-img2.jpg",
       "../images/salma-img3.jpg",
-      "../images/salma-img4.jpg",
-      "../images/salma-img1.jpg"
+      "../images/salma-img4.jpg"
     ],
     "nameEn": "Salma al-Yassir",
     "nameAr": "سلمى اليسير",
@@ -81,11 +81,11 @@
   {
     "thumbnail": "../images/thumbnail-nazmiyyehsalem.png",
     "images": [
+      "../images/sp-nazmiehsalem.jpg",
       "../images/nazmieh-img1.jpg",
       "../images/nazmieh-img2.jpg",
       "../images/nazmieh-img3.jpg",
-      "../images/nazmieh-img4.jpg",
-      "../images/nazmieh-img1.jpg"
+      "../images/nazmieh-img4.jpg"
     ],
     "nameEn": "Nazmiyyeh Salem",
     "nameAr": "نظميّة سالم",
@@ -96,11 +96,11 @@
   {
     "thumbnail": "../images/thumbnail-suadalamiry.png",
     "images": [
+      "../images/sp-amalkawash.jpg",
       "../images/amalqawash-img1.jpg",
       "../images/amalqawash-img2.jpg",
       "../images/amalqawash-img3.jpg",
-      "../images/amalqawash-img4.jpg",
-      "../images/amalqawash-img1.jpg"
+      "../images/amalqawash-img4.jpg"
     ],
     "nameEn": "Amal Ziad Kaawash",
     "nameAr": "أمل زياد كعوش",
@@ -111,11 +111,11 @@
   {
     "thumbnail": "../images/thumbnail-raedataha.png",
     "images": [
+      "../images/sp-raedtaha.jpg",
       "../images/raeda-img1.jpg",
       "../images/raeda-img2.jpg",
       "../images/raeda-img3.jpg",
-      "../images/raeda-img4.jpg",
-      "../images/raeda-img1.jpg"
+      "../images/raeda-img4.jpg"
     ],
     "nameEn": "Raeda Taha",
     "nameAr": "رائدة طه",
@@ -129,7 +129,7 @@
   {
     "thumbnail": "../images/thumbnail-leilaatshan.png",
     "images": [
-      "../images/leilaatshan-img1.jpg",
+      "../images/sp-lailaatshan.jpg",
       "../images/leilaatshan-img1.jpg",
       "../images/leilaatshan-img2.jpg",
       "../images/leilaatshan-img3.jpg",
@@ -144,10 +144,10 @@
   {
     "thumbnail": "../images/thumbnail-suadalamiry.png",
     "images": [
+      "../images/sp-suadalamiry.jpg",
       "../images/dinanasser-img1.jpg",
       "../images/dinanasser-img2.jpg",
       "../images/dinanasser-img3.jpg",
-      "../images/dinanasser-img1.jpg",
       "../images/dinanasser-img2.jpg"
     ],
     "nameEn": "Suad al-Amiry",
@@ -159,10 +159,10 @@
   {
     "thumbnail": "../images/thumbnail-hudaalimam.png",
     "images": [
+      "../images/sp-hudaalimam.jpg",
       "../images/dinanasser-img1.jpg",
       "../images/dinanasser-img2.jpg",
       "../images/dinanasser-img3.jpg",
-      "../images/dinanasser-img1.jpg",
       "../images/dinanasser-img2.jpg"
     ],
     "nameEn": "Huda al-Imam",
@@ -178,7 +178,7 @@
   {
     "thumbnail": "../images/thumbnail-hudaalimam.png",
     "images": [
-      "../images/dinanasser-img1.jpg",
+      "../images/sp-dinanasser.jpg",
       "../images/dinanasser-img2.jpg",
       "../images/dinanasser-img3.jpg",
       "../images/dinanasser-img1.jpg",

@@ -29,7 +29,7 @@ const IndexPage = () => {
               <span>"</span>
             </div>
           </div>
-          <Button style={{ fontSize: "20px" }}>Watch Film</Button>
+          <Button style={{ fontSize: "20px" }}>Watch the Film</Button>
         </div>
         <div className="laurel__container">
           <img src={require("../images/boston-laurel.png")} />

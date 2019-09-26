@@ -29,7 +29,7 @@ export default function PressCard({
         >
           {body}
         </div>
-        <a href={link} target="__blank">
+        <a href={link} target="_blank">
           {audioVisual ? "Watch " : "Read More "} &rarr;
         </a>
       </div>

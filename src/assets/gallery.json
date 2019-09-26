@@ -40,7 +40,7 @@
       "../images/marynazzal-img1.jpg",
       "../images/marynazzal-img2.jpg",
       "../images/marynazzal-img3.jpg",
-      "../images/marynazzal-img3.jpg"
+      "../images/marynazzal-img4.jpg"
     ],
     "nameEn": "Mary Nazzal Batayneh",
     "nameAr": "ماري نزّال البطاينة",
@@ -52,10 +52,10 @@
     "thumbnail": "../images/thumbnail-simatuqan.png",
     "images": [
       "../images/sp-simatuqan.jpg",
-      "../images/marynazzal-img1.jpg",
-      "../images/marynazzal-img2.jpg",
-      "../images/marynazzal-img3.jpg",
-      "../images/marynazzal-img3.jpg"
+      "../images/simatuqan-img1.jpg",
+      "../images/simatuqan-img2.jpg",
+      "../images/simatuqan-img3.jpg",
+      "../images/simatuqan-img4.jpg"
     ],
     "nameEn": "Sima Tuqan Ghandour",
     "nameAr": "سيما طوقان غندور",
@@ -145,10 +145,10 @@
     "thumbnail": "../images/thumbnail-suadalamiry.png",
     "images": [
       "../images/sp-suadalamiry.jpg",
-      "../images/dinanasser-img1.jpg",
-      "../images/dinanasser-img2.jpg",
-      "../images/dinanasser-img3.jpg",
-      "../images/dinanasser-img2.jpg"
+      "../images/suadalamiry-img1.jpg",
+      "../images/suadalamiry-img2.jpg",
+      "../images/suadalamiry-img3.jpg",
+      "../images/suadalamiry-img4.jpg"
     ],
     "nameEn": "Suad al-Amiry",
     "nameAr": "سعاد العامري",
@@ -160,10 +160,10 @@
     "thumbnail": "../images/thumbnail-hudaalimam.png",
     "images": [
       "../images/sp-hudaalimam.jpg",
-      "../images/dinanasser-img1.jpg",
-      "../images/dinanasser-img2.jpg",
-      "../images/dinanasser-img3.jpg",
-      "../images/dinanasser-img2.jpg"
+      "../images/hudaalimam-img1.jpg",
+      "../images/hudaalimam-img2.jpg",
+      "../images/hudaalimam-img3.jpg",
+      "../images/hudaalimam-img4.jpg"
     ],
     "nameEn": "Huda al-Imam",
     "nameAr": "هدى الإمام",
@@ -179,10 +179,10 @@
     "thumbnail": "../images/thumbnail-hudaalimam.png",
     "images": [
       "../images/sp-dinanasser.jpg",
+      "../images/dinanasser-img1.jpg",
       "../images/dinanasser-img2.jpg",
       "../images/dinanasser-img3.jpg",
-      "../images/dinanasser-img1.jpg",
-      "../images/dinanasser-img2.jpg"
+      "../images/dinanasser-img4.jpg"
     ],
     "nameEn": "Dina Nasser",
     "nameAr": "دينا ناصر",

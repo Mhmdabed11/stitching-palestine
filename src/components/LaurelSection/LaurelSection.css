@@ -40,9 +40,9 @@
     transform: translate3d(0, 0, 0);
   }
   100% {
-    -webkit-transform: translate3d(-33.3333%, 0, 0);
-    -ms-transform: translate3d(-33.3333%, 0, 0);
-    transform: translate3d(-33.3333%, 0, 0);
+    -webkit-transform: translate3d(-50%, 0, 0);
+    -ms-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
   }
 }
 
@@ -53,8 +53,8 @@
     transform: translate3d(-10%, 0, 0);
   }
   100% {
-    -webkit-transform: translate3d(-33.3333%, 0, 0);
-    -ms-transform: translate3d(-33.3333%, 0, 0);
-    transform: translate3d(-33.3333%, 0, 0);
+    -webkit-transform: translate3d(-50%, 0, 0);
+    -ms-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
   }
 }

@@ -32,8 +32,8 @@ const IndexPage = () => {
           <Button style={{ fontSize: "20px" }}>Watch Film</Button>
         </div>
         <div className="laurel__container">
-          <img src={require("../images/boston-laurel.png")} />
-          <img src={require("../images/delhi-laurel.png")} />
+          <img src={require("../images/Off select Boston PFF.png")} />
+          <img src={require("../images/Off select Delhi Int FF.png")} />
         </div>
       </div>
 

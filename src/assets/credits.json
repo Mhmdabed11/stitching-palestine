@@ -4,53 +4,55 @@
     "name": "Carol Mansour"
   },
   {
+    "role": "Narration",
+    "name": "Sahar Mandour"
+  },
+  {
     "role": "Research",
     "name": "Muna Khalidi"
   },
   {
-    "role": "Camera",
-    "name": "Talal Khuri"
+    "role": "Color Grading",
+    "name": "Marwan Ziadeh"
+  },
+  {
+    "role": "Embroidery Camera",
+    "name": "Talal Khoury"
+  },
+  {
+    "role": "Sound Recording",
+    "name": "Television Services Studios"
   },
   {
     "role": "Editing",
     "name": "Carol Mansour"
   },
   {
-    "role": "Graphics",
-    "name": "Fourate Chahal"
-  },
-  {
-    "role": "Music by",
-    "name": "Nai Bargouti"
-  },
-  {
-    "role": "Color",
-    "name": "Marwan Ziadeh"
-  },
-  {
-    "role": "Text Adaptation into (English)",
-    "name": "Tarif Khalidi"
-  },
-  {
-    "role": "Text Adaptation into (French)",
-    "name": "Rima Faroukir"
-  },
-  {
-    "role": "English Translation",
-    "name": "Muna Khalidi"
-  },
-  {
     "role": "Subtitling",
     "name": "Dana Mezhir"
   },
   {
-    "role": "Narration (Arabic)",
+    "role": "Original Text",
     "name": "Sahar Mandour"
   },
   {
-    "role": "Sound Recording",
-    "name": "Television Services Studios"
+    "role": "Text Adaptation into English",
+    "name": "Tarif Khalidi"
   },
+  {
+    "role": "Graphics",
+    "name": "Fourate Chahal"
+  },
+  {
+    "role": "Text Adaptation into French",
+    "name": "Rima Faroukir"
+  },
+
+  {
+    "role": "Music",
+    "name": "Nai Bargouti"
+  },
+
   {
     "role": "Distribution",
     "name": "Forward Film Production"

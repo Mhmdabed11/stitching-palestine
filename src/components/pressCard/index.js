@@ -12,9 +12,6 @@ export default function PressCard({
 }) {
   return (
     <div className="pressCard__container">
-      <div className="pressCard__container__image">
-        <Img fluid={{ ...fluid, aspectRatio: 4 / 3 }} alt="press" />
-      </div>
       <div className="pressCard__container__info__wrapper">
         <div title={date} className="pressCard__container__date">
           {date}

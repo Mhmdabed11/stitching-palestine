@@ -5,7 +5,7 @@ export default function RequestScreeningBanner() {
   return (
     <div className="requestScreeningBanner__container">
       <div className="requestScreeningBanner__container__title">
-        Host a screening at your event.
+        Host a screening.
       </div>
       <div className="requestScreeningBanner__container__btn__wrapper">
         <a href="#screeningrequest">

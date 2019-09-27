@@ -51,7 +51,7 @@ const About = ({ data }) => {
           links={[
             "/about/?active=film",
             "/about/?active=crew",
-            "/about/?active=camera",
+            "/about/?active=tech",
           ]}
         />
         <div className="about__section">

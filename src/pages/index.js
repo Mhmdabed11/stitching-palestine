@@ -51,6 +51,7 @@ const IndexPage = () => {
           </div>
         }
         buttonText="About the Film"
+        route="/about"
       />
 
       <HomeStats cities={50} screenings={130} globalAttendees={34200} />

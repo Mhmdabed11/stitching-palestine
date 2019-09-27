@@ -3,10 +3,11 @@
     "thumbnail": "../images/thumbnail-leilakhaled.png",
     "images": [
       "../images/sp-leilakhaled.jpg",
-      "../images/leilakhaled-img4.jpg",
+
       "../images/leilakhaled-img3.jpg",
       "../images/leilakhaled-img1.jpg",
-      "../images/leilakhaled-img2.jpg"
+      "../images/leilakhaled-img2.jpg",
+      "../images/leilakhaled-img4.jpg"
     ],
     "nameEn": "Leila Khaled",
     "nameAr": "ليلى خالد",
@@ -53,9 +54,9 @@
     "images": [
       "../images/sp-simatuqan.jpg",
       "../images/simatuqan-img1.jpg",
-      "../images/simatuqan-img2.jpg",
       "../images/simatuqan-img3.jpg",
-      "../images/simatuqan-img4.jpg"
+      "../images/simatuqan-img4.jpg",
+      "../images/simatuqan-img2.jpg"
     ],
     "nameEn": "Sima Tuqan Ghandour",
     "nameAr": "سيما طوقان غندور",
@@ -67,10 +68,10 @@
     "thumbnail": "../images/thumbnail-salmaalyassir.png",
     "images": [
       "../images/sp-salmalyassir.jpg",
+      "../images/salma-img4.jpg",
       "../images/salma-img1.jpg",
       "../images/salma-img2.jpg",
-      "../images/salma-img3.jpg",
-      "../images/salma-img4.jpg"
+      "../images/salma-img3.jpg"
     ],
     "nameEn": "Salma al-Yassir",
     "nameAr": "سلمى اليسير",
@@ -94,7 +95,7 @@
     "description": ["Embroidered at Inaash Association"]
   },
   {
-    "thumbnail": "../images/thumbnail-suadalamiry.png",
+    "thumbnail": "../images/thumbnail-amalqawash.png",
     "images": [
       "../images/sp-amalkawash.jpg",
       "../images/amalqawash-img1.jpg",
@@ -114,8 +115,8 @@
       "../images/sp-raedtaha.jpg",
       "../images/raeda-img1.jpg",
       "../images/raeda-img2.jpg",
-      "../images/raeda-img3.jpg",
-      "../images/raeda-img4.jpg"
+      "../images/raeda-img4.jpg",
+      "../images/raeda-img3.jpg"
     ],
     "nameEn": "Raeda Taha",
     "nameAr": "رائدة طه",
@@ -130,13 +131,13 @@
     "thumbnail": "../images/thumbnail-leilaatshan.png",
     "images": [
       "../images/sp-lailaatshan.jpg",
-      "../images/leilaatshan-img1.jpg",
       "../images/leilaatshan-img2.jpg",
-      "../images/leilaatshan-img3.jpg",
-      "../images/leilaatshan-img4.jpg"
+      "../images/leilaatshan-img1.jpg",
+      "../images/leilaatshan-img4.jpg",
+      "../images/leilaatshan-img3.jpg"
     ],
     "nameEn": "Leila Atshan",
-    "nameAr": "يلى العطشان",
+    "nameAr": "ليلى العطشان",
     "captionEn": "\"It is the same mother … who was able to stand up proudly in her thobe when the [Israeli] army came to the house to beat up my father\"",
     "captionAr": "هادي نفس الأم ... إللي قدرت تواجه الجيش (الإسرائيلي) لمّا أجو مرّة , أخذوا يضربوا أبوي بباب البيت, طلعت بفخر بثوبها قالتلهم بتتركوه",
     "description": ["Psychotherapist"]
@@ -147,8 +148,8 @@
       "../images/sp-suadalamiry.jpg",
       "../images/suadalamiry-img1.jpg",
       "../images/suadalamiry-img2.jpg",
-      "../images/suadalamiry-img3.jpg",
-      "../images/suadalamiry-img4.jpg"
+      "../images/suadalamiry-img4.jpg",
+      "../images/suadalamiry-img3.jpg"
     ],
     "nameEn": "Suad al-Amiry",
     "nameAr": "سعاد العامري",
@@ -176,7 +177,7 @@
     ]
   },
   {
-    "thumbnail": "../images/thumbnail-hudaalimam.png",
+    "thumbnail": "../images/thumbnail-dinanasser.png",
     "images": [
       "../images/sp-dinanasser.jpg",
       "../images/dinanasser-img1.jpg",

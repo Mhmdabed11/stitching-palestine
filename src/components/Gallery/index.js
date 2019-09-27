@@ -82,7 +82,7 @@ export default function Gallery(props) {
             <hr />
           </div>
           <div dir="rtl" className="gallery__container__caption--ar">
-            {info.node.captionAr}
+            &quot;{info.node.captionAr}&quot;
           </div>
         </div>
       </div>

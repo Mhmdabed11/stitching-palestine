@@ -1,6 +1,7 @@
 import React from "react"
 import "./HomeTextSection.css"
 import Button from "../button"
+import { Link } from "gatsby"
 export default function HomeTextSection({
   imgName,
   title,
@@ -8,6 +9,7 @@ export default function HomeTextSection({
   buttonText,
   onButtonClick,
   backgroundColor,
+  route,
 }) {
   return (
     <section className="section">
@@ -24,7 +26,13 @@ export default function HomeTextSection({
           <div className="section__container__section__body">{text}</div>
         </article>
         <div>
-          <Button onClick={onButtonClick}>{buttonText}</Button>
+          {route ? (
+            <Link to={route}>
+              <Button onClick={onButtonClick}>{buttonText}</Button>
+            </Link>
+          ) : (
+            <Button onClick={onButtonClick}>{buttonText}</Button>
+          )}
         </div>
       </div>
 

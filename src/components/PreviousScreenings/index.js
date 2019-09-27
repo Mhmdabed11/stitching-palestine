@@ -34,7 +34,7 @@ export default function PreviousScreenings() {
               <th className="column__date">Date</th>
               <th className="column__location">Location</th>
               <th className="column__event">Event / Organization</th>
-              <th className="column__note">Note</th>
+              {/* <th className="column__note">Note</th> */}
             </tr>
           </thead>
           <tbody>
@@ -43,7 +43,7 @@ export default function PreviousScreenings() {
                 <td>{edge.node.date}</td>
                 <td>{edge.node.location}</td>
                 <td>{edge.node.event}</td>
-                <td>{edge.node.note}</td>
+                {/* <td>{edge.node.note}</td> */}
               </tr>
             ))}
           </tbody>

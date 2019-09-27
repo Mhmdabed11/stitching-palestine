@@ -7,7 +7,7 @@ export default function Feedback() {
       {feedback.map((feedbackItem, index) => (
         <article key={index} className="feedback">
           <div className="feedback__title">{feedbackItem.title}</div>
-          <div className="feedback__content">{feedbackItem.content}</div>
+          <div className="feedback__content">"{feedbackItem.content}"</div>
           <hr className="feedback__divider" />
         </article>
       ))}

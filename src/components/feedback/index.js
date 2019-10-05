@@ -6,8 +6,16 @@ export default function Feedback() {
     <div className="feedback__container">
       {feedback.map((feedbackItem, index) => (
         <article key={index} className="feedback">
+          <div
+            className={`feedback__content ${
+              feedbackItem.lang && feedbackItem.lang === "ar"
+                ? "feedback__content--align-right"
+                : ""
+            }`}
+          >
+            "{feedbackItem.content}"
+          </div>
           <div className="feedback__title">{feedbackItem.title}</div>
-          <div className="feedback__content">"{feedbackItem.content}"</div>
           <hr className="feedback__divider" />
         </article>
       ))}

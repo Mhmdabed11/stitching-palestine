@@ -49,7 +49,7 @@ export const feedback = [
   {
     title: "Fady Mansour",
     content:
-      "nothing like the feeling this heart wrenching/warming documentary leaves you with. The first and every time you watch it",
+      "Nothing like the feeling this heart wrenching/warming documentary leaves you with. The first and every time you watch it",
   },
   {
     title: "John Considine",
@@ -59,7 +59,7 @@ export const feedback = [
   {
     title: "Sa’ed Atshan",
     content:
-      "the stunningly powerful film Stitching Palestine … was so beautifully done, and your curation of these stories, and all the images that accompany them, was itself stitched together so brilliantly, and becomes a living piece of embroidery of sorts",
+      "The stunningly powerful film Stitching Palestine … was so beautifully done, and your curation of these stories, and all the images that accompany them, was itself stitched together so brilliantly, and becomes a living piece of embroidery of sorts",
   },
 
   {
@@ -83,9 +83,15 @@ export const feedback = [
     title: "Festival International de Films de Femme de Hammamet Organizers",
     content:
       "بعد 78 دقيقة, صعب أن أصف لك مدى تأثير الفيلم على المشاهدين..تصفيق حارجاء تحية لكل صانعي الفيلم تلاه واحد من أهم النقاشات التي حصلت في نادي السينما. تدافعوا على أخذ الكلمة و دار الحديث حول كل التفاصيل بداية من استعمال الألوان و القماش ...وصولا إلى الموسيقى و الحكايات و الكادرات",
+    lang: "ar",
   },
   {
     title: "Maha",
     content: "What a devastatingly beautiful film",
+  },
+  {
+    title: "Australian Palestine Film Festival Organizers",
+    content:
+      "This film is made with love, with history and dedication, indeed, it is crafted in such a way that it communicates Palestine to the world",
   },
 ]

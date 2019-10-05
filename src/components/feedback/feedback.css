@@ -8,13 +8,17 @@
   font-family: "Open Sans";
   color: #3b2222;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 13.5px;
+  text-align: right;
 }
 
 .feedback__content {
   font-family: "Open Sans";
   color: #3b2222;
   margin-top: 8px;
+}
+.feedback__content--align-right {
+  direction: rtl;
 }
 
 @media screen and (min-width: 768px) {

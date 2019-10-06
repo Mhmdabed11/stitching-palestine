@@ -66,7 +66,11 @@ export default function Footer() {
       <div>
         <Link to="/fwd">
           <img
-            style={{ width: "80px", height: "40px" }}
+            style={{
+              width: "80px",
+              height: "40px",
+              marginTop: "20px",
+            }}
             src={require("../../images/fwdlogo.png")}
             alt="forward film production"
           />

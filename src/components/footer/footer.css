@@ -3,6 +3,8 @@
   min-height: 200px;
   background-color: #3b2222;
   padding: 0 18px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .footer__item__wrapper {

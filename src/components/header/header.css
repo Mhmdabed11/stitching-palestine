@@ -56,6 +56,10 @@
   text-decoration: none !important;
   color: var(--main-theme-color);
 }
+
+.colored-line {
+  background-color: #3b2222 !important;
+}
 .line {
   width: 30px;
   height: 3px;

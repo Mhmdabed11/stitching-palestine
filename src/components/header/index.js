@@ -36,9 +36,9 @@ export default function Header({
           </Link>
         </div>
         <div className="burger" onClick={() => setIsOpen(true)}>
-          <div className="line"></div>
-          <div className="line"></div>
-          <div className="line"></div>
+          <div className={`line ${coloredLogo ? "colored-line" : ""}`}></div>
+          <div className={`line ${coloredLogo ? "colored-line" : ""}`}></div>
+          <div className={`line ${coloredLogo ? "colored-line" : ""}`}></div>
         </div>
         <ul className={`nav-links ${isOpen ? "nav--open" : ""}`}>
           <div onClick={() => setIsOpen(false)} className="nav__close__btn">

@@ -26,9 +26,10 @@ export const feedback = [
       "This film is made with love, with history and dedication, indeed, it is crafted in such a way that it communicates Palestine to the world",
   },
   {
-    title: "Amal Awad",
+    title: "Festival International de Films de Femme de Hammamet Organizers",
     content:
-      "But perhaps most refreshing is that the women, even as they talk about men and family, are the heroines of these stories, committing ordinary acts of resistance and finding courage in dire situations",
+      "بعد 78 دقيقة, صعب أن أصف لك مدى تأثير الفيلم على المشاهدين..تصفيق حارجاء تحية لكل صانعي الفيلم تلاه واحد من أهم النقاشات التي حصلت في نادي السينما. تدافعوا على أخذ الكلمة و دار الحديث حول كل التفاصيل بداية من استعمال الألوان و القماش ...وصولا إلى الموسيقى و الحكايات و الكادرات",
+    lang: "ar",
   },
   {
     title: "Glasgow Refugee Asylum & Migration Network",
@@ -79,19 +80,19 @@ export const feedback = [
     title: "Lana",
     content: "It deeply touched us, for it looks so much like us all",
   },
+
   {
-    title: "Festival International de Films de Femme de Hammamet Organizers",
+    title: "Amal Awad",
     content:
-      "بعد 78 دقيقة, صعب أن أصف لك مدى تأثير الفيلم على المشاهدين..تصفيق حارجاء تحية لكل صانعي الفيلم تلاه واحد من أهم النقاشات التي حصلت في نادي السينما. تدافعوا على أخذ الكلمة و دار الحديث حول كل التفاصيل بداية من استعمال الألوان و القماش ...وصولا إلى الموسيقى و الحكايات و الكادرات",
-    lang: "ar",
-  },
-  {
-    title: "Maha",
-    content: "What a devastatingly beautiful film",
+      "But perhaps most refreshing is that the women, even as they talk about men and family, are the heroines of these stories, committing ordinary acts of resistance and finding courage in dire situations \n.  It takes female writers and filmmakers to disrupt the drawn-out narrative of women being and existing in relation to men. We may be daughters, sisters, wives and/or mothers, but the intricacy of life doesn’t cease to exist because of broader political and social issues.  When these women thread their narratives like a tapestry, the result is personal stories that merge into a collective one, all of which many people can relate to, and feel for.",
   },
   {
     title: "Australian Palestine Film Festival Organizers",
     content:
       "This film is made with love, with history and dedication, indeed, it is crafted in such a way that it communicates Palestine to the world",
+  },
+  {
+    title: "Maha",
+    content: "What a devastatingly beautiful film",
   },
 ]

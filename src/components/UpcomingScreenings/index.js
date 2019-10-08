@@ -18,7 +18,7 @@ export default function UpcomingScreenings() {
             time
             displayPhoto {
               childImageSharp {
-                fluid(maxWidth: 400) {
+                fluid {
                   ...GatsbyImageSharpFluid_tracedSVG
                 }
               }

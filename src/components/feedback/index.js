@@ -15,7 +15,7 @@ export default function Feedback() {
           >
             "{feedbackItem.content}"
           </div>
-          <div className="feedback__title">{feedbackItem.title}</div>
+          <div className="feedback__title">- {feedbackItem.title}</div>
           <hr className="feedback__divider" />
         </article>
       ))}

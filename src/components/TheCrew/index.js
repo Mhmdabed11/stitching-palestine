@@ -14,7 +14,7 @@ export default function TheCrew() {
             information
             image {
               childImageSharp {
-                fluid(maxWidth: 500, maxHeight: 420) {
+                fluid {
                   ...GatsbyImageSharpFluid_tracedSVG
                 }
               }

@@ -71,10 +71,11 @@
     height: 240px;
   }
   .screenings-carousel__img {
-    flex-basis: 400px;
+    flex-basis: 243px;
   }
   .upcoming-screenings__screening__info {
     padding: 0 15px;
+    flex: 1;
   }
   .screenings-carousel-before {
     cursor: pointer;

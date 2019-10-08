@@ -45,7 +45,7 @@ export default function HomeStats({ cities, screenings, globalAttendees }) {
             <CountUp end={visible[2] ? globalAttendees : 0} separator="," />
           </div>
         </VisibilitySensor>
-        <div className="stats__stat__label">Global Attendees</div>
+        <div className="stats__stat__label">Viewers</div>
       </div>
     </section>
   )

@@ -32,8 +32,8 @@ const IndexPage = () => {
           <Button style={{ fontSize: "20px" }}>Watch the Film</Button>
         </div>
         <div className="laurel__container">
-          <img src={require("../images/Off select Boston PFF.png")} />
-          <img src={require("../images/Off select Delhi Int FF.png")} />
+          <img src={require("../images/boston-tpt-laurel.jpg")} />
+          <img src={require("../images/delhi-tpt-laurel.jpg")} />
         </div>
       </div>
 
@@ -54,7 +54,7 @@ const IndexPage = () => {
         route="/about"
       />
 
-      <HomeStats cities={50} screenings={130} globalAttendees={34200} />
+      <HomeStats cities={50} screenings={130} globalAttendees={17000} />
 
       <MovieTrailer
         title="Watch the Trailer"

@@ -103,14 +103,14 @@ export default function Header({
           <Link activeClassName="nav__link--active" to="/about">
             ABOUT
           </Link>
-          <Link activeClassName="nav__link--active" to="/spotlight/">
-            SPOTLIGHT
-          </Link>
           <Link
             activeClassName="nav__link--active"
             to="/spotlight/?active=women"
           >
             THE WOMEN
+          </Link>
+          <Link activeClassName="nav__link--active" to="/spotlight/">
+            SPOTLIGHT
           </Link>
         </div>
         <div>

@@ -71,7 +71,7 @@ export default function Header({
             </Link>
           </li>
           <li>
-            <Link activeClassName="nav__link--active" to="/spotlight">
+            <Link activeClassName="nav__link--active" to="/women">
               THE WOMEN
             </Link>
           </li>
@@ -103,13 +103,10 @@ export default function Header({
           <Link activeClassName="nav__link--active" to="/about">
             ABOUT
           </Link>
-          <Link
-            activeClassName="nav__link--active"
-            to="/spotlight/?active=women"
-          >
+          <Link activeClassName="nav__link--active" to="/women">
             THE WOMEN
           </Link>
-          <Link activeClassName="nav__link--active" to="/spotlight/">
+          <Link activeClassName="nav__link--active" to="/spotlight">
             SPOTLIGHT
           </Link>
         </div>

@@ -144,7 +144,7 @@ export default function Header({
             ) : (
               <img
                 style={{ height: "40px", width: "80px" }}
-                src={require("../../images/fwdlogo.png")}
+                src={require("../../images/coloredrfdlogo.png")}
                 alt="fwd_production_logo"
               />
             )}

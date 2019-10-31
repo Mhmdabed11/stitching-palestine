@@ -22,13 +22,13 @@ export default function Header({
           <Link to="">
             {coloredLogo ? (
               <img
-                src={require("../../images/coloredlogo.jpg")}
+                src={require("../../images/coloredlogo.svg")}
                 className="header__logo"
                 alt="stitching_palesting_logo"
               />
             ) : (
               <img
-                src={require("../../images/logo.png")}
+                src={require("../../images/logo.svg")}
                 className="header__logo"
                 alt="stitching_palesting_logo"
               />
@@ -114,13 +114,13 @@ export default function Header({
           <Link to="">
             {coloredLogo ? (
               <img
-                src={require("../../images/coloredlogo.jpg")}
+                src={require("../../images/coloredlogo.svg")}
                 className="header__logo"
                 alt="stitching_palesting_logo"
               />
             ) : (
               <img
-                src={require("../../images/logo.png")}
+                src={require("../../images/logo.svg")}
                 className="header__logo"
                 alt="stitching_palesting_logo"
               />

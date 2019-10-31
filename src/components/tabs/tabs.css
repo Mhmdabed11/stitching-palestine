@@ -27,6 +27,8 @@
 .tabs__tab__icon {
   margin-right: 10px;
   display: none;
+  height: 40px;
+  width: 40px;
 }
 .tabs__tab__title a {
   transition: all 0.2s ease;

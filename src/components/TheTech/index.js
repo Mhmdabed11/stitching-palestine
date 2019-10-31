@@ -15,7 +15,6 @@ export default function TheTech() {
       }
     }
   `)
-  console.log(data)
   return (
     <div className="thetech__container">
       {data.allCreditsJson.edges.map(edge => {

@@ -44,9 +44,9 @@ const About = ({ data }) => {
           activeTabIndex={activeTabIndex}
           tabs={["The Film", "The Crew", "The Tech"]}
           icons={[
-            require("../images/filmlogo.svg"),
-            require("../images/crewlogo.svg"),
-            require("../images/cameralogo.svg"),
+            require("../images/motif1.png"),
+            require("../images/motif2.png"),
+            require("../images/motif3.png"),
           ]}
           links={[
             "/about/?active=film",

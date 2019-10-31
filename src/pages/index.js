@@ -33,7 +33,7 @@ const IndexPage = () => {
         </div>
         <div className="laurel__container">
           <img src={require("../images/boston-tpt-laurel.jpg")} />
-          <img src={require("../images/delhi-tpt-laurel.jpg")} />
+          <img src={require("../images/delhi-tpt-laurel.png")} />
         </div>
       </div>
 

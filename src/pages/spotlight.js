@@ -38,8 +38,8 @@ const SpotLight = () => {
           onTabPress={handleOnTabPress}
           tabs={["The Press", "The Feedback"]}
           icons={[
-            require("../images/presslogo.svg"),
-            require("../images/feedbacklogo.svg"),
+            require("../images/motif1.png"),
+            require("../images/motif2.png"),
           ]}
           links={["/spotlight/?active=press", "/spotlight/?active=feedback"]}
           activeTabIndex={activeTabIndex}

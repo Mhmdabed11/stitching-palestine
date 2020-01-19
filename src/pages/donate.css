@@ -1,0 +1,81 @@
+.donate__container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.donate__container-title {
+  color: var(--main-theme-color);
+  text-align: center;
+  font-size: 38px;
+  max-width: 380px;
+  margin: 10px auto;
+  font-family: "Open Sans";
+}
+
+.donate__container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.donate__incentive-title {
+  text-align: center;
+  color: var(--main-theme-color);
+  font-family: "Open Sans";
+  margin-top: 100px;
+}
+
+.donate__incentive-inbox {
+  text-align: center;
+  color: #9b9b9b;
+  font-family: "Open Sans";
+  font-size: 29px;
+}
+
+.donate__incentive-forOnly3dollars {
+  display: inline-block;
+  font-size: 25px;
+  background-color: var(--main-theme-color);
+  font-family: "Open Sans";
+  color: white;
+  padding: 15px 20px;
+  border-radius: 30px;
+  margin-top: 30px;
+  text-align: center;
+  word-break: keep-all;
+}
+
+.donate__incentivr-or {
+  font-family: "Open Sans";
+  color: #9b9b9b;
+  font-size: 29px;
+  text-align: center;
+  margin-top: 50px;
+}
+.donate__incentive-subtitle {
+  text-align: center;
+  color: var(--main-theme-color);
+  font-family: "Open Sans";
+}
+
+.donate__incentive-impact-level {
+  font-family: "Open Sans";
+  color: #9b9b9b;
+  font-size: 29px;
+  text-align: center;
+}
+
+.donate__logo {
+  max-width: 250px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 140px;
+}
+
+.donate__incentive-forOnly3dollars-container {
+  display: flex;
+  justify-content: center;
+}

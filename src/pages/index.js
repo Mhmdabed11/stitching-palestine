@@ -18,6 +18,7 @@ const IndexPage = () => {
       coloredLogo={false}
     >
       <SEO title="Home" />
+
       <div className="home__hero">
         <div className="home__hero__overlay">
           <div className="home__hero__overlay__title">

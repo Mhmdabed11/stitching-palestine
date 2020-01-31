@@ -3,22 +3,21 @@ import Helmet from "react-helmet"
 import Layout from "../components/layout"
 import "./donate.css"
 import DonateCard from "../components/DonateCard/DonateCard"
+import Img from "gatsby-image"
 
-export default function Donate() {
+export default function Donate({ data }) {
+  console.log(data)
   return (
     <Layout>
       <Helmet>
         <script>{`
-          var givingloop_init = window.givingloop_init;
-          givingloop_init = {ngoID:835,baseURL:"https://www.givingloop.org/",ngoLang:"en",p_id:"all"};
-          (function() {
-            var mc = document.createElement("script");
-            mc.type = "text/javascript";
-            mc.async = true;
-            mc.id = "";
-            mc.src = givingloop_init.baseURL+"assets/js/widget.js";
-            var s = document.getElementsByTagName("script")[0];
-             s.parentNode.insertBefore(mc, s.nextSibling);})()
+       var givingloop_init = window.givingloop_init || [];
+        givingloop_init = {ngoID:835,baseURL:"https://www.givingloop.org/",ngoLang:"en",p_id:"all"};
+         (function() {var mc = document.createElement("script");
+         mc.type = "text/javascript";mc.async = true;mc.id = "";
+         mc.src = givingloop_init.baseURL+"assets/js/widget.js";
+         var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(mc, s.nextSibling);})();
         `}</script>
       </Helmet>
 
@@ -26,6 +25,10 @@ export default function Donate() {
         <h1 className="donate__container-title">
           Watch the Film & Support us to keep the thread rolling
         </h1>
+        <div className="donate__container-hero">
+          <Img fluid={data.file.childImageSharp.fluid} />
+        </div>
+
         <div className="donate__container-cards">
           <DonateCard
             title="Why Support Us"
@@ -63,7 +66,9 @@ export default function Donate() {
             Choose your impact level
           </div> */}
         </div>
-        <div id="givingloop-widget" data-ngo-id="835" data-type="widget" />
+        <div className="givingloop_wrapper">
+          <div id="givingloop-widget" data-ngo-id="835" data-type="widget" />
+        </div>
         <img
           src={require("../images/coloredlogo.jpg")}
           alt="stitching_palesting_logo"
@@ -73,3 +78,16 @@ export default function Donate() {
     </Layout>
   )
 }
+
+export const query = graphql`
+  {
+    file(relativePath: { eq: "donate.png" }) {
+      id
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+  }
+`

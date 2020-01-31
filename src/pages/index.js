@@ -55,7 +55,7 @@ const IndexPage = () => {
         route="/about"
       />
 
-      <HomeStats cities={50} screenings={130} globalAttendees={17000} />
+      <HomeStats cities={50} screenings={130} globalAttendees={17110} />
 
       <MovieTrailer
         title="Watch the Trailer"
@@ -87,6 +87,7 @@ const IndexPage = () => {
           text="Thousands of women around the world have similar stories, It's in
         our hand to help them change these stories."
           buttonText="Change their Story"
+          route="donate"
         />
       </div>
 

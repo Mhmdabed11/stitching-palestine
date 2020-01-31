@@ -2,7 +2,7 @@ import React from "react"
 import "./stitchBackground.css"
 import Button from "../button"
 import Image from "gatsby-image"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 export default function StitchBackground() {
   const data = useStaticQuery(graphql`
     query MyQuery {
@@ -23,7 +23,9 @@ export default function StitchBackground() {
         With every stitch <br /> the women are hiding <br /> their stories
       </div>
       <div>
-        <Button>Hear their Stories</Button>
+        <Link to="/women">
+          <Button>Hear their Stories</Button>
+        </Link>
       </div>
 
       <Image

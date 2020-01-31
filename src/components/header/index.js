@@ -81,7 +81,7 @@ export default function Header({
             </Link>
           </li>
           <li>
-            <Link activeClassName="nav__link--active" to="/screenings">
+            <Link activeClassName="nav__link--active" to="/donate">
               WATCH FILM
             </Link>
           </li>

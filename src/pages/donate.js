@@ -4,11 +4,13 @@ import Layout from "../components/layout"
 import "./donate.css"
 import DonateCard from "../components/DonateCard/DonateCard"
 import Img from "gatsby-image"
+import SEO from "../components/seo"
 
 export default function Donate({ data }) {
   console.log(data)
   return (
     <Layout>
+      <SEO title="Donate" />
       <Helmet>
         <script>{`
        var givingloop_init = window.givingloop_init || [];
@@ -26,7 +28,8 @@ export default function Donate({ data }) {
           Watch the Film & Support us to keep the thread rolling
         </h1>
         <div className="donate__container-hero">
-          <Img fluid={data.file.childImageSharp.fluid} />
+          {/* <Img fluid={data.file.childImageSharp.fluid} /> */}
+          <img src={require("../images/donate.jpg")} alt="" />
         </div>
 
         <div className="donate__container-cards">
@@ -79,15 +82,15 @@ export default function Donate({ data }) {
   )
 }
 
-export const query = graphql`
-  {
-    file(relativePath: { eq: "donate.png" }) {
-      id
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid_tracedSVG
-        }
-      }
-    }
-  }
-`
+// export const query = graphql`
+//   {
+//     file(relativePath: { eq: "donate.jpg" }) {
+//       id
+//       childImageSharp {
+//         fluid {
+//           ...GatsbyImageSharpFluid_withWebp
+//         }
+//       }
+//     }
+//   }
+// `

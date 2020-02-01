@@ -23,6 +23,10 @@
   display: flex;
   align-items: center;
 }
+.tabs__tab__item img {
+  width: 40px;
+  height: 40px;
+}
 
 .tabs__tab__icon {
   margin-right: 10px;

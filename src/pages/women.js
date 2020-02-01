@@ -7,7 +7,7 @@ import Gallery from "../components/Gallery/"
 const Women = ({ data }) => {
   return (
     <Layout>
-      <SEO title="About" />
+      <SEO title="Women" />
       <div className="women__container">
         <Gallery data={data.allGalleryJson} />
       </div>

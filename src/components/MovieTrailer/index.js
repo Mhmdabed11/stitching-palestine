@@ -1,6 +1,7 @@
 import React from "react"
 import "./MovieTrailer.css"
 import Button from "../button"
+import { Link } from "gatsby"
 export default function MovieTrailer({
   title,
   movieURL,
@@ -15,12 +16,12 @@ export default function MovieTrailer({
           {title}
         </h3>
         <iframe title={iframeTitle} className="trailer__video" src={movieURL} />
-        <Button
-          onClick={onButtonClick}
-          style={{ display: "block", margin: "0 auto" }}
-        >
-          {buttonText}
-        </Button>
+
+        <div className="trailer__container-button-wrapper">
+          <Link to="/donate">
+            <Button onClick={onButtonClick}>{buttonText}</Button>
+          </Link>
+        </div>
       </div>
     </section>
   )

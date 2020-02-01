@@ -8,6 +8,7 @@ import HomeStats from "../components/HomeStats"
 import MovieTrailer from "../components/MovieTrailer"
 import LaurelSection from "../components/LaurelSection"
 import StitchBackground from "../components/stitchBackground"
+import { Link } from "gatsby"
 
 const IndexPage = () => {
   return (
@@ -30,10 +31,12 @@ const IndexPage = () => {
               <span>"</span>
             </div>
           </div>
-          <Button style={{ fontSize: "20px" }}>Watch the Film</Button>
+          <Link to="/donate">
+            <Button style={{ fontSize: "20px" }}>Watch the Film</Button>
+          </Link>
         </div>
         <div className="laurel__container">
-          <img src={require("../images/boston-tpt-laurel.jpg")} />
+          <img src={require("../images/boston-tpt-laurel.png")} />
           <img src={require("../images/delhi-tpt-laurel.png")} />
         </div>
       </div>

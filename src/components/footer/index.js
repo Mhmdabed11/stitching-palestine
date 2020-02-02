@@ -55,7 +55,7 @@ export default function Footer() {
         links={[
           "/spotlight/?active=press",
           "/spotlight/?active=feedback",
-          "/spotlight/?active=women",
+          "/women",
         ]}
       />
       <FooterItem

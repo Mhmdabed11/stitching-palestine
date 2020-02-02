@@ -17,9 +17,19 @@ const FooterItem = ({ title, items = [], links = [] }) => {
       <div className={`footer__item ${isExpanded ? "expand" : ""}`}>
         {items.map((item, index) => (
           <div key={index}>
-            <Link to={links[index]} className="footer__item__subitem">
-              {item}
-            </Link>
+            {item === "Contact us" ? (
+              <a
+                className="footer__item__subitem"
+                href="https://www.forwardfilmproduction.com/"
+                target="_blank"
+              >
+                {item}
+              </a>
+            ) : (
+              <Link to={links[index]} className="footer__item__subitem">
+                {item}
+              </Link>
+            )}
           </div>
         ))}
       </div>
@@ -32,7 +42,7 @@ export default function Footer() {
     <footer className="footer">
       <FooterItem
         title="About"
-        items={["Film", "Crew", "Specs"]}
+        items={["Film", "Crew", "Tech"]}
         links={[
           "/about/?active=film",
           "/about/?active=crew",
@@ -59,12 +69,12 @@ export default function Footer() {
       />
       <FooterItem
         title="Support"
-        items={["Watch the Film", "Support the Case"]}
-        links={["/screenings", "/screenings"]}
+        items={["Watch the Film", "Contact us"]}
+        links={["/donate", "https://www.forwardfilmproduction.com"]}
       />
 
       <div>
-        <Link to="/fwd">
+        <a href="https://www.forwardfilmproduction.com/" target="_blank">
           <img
             style={{
               width: "80px",
@@ -74,7 +84,7 @@ export default function Footer() {
             src={require("../../images/fwdlogo.png")}
             alt="forward film production"
           />
-        </Link>
+        </a>
       </div>
     </footer>
   )

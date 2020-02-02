@@ -1,5 +1,10 @@
 [
   {
+    "date": "March 5, 2017",
+    "location": "Rainbow Theatre, Amman, Jordan",
+    "note": "Under the patronage of HRH Lara Faisal"
+  },
+  {
     "date": "March 8, 2017",
     "location": "Caglieri, Sadegna",
     "event": "XIV Festival Internazionale del Cinema Documentario Pelstinese e Arabo",
@@ -16,11 +21,6 @@
     "location": "Al Madina Theatre, Beirut, Lebanon",
     "event": "Fundraiser",
     "note": "All proceeds went to SANAD Hospice Lebanon"
-  },
-  {
-    "date": "March 5, 2017",
-    "location": "Rainbow Theatre, Amman, Jordan",
-    "note": "Under the patronage of HRH Lara Faisal"
   },
   {
     "date": "May 21 to 24 2017",
@@ -308,15 +308,15 @@
     "event": "Palestine Museum-US"
   },
   {
+    "date": "March 20, 2019",
+    "location": "Sheffield, UK",
+    "event": "Sheffield Hallam University's Hallam Union (HUBS)'s Women's History Month and Palestine Society, the Fesminist Society, SCRAP, Sheffield Palestine Solidarity Campaign, and Northern Women for Palestine"
+  },
+  {
     "date": "May 15, 2019",
     "location": "Glasgow, Scotland",
     "event": "Glasgow Refugee Asylum & Migration Network (GRAMNet)",
     "note": "In commemoration of the 71st anniversary of al-Nakba"
-  },
-  {
-    "date": "March 20, 2019",
-    "location": "Sheffield, UK",
-    "event": "Sheffield Hallam University's Hallam Union (HUBS)'s Women's History Month and Palestine Society, the Fesminist Society, SCRAP, Sheffield Palestine Solidarity Campaign, and Northern Women for Palestine"
   },
   {
     "date": "July 2, 2019",

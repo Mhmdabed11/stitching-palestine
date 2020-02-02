@@ -58,7 +58,7 @@ const IndexPage = () => {
         route="/about"
       />
 
-      <HomeStats cities={50} screenings={148} globalAttendees={17413} />
+      <HomeStats cities={52} screenings={148} globalAttendees={17413} />
 
       <MovieTrailer
         title="Watch the Trailer"

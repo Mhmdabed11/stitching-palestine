@@ -19,11 +19,15 @@ export default function PreviousScreenings() {
     }
   `)
   const screenings = [...data.allPreviousScreeningsJson.edges]
-  const previousScreenings = showMore ? screenings : screenings.splice(0, 9)
+  const previousScreenings = showMore
+    ? screenings
+    : screenings.splice(screenings.length - 9, screenings.length)
 
   const toggleShowmore = () => {
     setShowMore(showMore => !showMore)
   }
+
+  // previousScreenings.sort((a, b) => new Date(a.date) - new Date(b.date))
   return (
     <div className="previous-screenings">
       <div className="previous-screenings__wrapper">
@@ -38,7 +42,7 @@ export default function PreviousScreenings() {
             </tr>
           </thead>
           <tbody>
-            {previousScreenings.map((edge, index) => (
+            {previousScreenings.reverse().map((edge, index) => (
               <tr key={index}>
                 <td>{edge.node.date}</td>
                 <td>{edge.node.location}</td>

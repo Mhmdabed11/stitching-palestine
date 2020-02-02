@@ -25,7 +25,7 @@ export default function Donate({ data }) {
 
       <div className="donate__container">
         <h1 className="donate__container-title">
-          Watch the Film & Support us to keep the thread rolling
+          Watch the Film and Support Us <br /> to keep the thread rolling
         </h1>
         <div className="donate__container-hero">
           {/* <Img fluid={data.file.childImageSharp.fluid} /> */}
@@ -34,15 +34,15 @@ export default function Donate({ data }) {
 
         <div className="donate__container-cards">
           <DonateCard
-            title="Why Support Us"
+            title="Why support us"
             description="We are a filmmaking team with over 20 years of experience in making films that tackle social justice and human rights, issues inherent to the Palestinian cause. With your support, we will be able to continue to bring the Palestinian narrative to the forefront, providing a platform for Palestinian voices to be heard. With a monthly donation or one-off payment, you can become a patron of our work."
           />
           <DonateCard
-            title="What we Want to do"
+            title="What we want to do"
             description="To continue to bring Palestinian stories of dispossession, exile, occupation, and discrimination to audiences around the world, and to highlight Palestinian resilience through personal and collective narratives. We want to make these films widely available and easily accessible. By collecting and documenting stories through the creative medium of film, we can make our contribution to the global and growing archive of Palestinian oral history."
           />
           <DonateCard
-            title="Beyond the donations"
+            title="Beyond donations"
             description={
               <div>
                 <div>- Spread the word about this website </div>

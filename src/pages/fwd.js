@@ -22,7 +22,9 @@ const FWD = () => {
       <SEO title="Fast Forward Production" />
       <div className="fwd__container">
         <div className="image__container">
-          <Img fluid={data.file.childImageSharp.fluid} />
+          <a href="https://www.forwardfilmproduction.com/" target="_blank">
+            <Img fluid={data.file.childImageSharp.fluid} />
+          </a>
         </div>
 
         <div className="address__container">

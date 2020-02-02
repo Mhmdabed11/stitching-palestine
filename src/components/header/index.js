@@ -86,13 +86,13 @@ export default function Header({
             </Link>
           </li>
           <li>
-            <Link to="/fwd">
+            <a href="https://www.forwardfilmproduction.com/" target="_blank">
               <img
                 style={{ height: "40px", width: "80px" }}
                 src={require("../../images/fwdlogo.png")}
                 alt="fwd_production_logo"
               />
-            </Link>
+            </a>
           </li>
         </ul>
       </nav>
@@ -134,7 +134,7 @@ export default function Header({
           <Link activeClassName="nav__link--active" to="/donate">
             WATCH FILM
           </Link>
-          <Link to="/fwd">
+          <a href="https://www.forwardfilmproduction.com/" target="_blank">
             {coloredLogo ? (
               <img
                 style={{ height: "40px", width: "80px" }}
@@ -148,7 +148,7 @@ export default function Header({
                 alt="fwd_production_logo"
               />
             )}
-          </Link>
+          </a>
         </div>
       </nav>
     </header>

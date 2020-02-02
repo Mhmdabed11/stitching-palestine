@@ -1,0 +1,45 @@
+.requestScreeningBanner__container {
+  width: 100%;
+  background-color: #3b2222;
+  margin-top: 40px;
+  padding: 80px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.requestScreeningBanner__container__title {
+  color: #da8476;
+  font-family: "Afta Serif";
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+.requestScreeningBanner__container__btn__wrapper {
+  margin-top: 15px;
+  cursor: pointer;
+}
+.requestScreeningBanner__container__btn {
+  border-radius: 22px;
+  border: none;
+  box-shadow: none;
+  padding: 4px 35px;
+  font-family: "Open Sans";
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .requestScreeningBanner__container {
+    flex-direction: row;
+    align-items: center;
+  }
+  .requestScreeningBanner__container__btn__wrapper {
+    margin-top: 0;
+  }
+  .requestScreeningBanner__container__title {
+    margin-right: 100px;
+    font-size: 30px;
+  }
+}

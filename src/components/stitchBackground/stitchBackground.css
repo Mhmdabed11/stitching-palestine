@@ -1,0 +1,48 @@
+.stitchbg__container {
+  min-height: 300px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 16px;
+  position: relative;
+}
+
+.stitch__bg__container__title {
+  font-family: "Afta Serif";
+  color: #3b2222;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.stitchbg__container__map__bg {
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  z-index: -10 !important;
+  filter: blur(1.5px) !important;
+  -webkit-filter: blur(1.5px) !important;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+@media screen and (min-width: 768px) {
+  .stitchbg__container {
+    min-height: 300px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 16px;
+    background-image: url("../../images/homebg.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 800px;
+  }
+
+  .stitch__bg__container__title {
+    font-size: 45px;
+  }
+}

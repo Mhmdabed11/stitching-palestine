@@ -1,0 +1,20 @@
+.donateCard__container {
+  box-shadow: 1px 5px 6px #00000029;
+  border: 0.5px solid #707070;
+  border-radius: 30px;
+  padding: 20px;
+  max-width: 360px;
+  margin: 16px;
+}
+
+.donateCard__container-title {
+  font-family: "Open Sans";
+  color: var(--main-theme-color);
+  font-weight: 700;
+}
+
+.donateCard__container-description {
+  font-family: "Open Sans";
+  color: #9b9b9b;
+  margin-top: 16px;
+}

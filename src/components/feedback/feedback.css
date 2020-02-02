@@ -1,0 +1,40 @@
+.feedback__container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.feedback__title {
+  font-family: "Open Sans";
+  color: #3b2222;
+  font-weight: 700;
+  font-size: 13.5px;
+  text-align: right;
+  font-style: italic;
+}
+
+.feedback__content {
+  font-family: "Open Sans";
+  color: #3b2222;
+  margin-top: 8px;
+}
+.feedback__content--align-right {
+  direction: rtl;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback__divider {
+    display: none;
+  }
+  .feedback__container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .feedback {
+    flex-basis: 40%;
+    width: 40%;
+    min-width: 40%;
+    flex-shrink: 0;
+    margin: 16px;
+  }
+}

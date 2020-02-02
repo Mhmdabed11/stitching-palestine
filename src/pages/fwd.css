@@ -1,0 +1,38 @@
+.fwd__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 100px;
+}
+.address {
+  color: #9b9b9b;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.address__container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .address {
+    font-size: 25px;
+  }
+  .fwd__container {
+    flex-direction: row;
+    align-items: center;
+  }
+  .image__container {
+    flex: 1;
+  }
+
+  .address__container {
+    flex: 1;
+  }
+}

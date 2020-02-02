@@ -1,0 +1,102 @@
+.upcoming-screenings {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.upcoming-screenings__title {
+  color: var(--main-theme-color);
+  font-family: "Afta Serif";
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.upcoming-screenings__screening {
+  display: inline-block;
+  padding: 0 10px;
+  scroll-snap-align: center;
+}
+.upcoming-screenings__screening__info {
+  padding: 15px 0;
+}
+.upcoming-screenings__screening__date {
+  font-family: "Afta Serif";
+  color: var(--main-theme-color);
+  font-weight: 600;
+  font-size: 17px;
+}
+.upcoming-screenings__screening__city {
+  font-family: "Open Sans";
+  color: #3b2222;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.upcoming-screenings__screening__title {
+  font-family: "Open Sans";
+  color: var(--main-theme-color);
+  font-weight: 700;
+  font-size: 21px;
+  margin-top: 20px;
+  white-space: pre-wrap;
+}
+
+.upcoming-screenings__screening__time {
+  font-family: "Open Sans";
+  color: #3b2222;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.upcoming-screenings__cards {
+  overflow-y: hidden;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  touch-action: pan-x;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .screenings-caoursel {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+  }
+  .screenings-carousel--active {
+    display: flex;
+    flex: 1;
+    flex-shrink: 0;
+    height: 240px;
+  }
+  .screenings-carousel__img {
+    flex-basis: 243px;
+  }
+  .upcoming-screenings__screening__info {
+    padding: 0 15px;
+    flex: 1;
+  }
+  .screenings-carousel-before {
+    cursor: pointer;
+    margin: auto;
+    padding: 10px;
+  }
+  .screenings-carousel-before svg path {
+    stroke: #9b9b9b;
+  }
+  .screenings-carousel-after svg path {
+    stroke: #9b9b9b;
+  }
+  .screenings-carousel-before svg:hover path {
+    stroke: var(--main-theme-color);
+  }
+  .screenings-carousel-after svg:hover path {
+    stroke: var(--main-theme-color);
+  }
+  .screenings-carousel-after {
+    margin: auto;
+    cursor: pointer;
+    padding: 10px;
+  }
+}

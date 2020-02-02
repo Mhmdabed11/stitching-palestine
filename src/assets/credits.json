@@ -1,0 +1,60 @@
+[
+  {
+    "role": "Director",
+    "name": "Carol Mansour"
+  },
+  {
+    "role": "Narration",
+    "name": "Sahar Mandour"
+  },
+  {
+    "role": "Researcher / Producer",
+    "name": "Muna Khalidi"
+  },
+  {
+    "role": "Color Grading",
+    "name": "Marwan Ziadeh"
+  },
+  {
+    "role": "Embroidery Camera",
+    "name": "Talal Khoury"
+  },
+  {
+    "role": "Sound Recording",
+    "name": "Television Services Studios"
+  },
+  {
+    "role": "Editing",
+    "name": "Carol Mansour"
+  },
+  {
+    "role": "Subtitling",
+    "name": "Dana Mezhir"
+  },
+  {
+    "role": "Original Text",
+    "name": "Sahar Mandour"
+  },
+  {
+    "role": "Text Adaptation into English",
+    "name": "Tarif Khalidi"
+  },
+  {
+    "role": "Graphic Designer",
+    "name": "Fourate Chahal"
+  },
+  {
+    "role": "Text Adaptation into French",
+    "name": "Rima Farouki"
+  },
+
+  {
+    "role": "Music",
+    "name": "Nai Bargouti"
+  },
+
+  {
+    "role": "Distribution",
+    "name": "Forward Film Production"
+  }
+]

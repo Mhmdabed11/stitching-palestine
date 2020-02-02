@@ -1,0 +1,138 @@
+.header {
+  height: 80px;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+.header__logo {
+  height: 50px;
+  width: 100px;
+  margin-bottom: 0;
+}
+.header--box-shadow {
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.nav-sm {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 16px;
+  align-items: center;
+  cursor: pointer;
+}
+.nav-links {
+  position: fixed;
+  display: none;
+  visibility: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #3b2222;
+  height: 100vh;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.nav-links li {
+  cursor: pointer;
+}
+.nav-links li a {
+  color: #fff;
+  text-decoration: none !important;
+  font-family: "Open Sans";
+}
+.nav-links li a:hover {
+  text-decoration: none !important;
+  color: var(--main-theme-color);
+}
+
+.colored-line {
+  background-color: #3b2222 !important;
+}
+.line {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+}
+.burger {
+  cursor: pointer;
+}
+.nav--open {
+  display: flex;
+  visibility: visible;
+}
+.nav__close__btn {
+  color: #fff;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.nav-bg {
+  display: none;
+}
+.nav-bg a {
+  text-decoration: none;
+  color: #9b9b9b;
+}
+.nav-bg a:hover {
+  color: #da8476;
+}
+.nav__link--active {
+  color: #da8476 !important;
+}
+@media screen and (min-width: 900px) {
+  .header {
+    height: 112px;
+  }
+  .nav-sm {
+    display: none;
+  }
+  .nav-bg {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+    justify-content: space-between;
+  }
+  .nav-bg--left,
+  .nav-bg--right {
+    display: flex;
+    align-items: center;
+  }
+  .nav-bg--left a,
+  .nav-bg--right a {
+    margin-right: 30px;
+    font-family: "Open Sans";
+    font-weight: 600;
+  }
+
+  .nav-bg--left a:last-of-type,
+  .nav-bg--right a:last-of-type {
+    margin-right: 0px;
+  }
+
+  .header__logo {
+    height: 95px;
+    width: auto;
+    margin-top: 10px;
+  }
+}

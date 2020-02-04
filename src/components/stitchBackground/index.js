@@ -10,7 +10,7 @@ export default function StitchBackground() {
         id
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid_withWebp
+            ...GatsbyImageSharpFluid
           }
         }
       }

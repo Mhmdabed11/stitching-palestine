@@ -14,7 +14,7 @@ export default function Donate({ data }) {
       <Helmet>
         <script>{`
        var givingloop_init = window.givingloop_init || [];
-        givingloop_init = {ngoID:835,baseURL:"https://www.givingloop.org/",ngoLang:"en",p_id:"all"};
+        givingloop_init = {ngoID:913,baseURL:"https://www.givingloop.org/",ngoLang:"en",p_id:"all"};
          (function() {var mc = document.createElement("script");
          mc.type = "text/javascript";mc.async = true;mc.id = "";
          mc.src = givingloop_init.baseURL+"assets/js/widget.js";
@@ -70,7 +70,7 @@ export default function Donate({ data }) {
           </div> */}
         </div>
         <div className="givingloop_wrapper">
-          <div id="givingloop-widget" data-ngo-id="835" data-type="widget" />
+          <div id="givingloop-widget" data-ngo-id="913" data-type="widget" />
         </div>
         <img
           src={require("../images/coloredlogo.jpg")}

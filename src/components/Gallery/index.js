@@ -101,7 +101,7 @@ export const thumbnailImage = graphql`
   fragment thumbnailImage on File {
     childImageSharp {
       fluid(maxWidth: 100, maxHeight: 100) {
-        ...GatsbyImageSharpFluid_withWebp
+        ...GatsbyImageSharpFluid_tracedSVG
       }
     }
   }
@@ -110,7 +110,7 @@ export const galleryImage = graphql`
   fragment galleryImage on File {
     childImageSharp {
       fluid {
-        ...GatsbyImageSharpFluid_withWebp
+        ...GatsbyImageSharpFluid_tracedSVG
       }
     }
   }

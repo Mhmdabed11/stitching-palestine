@@ -73,7 +73,7 @@ export default function Donate({ data }) {
 
           <div className="donate__incentive-inbox">
             Make either a <b> monthly donation </b> or a <b>one-time payment</b>
-            ($5 suggested)
+            &nbsp;($5 suggested)
           </div>
 
           <div className="donate__incentive-inbox">

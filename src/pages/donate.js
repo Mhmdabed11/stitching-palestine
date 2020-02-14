@@ -54,21 +54,40 @@ export default function Donate({ data }) {
         </div>
 
         <div className="donate__incentive">
-          <h1 className="donate__incentive-title">Watch the Film</h1>
+          {/* <h1 className="donate__incentive-title">Watch the Film</h1>
           <div className="donate__incentive-inbox">
             The film will arrive in your inbox shortly
           </div>
           <div className="donate__incentive-forOnly3dollars-container">
             <div className="donate__incentive-forOnly3dollars">For Only 3$</div>
           </div>
-          <div className="donate__incentivr-or">or</div>
+          <div className="donate__incentivr-or">or</div> */}
+
+          <br />
+          <br />
+          <br />
+          <br />
           <h1 className="donate__incentive-subtitle">
             Watch the film & keep the thread rolling
           </h1>
+
+          <div className="donate__incentive-inbox">
+            Make either a <b> monthly donation </b> or a <b>one-time payment</b>
+            ($5 suggested)
+          </div>
+
+          <div className="donate__incentive-inbox">
+            In both cases you will soon receive the film in your inbox!
+          </div>
           {/* <div className="donate__incentive-impact-level ">
             Choose your impact level
           </div> */}
         </div>
+
+        <br />
+        <br />
+        <br />
+        <br />
         <div className="givingloop_wrapper">
           <div id="givingloop-widget" data-ngo-id="913" data-type="widget" />
         </div>

@@ -11,6 +11,21 @@
   background-size: cover;
   position: relative;
 }
+
+.home__hero-reel {
+  height: 200px;
+  margin-top: 20px;
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.home__hero-reel img {
+  height: 100%;
+  object-fit: contain;
+}
 .home__hero::before,
 .home__hero::after {
   background-color: transparent !important;

@@ -131,9 +131,12 @@ export default function Header({
           <Link activeClassName="nav__link--active" to="/screenings">
             SCREENINGS
           </Link>
-          <Link activeClassName="nav__link--active" to="/donate">
+          {/* <Link activeClassName="nav__link--active" to="/donate">
             WATCH FILM
-          </Link>
+          </Link> */}
+          <a href="https://vimeo.com/280403754" target="_blank">
+            WATCH FILM
+          </a>
           <a href="https://www.forwardfilmproduction.com/" target="_blank">
             {coloredLogo ? (
               <img

@@ -34,11 +34,11 @@ const IndexPage = () => {
           <a href="https://vimeo.com/280403754" target="_blank">
             <Button style={{ fontSize: "20px" }}>Watch the Film</Button>
           </a>
-          <div className="home__hero-reel">
+          {/* <div className="home__hero-reel">
             <a href="https://vimeo.com/280403754" target="_blank">
               <img src={require("../images/reel-palestine.png")} alt="" />
             </a>
-          </div>
+          </div> */}
         </div>
 
         <div className="laurel__container">

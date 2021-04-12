@@ -13,13 +13,7 @@ export default function Donate({ data }) {
       <SEO title="Donate" />
       <Helmet>
         <script>{`
-       var givingloop_init = window.givingloop_init || [];
-        givingloop_init = {ngoID:913,baseURL:"https://www.givingloop.org/",ngoLang:"en",p_id:"all"};
-         (function() {var mc = document.createElement("script");
-         mc.type = "text/javascript";mc.async = true;mc.id = "";
-         mc.src = givingloop_init.baseURL+"assets/js/widget.js";
-         var s = document.getElementsByTagName("script")[0];
-          s.parentNode.insertBefore(mc, s.nextSibling);})();
+       (function(gi,vi,n,g,l,oo,p){gi[l]=gi[l]||function(){(gi[l].q=gi[l].q||[]).push(arguments);gi.glObjName=l;},oo=vi.createElement(n),p=vi.getElementsByTagName(n)[0];oo.async=1;oo.src=g;oo.dataset.orgId=913;p.parentNode.insertBefore(oo,p);oo.id="gl-donation-popup-script";})(window,document,"script","https://www.givingloop.org/js?"+Array(1).fill(null).map(()=>Math.random().toString(20).substr(2)).join(""),"givingloop");
         `}</script>
       </Helmet>
 
@@ -54,15 +48,6 @@ export default function Donate({ data }) {
         </div>
 
         <div className="donate__incentive">
-          {/* <h1 className="donate__incentive-title">Watch the Film</h1>
-          <div className="donate__incentive-inbox">
-            The film will arrive in your inbox shortly
-          </div>
-          <div className="donate__incentive-forOnly3dollars-container">
-            <div className="donate__incentive-forOnly3dollars">For Only 3$</div>
-          </div>
-          <div className="donate__incentivr-or">or</div> */}
-
           <br />
           <br />
           <br />
@@ -88,8 +73,10 @@ export default function Donate({ data }) {
         <br />
         <br />
         <br />
-        <div className="givingloop_wrapper">
-          <div id="givingloop-widget" data-ngo-id="913" data-type="widget" />
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <button gl-donate-button="true" gl-style="true">
+            Donate
+          </button>
         </div>
         <img
           src={require("../images/coloredlogo.jpg")}

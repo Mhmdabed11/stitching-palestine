@@ -9,7 +9,7 @@ export default function ScreeningRequest() {
         <div>
           <form
             className="form"
-            action="mailto:mabed4297@gmail.com"
+            action="mailto:cmansour@fwdprod.com"
             method="post"
             encType="text/plain"
           >
